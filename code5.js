@@ -168,7 +168,7 @@ gdjs.copyArray(gdjs.New_32sceneCode.GDplayerTestBounceObjects1_1final, gdjs.New_
 }if ( gdjs.New_32sceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32sceneCode.conditionTrue_1 = gdjs.New_32sceneCode.condition1IsTrue_0;
-gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16352844);
+gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16692692);
 }
 }}
 if (gdjs.New_32sceneCode.condition1IsTrue_0.val) {
