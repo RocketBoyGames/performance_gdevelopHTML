@@ -5,6 +5,8 @@ gdjs.New_32sceneCode.GDcollisionsObjects1_1final = [];
 
 gdjs.New_32sceneCode.GDplayerTestBounceObjects1_1final = [];
 
+gdjs.New_32sceneCode.GDEmilyObjects1= [];
+gdjs.New_32sceneCode.GDEmilyObjects2= [];
 gdjs.New_32sceneCode.GDPlayerObjects1= [];
 gdjs.New_32sceneCode.GDPlayerObjects2= [];
 gdjs.New_32sceneCode.GDbuttonsObjects1= [];
@@ -193,6 +195,8 @@ if (gdjs.New_32sceneCode.condition1IsTrue_0.val) {
 gdjs.New_32sceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.New_32sceneCode.GDEmilyObjects1.length = 0;
+gdjs.New_32sceneCode.GDEmilyObjects2.length = 0;
 gdjs.New_32sceneCode.GDPlayerObjects1.length = 0;
 gdjs.New_32sceneCode.GDPlayerObjects2.length = 0;
 gdjs.New_32sceneCode.GDbuttonsObjects1.length = 0;

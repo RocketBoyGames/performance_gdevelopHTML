@@ -1,4 +1,8 @@
 gdjs.Intro_32pageCode = {};
+gdjs.Intro_32pageCode.GDEmilyObjects1= [];
+gdjs.Intro_32pageCode.GDEmilyObjects2= [];
+gdjs.Intro_32pageCode.GDEmilyObjects3= [];
+gdjs.Intro_32pageCode.GDEmilyObjects4= [];
 gdjs.Intro_32pageCode.GDPlayerObjects1= [];
 gdjs.Intro_32pageCode.GDPlayerObjects2= [];
 gdjs.Intro_32pageCode.GDPlayerObjects3= [];
@@ -871,6 +875,10 @@ if (gdjs.Intro_32pageCode.condition2IsTrue_0.val) {
 gdjs.Intro_32pageCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.Intro_32pageCode.GDEmilyObjects1.length = 0;
+gdjs.Intro_32pageCode.GDEmilyObjects2.length = 0;
+gdjs.Intro_32pageCode.GDEmilyObjects3.length = 0;
+gdjs.Intro_32pageCode.GDEmilyObjects4.length = 0;
 gdjs.Intro_32pageCode.GDPlayerObjects1.length = 0;
 gdjs.Intro_32pageCode.GDPlayerObjects2.length = 0;
 gdjs.Intro_32pageCode.GDPlayerObjects3.length = 0;
