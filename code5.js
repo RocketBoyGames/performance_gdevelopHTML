@@ -27,6 +27,8 @@ gdjs.New_32sceneCode.GDCursorObjects1= [];
 gdjs.New_32sceneCode.GDCursorObjects2= [];
 gdjs.New_32sceneCode.GDIconbarHotspotObjects1= [];
 gdjs.New_32sceneCode.GDIconbarHotspotObjects2= [];
+gdjs.New_32sceneCode.GDempty_95slotObjects1= [];
+gdjs.New_32sceneCode.GDempty_95slotObjects2= [];
 gdjs.New_32sceneCode.GDinventory_95slotObjects1= [];
 gdjs.New_32sceneCode.GDinventory_95slotObjects2= [];
 gdjs.New_32sceneCode.GDinventory_95maskObjects1= [];
@@ -170,7 +172,7 @@ gdjs.copyArray(gdjs.New_32sceneCode.GDplayerTestBounceObjects1_1final, gdjs.New_
 }if ( gdjs.New_32sceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32sceneCode.conditionTrue_1 = gdjs.New_32sceneCode.condition1IsTrue_0;
-gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16692692);
+gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16585916);
 }
 }}
 if (gdjs.New_32sceneCode.condition1IsTrue_0.val) {
@@ -217,6 +219,8 @@ gdjs.New_32sceneCode.GDCursorObjects1.length = 0;
 gdjs.New_32sceneCode.GDCursorObjects2.length = 0;
 gdjs.New_32sceneCode.GDIconbarHotspotObjects1.length = 0;
 gdjs.New_32sceneCode.GDIconbarHotspotObjects2.length = 0;
+gdjs.New_32sceneCode.GDempty_95slotObjects1.length = 0;
+gdjs.New_32sceneCode.GDempty_95slotObjects2.length = 0;
 gdjs.New_32sceneCode.GDinventory_95slotObjects1.length = 0;
 gdjs.New_32sceneCode.GDinventory_95slotObjects2.length = 0;
 gdjs.New_32sceneCode.GDinventory_95maskObjects1.length = 0;
