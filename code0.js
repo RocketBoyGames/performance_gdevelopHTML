@@ -792,19 +792,46 @@ gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.Intro_32pageCode.GDbutto
 
 
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
 {
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1.5, "play_intro_video");
-}if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
+}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition1IsTrue_0;
+gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19502948);
+}
+}}
+if (gdjs.Intro_32pageCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDintro_95videoObjects1);
-{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().get("playVideoSound"), true);
+}{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
     gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].hide(false);
 }
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 4);
 }{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
     gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].play();
 }
-}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "play_intro_video");
 }{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "play_intro_video");
-}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 4);
+}}
+
+}
+
+
+{
+
+
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
+{
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getVariables().get("playVideoSound"), true);
+}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition1IsTrue_0;
+gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(28849540);
+}
+}}
+if (gdjs.Intro_32pageCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3", 12, false, 100, 1);
 }}
 
 }
