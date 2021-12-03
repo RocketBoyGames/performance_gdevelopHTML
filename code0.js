@@ -791,34 +791,101 @@ gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.Intro_32pageCode.GDbutto
 {
 
 
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
 {
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1.5, "play_intro_video");
 }if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
+gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDintro_95videoObjects1);
+{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
+    gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
+    gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].play();
+}
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "play_intro_video");
 }{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "play_intro_video");
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 4);
 }}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDintro_95videoObjects1);
+
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
+    if ( gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isEnded() ) {
+        gdjs.Intro_32pageCode.condition0IsTrue_0.val = true;
+        gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
+        ++k;
+    }
+}
+gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDintro_95videoObjects1);
+
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
+    if ( gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isPlayed() ) {
+        gdjs.Intro_32pageCode.condition0IsTrue_0.val = true;
+        gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
+        ++k;
+    }
+}
+gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
+    if ( !(gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isEnded()) ) {
+        gdjs.Intro_32pageCode.condition1IsTrue_0.val = true;
+        gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
+        ++k;
+    }
+}
+gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition1IsTrue_0.val ) {
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition2IsTrue_0;
+gdjs.Intro_32pageCode.condition0IsTrue_1.val = false;
+gdjs.Intro_32pageCode.condition1IsTrue_1.val = false;
+{
+gdjs.Intro_32pageCode.condition0IsTrue_1.val = gdjs.evtTools.input.anyKeyPressed(runtimeScene);
+if( gdjs.Intro_32pageCode.condition0IsTrue_1.val ) {
+    gdjs.Intro_32pageCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Intro_32pageCode.condition1IsTrue_1.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if( gdjs.Intro_32pageCode.condition1IsTrue_1.val ) {
+    gdjs.Intro_32pageCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+}
+if (gdjs.Intro_32pageCode.condition2IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
+}}
+
+}
+
+
+{
+
+
 
 }
 
