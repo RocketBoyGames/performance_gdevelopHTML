@@ -179,6 +179,12 @@ gdjs.town2Code.GDanimationObjects3= [];
 gdjs.town2Code.GDanimationObjects4= [];
 gdjs.town2Code.GDanimationObjects5= [];
 gdjs.town2Code.GDanimationObjects6= [];
+gdjs.town2Code.GDregionsObjects1= [];
+gdjs.town2Code.GDregionsObjects2= [];
+gdjs.town2Code.GDregionsObjects3= [];
+gdjs.town2Code.GDregionsObjects4= [];
+gdjs.town2Code.GDregionsObjects5= [];
+gdjs.town2Code.GDregionsObjects6= [];
 
 gdjs.town2Code.conditionTrue_0 = {val:false};
 gdjs.town2Code.condition0IsTrue_0 = {val:false};
@@ -3799,24 +3805,6 @@ if (gdjs.town2Code.condition2IsTrue_0.val) {
 }
 
 
-{
-
-
-gdjs.town2Code.condition0IsTrue_0.val = false;
-{
-{gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition0IsTrue_0;
-gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29974012);
-}
-}if (gdjs.town2Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Cursor"), gdjs.town2Code.GDCursorObjects2);
-{for(var i = 0, len = gdjs.town2Code.GDCursorObjects2.length ;i < len;++i) {
-    gdjs.town2Code.GDCursorObjects2[i].setAnimationName(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(12)));
-}
-}}
-
-}
-
-
 };gdjs.town2Code.mapOfGDgdjs_46town2Code_46GDIconbarHotspotObjects3Objects = Hashtable.newFrom({"IconbarHotspot": gdjs.town2Code.GDIconbarHotspotObjects3});gdjs.town2Code.mapOfGDgdjs_46town2Code_46GDIconbarHotspotObjects3Objects = Hashtable.newFrom({"IconbarHotspot": gdjs.town2Code.GDIconbarHotspotObjects3});gdjs.town2Code.eventsList58 = function(runtimeScene) {
 
 {
@@ -5924,6 +5912,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town2Code.GDPlayerObjects
 
 gdjs.town2Code.condition0IsTrue_0.val = false;
 gdjs.town2Code.condition1IsTrue_0.val = false;
+gdjs.town2Code.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.town2Code.GDPlayerObjects2.length;i<l;++i) {
     if ( gdjs.town2Code.GDPlayerObjects2[i].hasAnimationEnded() ) {
@@ -5934,11 +5923,21 @@ for(var i = 0, k = 0, l = gdjs.town2Code.GDPlayerObjects2.length;i<l;++i) {
 }
 gdjs.town2Code.GDPlayerObjects2.length = k;}if ( gdjs.town2Code.condition0IsTrue_0.val ) {
 {
-{gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition1IsTrue_0;
+for(var i = 0, k = 0, l = gdjs.town2Code.GDPlayerObjects2.length;i<l;++i) {
+    if ( !(gdjs.town2Code.GDPlayerObjects2[i].isCurrentAnimationName("surprised")) ) {
+        gdjs.town2Code.condition1IsTrue_0.val = true;
+        gdjs.town2Code.GDPlayerObjects2[k] = gdjs.town2Code.GDPlayerObjects2[i];
+        ++k;
+    }
+}
+gdjs.town2Code.GDPlayerObjects2.length = k;}if ( gdjs.town2Code.condition1IsTrue_0.val ) {
+{
+{gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition2IsTrue_0;
 gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29440588);
 }
 }}
-if (gdjs.town2Code.condition1IsTrue_0.val) {
+}
+if (gdjs.town2Code.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).setString("none");
 }}
 
@@ -6201,7 +6200,11 @@ gdjs.town2Code.condition0IsTrue_0.val = false;
 {
 gdjs.town2Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) == 5;
 }if (gdjs.town2Code.condition0IsTrue_0.val) {
-
+gdjs.copyArray(runtimeScene.getObjects("Cursor"), gdjs.town2Code.GDCursorObjects2);
+{for(var i = 0, len = gdjs.town2Code.GDCursorObjects2.length ;i < len;++i) {
+    gdjs.town2Code.GDCursorObjects2[i].setAnimationName(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(12)));
+}
+}
 { //Subevents
 gdjs.town2Code.eventsList57(runtimeScene);} //End of subevents
 }
@@ -6578,11 +6581,51 @@ gdjs.town2Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.town2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition1IsTrue_0;
-gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29722332);
+gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19465580);
 }
 }}
 if (gdjs.town2Code.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Narrator\\NARR51.mp3", 3, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.town2Code.condition0IsTrue_0.val = false;
+gdjs.town2Code.condition1IsTrue_0.val = false;
+{
+gdjs.town2Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(13)) == 56;
+}if ( gdjs.town2Code.condition0IsTrue_0.val ) {
+{
+{gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition1IsTrue_0;
+gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7886524);
+}
+}}
+if (gdjs.town2Code.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Narrator\\NARR56.mp3", 3, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.town2Code.condition0IsTrue_0.val = false;
+gdjs.town2Code.condition1IsTrue_0.val = false;
+{
+gdjs.town2Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(13)) == 62;
+}if ( gdjs.town2Code.condition0IsTrue_0.val ) {
+{
+{gdjs.town2Code.conditionTrue_1 = gdjs.town2Code.condition1IsTrue_0;
+gdjs.town2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29722332);
+}
+}}
+if (gdjs.town2Code.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Narrator\\NARR62.mp3", 3, false, 100, 1);
 }}
 
 }
@@ -8890,6 +8933,7 @@ gdjs.town2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if (gdjs.town2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("collisions"), gdjs.town2Code.GDcollisionsObjects1);
 gdjs.copyArray(runtimeScene.getObjects("followPlayer"), gdjs.town2Code.GDfollowPlayerObjects1);
+gdjs.copyArray(runtimeScene.getObjects("regions"), gdjs.town2Code.GDregionsObjects1);
 {for(var i = 0, len = gdjs.town2Code.GDcollisionsObjects1.length ;i < len;++i) {
     gdjs.town2Code.GDcollisionsObjects1[i].hide();
 }
@@ -8899,6 +8943,9 @@ gdjs.copyArray(runtimeScene.getObjects("followPlayer"), gdjs.town2Code.GDfollowP
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "ExitPopup");
 }{for(var i = 0, len = gdjs.town2Code.GDfollowPlayerObjects1.length ;i < len;++i) {
     gdjs.town2Code.GDfollowPlayerObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.town2Code.GDregionsObjects1.length ;i < len;++i) {
+    gdjs.town2Code.GDregionsObjects1[i].hide();
 }
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Hotspots");
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setString("iconbar");
@@ -9306,6 +9353,12 @@ gdjs.town2Code.GDanimationObjects3.length = 0;
 gdjs.town2Code.GDanimationObjects4.length = 0;
 gdjs.town2Code.GDanimationObjects5.length = 0;
 gdjs.town2Code.GDanimationObjects6.length = 0;
+gdjs.town2Code.GDregionsObjects1.length = 0;
+gdjs.town2Code.GDregionsObjects2.length = 0;
+gdjs.town2Code.GDregionsObjects3.length = 0;
+gdjs.town2Code.GDregionsObjects4.length = 0;
+gdjs.town2Code.GDregionsObjects5.length = 0;
+gdjs.town2Code.GDregionsObjects6.length = 0;
 
 gdjs.town2Code.eventsList98(runtimeScene);
 return;
