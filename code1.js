@@ -161,24 +161,6 @@ gdjs.bedroomCode.GDcoin_95quantity_95storageObjects3= [];
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects4= [];
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects5= [];
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects6= [];
-gdjs.bedroomCode.GDremove_95coinObjects1= [];
-gdjs.bedroomCode.GDremove_95coinObjects2= [];
-gdjs.bedroomCode.GDremove_95coinObjects3= [];
-gdjs.bedroomCode.GDremove_95coinObjects4= [];
-gdjs.bedroomCode.GDremove_95coinObjects5= [];
-gdjs.bedroomCode.GDremove_95coinObjects6= [];
-gdjs.bedroomCode.GDinteractingWithObjects1= [];
-gdjs.bedroomCode.GDinteractingWithObjects2= [];
-gdjs.bedroomCode.GDinteractingWithObjects3= [];
-gdjs.bedroomCode.GDinteractingWithObjects4= [];
-gdjs.bedroomCode.GDinteractingWithObjects5= [];
-gdjs.bedroomCode.GDinteractingWithObjects6= [];
-gdjs.bedroomCode.GDanimationObjects1= [];
-gdjs.bedroomCode.GDanimationObjects2= [];
-gdjs.bedroomCode.GDanimationObjects3= [];
-gdjs.bedroomCode.GDanimationObjects4= [];
-gdjs.bedroomCode.GDanimationObjects5= [];
-gdjs.bedroomCode.GDanimationObjects6= [];
 gdjs.bedroomCode.GDregionsObjects1= [];
 gdjs.bedroomCode.GDregionsObjects2= [];
 gdjs.bedroomCode.GDregionsObjects3= [];
@@ -10368,11 +10350,7 @@ gdjs.copyArray(runtimeScene.getObjects("trophy"), gdjs.bedroomCode.GDtrophyObjec
 
 
 {
-gdjs.copyArray(runtimeScene.getObjects("interactingWith"), gdjs.bedroomCode.GDinteractingWithObjects1);
-{for(var i = 0, len = gdjs.bedroomCode.GDinteractingWithObjects1.length ;i < len;++i) {
-    gdjs.bedroomCode.GDinteractingWithObjects1[i].setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(12)));
 }
-}}
 
 }
 
@@ -10961,24 +10939,6 @@ gdjs.bedroomCode.GDcoin_95quantity_95storageObjects3.length = 0;
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects4.length = 0;
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects5.length = 0;
 gdjs.bedroomCode.GDcoin_95quantity_95storageObjects6.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects1.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects2.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects3.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects4.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects5.length = 0;
-gdjs.bedroomCode.GDremove_95coinObjects6.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects1.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects2.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects3.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects4.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects5.length = 0;
-gdjs.bedroomCode.GDinteractingWithObjects6.length = 0;
-gdjs.bedroomCode.GDanimationObjects1.length = 0;
-gdjs.bedroomCode.GDanimationObjects2.length = 0;
-gdjs.bedroomCode.GDanimationObjects3.length = 0;
-gdjs.bedroomCode.GDanimationObjects4.length = 0;
-gdjs.bedroomCode.GDanimationObjects5.length = 0;
-gdjs.bedroomCode.GDanimationObjects6.length = 0;
 gdjs.bedroomCode.GDregionsObjects1.length = 0;
 gdjs.bedroomCode.GDregionsObjects2.length = 0;
 gdjs.bedroomCode.GDregionsObjects3.length = 0;
