@@ -109,11 +109,13 @@ gdjs.Intro_32pageCode.condition0IsTrue_0 = {val:false};
 gdjs.Intro_32pageCode.condition1IsTrue_0 = {val:false};
 gdjs.Intro_32pageCode.condition2IsTrue_0 = {val:false};
 gdjs.Intro_32pageCode.condition3IsTrue_0 = {val:false};
+gdjs.Intro_32pageCode.condition4IsTrue_0 = {val:false};
 gdjs.Intro_32pageCode.conditionTrue_1 = {val:false};
 gdjs.Intro_32pageCode.condition0IsTrue_1 = {val:false};
 gdjs.Intro_32pageCode.condition1IsTrue_1 = {val:false};
 gdjs.Intro_32pageCode.condition2IsTrue_1 = {val:false};
 gdjs.Intro_32pageCode.condition3IsTrue_1 = {val:false};
+gdjs.Intro_32pageCode.condition4IsTrue_1 = {val:false};
 
 
 gdjs.Intro_32pageCode.mapOfGDgdjs_46Intro_9532pageCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.Intro_32pageCode.GDbuttonsObjects3});gdjs.Intro_32pageCode.mapOfGDgdjs_46Intro_9532pageCode_46GDbuttonsObjects2Objects = Hashtable.newFrom({"buttons": gdjs.Intro_32pageCode.GDbuttonsObjects2});gdjs.Intro_32pageCode.eventsList0 = function(runtimeScene) {
@@ -841,7 +843,6 @@ gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDi
 }{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
     gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].play();
 }
-}{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "play_intro_video");
 }}
 
 }
@@ -899,18 +900,13 @@ gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDi
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
 gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
 gdjs.Intro_32pageCode.condition2IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition3IsTrue_0.val = false;
+{
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 4, "play_intro_video");
+}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
     if ( gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isPlayed() ) {
-        gdjs.Intro_32pageCode.condition0IsTrue_0.val = true;
-        gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
-        ++k;
-    }
-}
-gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
-    if ( !(gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isEnded()) ) {
         gdjs.Intro_32pageCode.condition1IsTrue_0.val = true;
         gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
         ++k;
@@ -918,7 +914,16 @@ for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i
 }
 gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition1IsTrue_0.val ) {
 {
-{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition2IsTrue_0;
+for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length;i<l;++i) {
+    if ( !(gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].isEnded()) ) {
+        gdjs.Intro_32pageCode.condition2IsTrue_0.val = true;
+        gdjs.Intro_32pageCode.GDintro_95videoObjects1[k] = gdjs.Intro_32pageCode.GDintro_95videoObjects1[i];
+        ++k;
+    }
+}
+gdjs.Intro_32pageCode.GDintro_95videoObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition2IsTrue_0.val ) {
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition3IsTrue_0;
 gdjs.Intro_32pageCode.condition0IsTrue_1.val = false;
 gdjs.Intro_32pageCode.condition1IsTrue_1.val = false;
 {
@@ -938,8 +943,10 @@ if( gdjs.Intro_32pageCode.condition1IsTrue_1.val ) {
 }
 }}
 }
-if (gdjs.Intro_32pageCode.condition2IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
+}
+if (gdjs.Intro_32pageCode.condition3IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "play_intro_video");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
 }
 { //Subevents
 gdjs.Intro_32pageCode.eventsList10(runtimeScene);} //End of subevents
