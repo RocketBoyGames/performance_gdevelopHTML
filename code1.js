@@ -8988,18 +8988,14 @@ gdjs.bedroomCode.GDPlayerObjects1.length = 0;
 
 gdjs.bedroomCode.condition0IsTrue_0.val = false;
 gdjs.bedroomCode.condition1IsTrue_0.val = false;
-gdjs.bedroomCode.condition2IsTrue_0.val = false;
 {
-gdjs.bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)) == "door";
-}if ( gdjs.bedroomCode.condition0IsTrue_0.val ) {
-{
-{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition1IsTrue_0;
+{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition0IsTrue_0;
 gdjs.bedroomCode.GDPlayerObjects1_1final.length = 0;gdjs.bedroomCode.condition0IsTrue_1.val = false;
 gdjs.bedroomCode.condition1IsTrue_1.val = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.bedroomCode.GDPlayerObjects2);
 for(var i = 0, k = 0, l = gdjs.bedroomCode.GDPlayerObjects2.length;i<l;++i) {
-    if ( gdjs.bedroomCode.GDPlayerObjects2[i].getBehavior("Pathfinding").destinationReached() ) {
+    if ( gdjs.bedroomCode.GDPlayerObjects2[i].getX() >= 1160 ) {
         gdjs.bedroomCode.condition0IsTrue_1.val = true;
         gdjs.bedroomCode.GDPlayerObjects2[k] = gdjs.bedroomCode.GDPlayerObjects2[i];
         ++k;
@@ -9015,14 +9011,24 @@ gdjs.bedroomCode.GDPlayerObjects2.length = k;if( gdjs.bedroomCode.condition0IsTr
 }
 {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.bedroomCode.GDPlayerObjects2);
+{gdjs.bedroomCode.conditionTrue_2 = gdjs.bedroomCode.condition1IsTrue_1;
+gdjs.bedroomCode.condition0IsTrue_2.val = false;
+gdjs.bedroomCode.condition1IsTrue_2.val = false;
+{
 for(var i = 0, k = 0, l = gdjs.bedroomCode.GDPlayerObjects2.length;i<l;++i) {
-    if ( gdjs.bedroomCode.GDPlayerObjects2[i].getX() >= 1160 ) {
-        gdjs.bedroomCode.condition1IsTrue_1.val = true;
+    if ( gdjs.bedroomCode.GDPlayerObjects2[i].getBehavior("Pathfinding").destinationReached() ) {
+        gdjs.bedroomCode.condition0IsTrue_2.val = true;
         gdjs.bedroomCode.GDPlayerObjects2[k] = gdjs.bedroomCode.GDPlayerObjects2[i];
         ++k;
     }
 }
-gdjs.bedroomCode.GDPlayerObjects2.length = k;if( gdjs.bedroomCode.condition1IsTrue_1.val ) {
+gdjs.bedroomCode.GDPlayerObjects2.length = k;}if ( gdjs.bedroomCode.condition0IsTrue_2.val ) {
+{
+gdjs.bedroomCode.condition1IsTrue_2.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)) == "door";
+}}
+gdjs.bedroomCode.conditionTrue_2.val = true && gdjs.bedroomCode.condition0IsTrue_2.val && gdjs.bedroomCode.condition1IsTrue_2.val;
+}
+if( gdjs.bedroomCode.condition1IsTrue_1.val ) {
     gdjs.bedroomCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.bedroomCode.GDPlayerObjects2.length;j<jLen;++j) {
         if ( gdjs.bedroomCode.GDPlayerObjects1_1final.indexOf(gdjs.bedroomCode.GDPlayerObjects2[j]) === -1 )
@@ -9034,14 +9040,13 @@ gdjs.bedroomCode.GDPlayerObjects2.length = k;if( gdjs.bedroomCode.condition1IsTr
 gdjs.copyArray(gdjs.bedroomCode.GDPlayerObjects1_1final, gdjs.bedroomCode.GDPlayerObjects1);
 }
 }
-}if ( gdjs.bedroomCode.condition1IsTrue_0.val ) {
+}if ( gdjs.bedroomCode.condition0IsTrue_0.val ) {
 {
-{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition2IsTrue_0;
+{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition1IsTrue_0;
 gdjs.bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9884292);
 }
 }}
-}
-if (gdjs.bedroomCode.condition2IsTrue_0.val) {
+if (gdjs.bedroomCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).setString("none");
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString("bedroom");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "outside_bedroom", true);

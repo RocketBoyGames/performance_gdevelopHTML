@@ -8401,9 +8401,16 @@ if (gdjs.lumberjack_95roomCode.condition1IsTrue_0.val) {
 
 
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
+gdjs.lumberjack_95roomCode.condition1IsTrue_0.val = false;
 {
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) == "town";
-}if (gdjs.lumberjack_95roomCode.condition0IsTrue_0.val) {
+}if ( gdjs.lumberjack_95roomCode.condition0IsTrue_0.val ) {
+{
+{gdjs.lumberjack_95roomCode.conditionTrue_1 = gdjs.lumberjack_95roomCode.condition1IsTrue_0;
+gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9893836);
+}
+}}
+if (gdjs.lumberjack_95roomCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.lumberjack_95roomCode.GDPlayerObjects2);
 gdjs.copyArray(runtimeScene.getObjects("followPlayer"), gdjs.lumberjack_95roomCode.GDfollowPlayerObjects2);
 {for(var i = 0, len = gdjs.lumberjack_95roomCode.GDPlayerObjects2.length ;i < len;++i) {
