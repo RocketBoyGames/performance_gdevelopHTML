@@ -3994,36 +3994,16 @@ gdjs.copyArray(runtimeScene.getObjects("IconbarHotspot"), gdjs.cliffCode.GDIconb
 
 gdjs.cliffCode.condition0IsTrue_0.val = false;
 gdjs.cliffCode.condition1IsTrue_0.val = false;
-gdjs.cliffCode.condition2IsTrue_0.val = false;
-gdjs.cliffCode.condition3IsTrue_0.val = false;
-gdjs.cliffCode.condition4IsTrue_0.val = false;
 {
 gdjs.cliffCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.cliffCode.mapOfGDgdjs_46cliffCode_46GDIconbarHotspotObjects3Objects, runtimeScene, true, true);
 }if ( gdjs.cliffCode.condition0IsTrue_0.val ) {
 {
-gdjs.cliffCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 5;
-}if ( gdjs.cliffCode.condition1IsTrue_0.val ) {
-{
-gdjs.cliffCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 6;
-}if ( gdjs.cliffCode.condition2IsTrue_0.val ) {
-{
-gdjs.cliffCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
-}if ( gdjs.cliffCode.condition3IsTrue_0.val ) {
-{
-{gdjs.cliffCode.conditionTrue_1 = gdjs.cliffCode.condition4IsTrue_0;
+{gdjs.cliffCode.conditionTrue_1 = gdjs.cliffCode.condition1IsTrue_0;
 gdjs.cliffCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31345756);
 }
 }}
-}
-}
-}
-if (gdjs.cliffCode.condition4IsTrue_0.val) {
-gdjs.copyArray(gdjs.cliffCode.GDCursorObjects2, gdjs.cliffCode.GDCursorObjects3);
-
-{for(var i = 0, len = gdjs.cliffCode.GDCursorObjects3.length ;i < len;++i) {
-    gdjs.cliffCode.GDCursorObjects3[i].setAnimation(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
+if (gdjs.cliffCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }}
 
 }
@@ -4993,6 +4973,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.cliffCode.GDempty_95s
     gdjs.cliffCode.GDbuttonsObjects3[i].setAnimationName("items_normal");
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setString((( gdjs.cliffCode.GDempty_95slotObjects3.length === 0 ) ? "" :gdjs.cliffCode.GDempty_95slotObjects3[0].getAnimationName()));
 }}
 

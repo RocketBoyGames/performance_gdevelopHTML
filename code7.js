@@ -4006,36 +4006,16 @@ gdjs.copyArray(runtimeScene.getObjects("IconbarHotspot"), gdjs.guildCode.GDIconb
 
 gdjs.guildCode.condition0IsTrue_0.val = false;
 gdjs.guildCode.condition1IsTrue_0.val = false;
-gdjs.guildCode.condition2IsTrue_0.val = false;
-gdjs.guildCode.condition3IsTrue_0.val = false;
-gdjs.guildCode.condition4IsTrue_0.val = false;
 {
 gdjs.guildCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.guildCode.mapOfGDgdjs_46guildCode_46GDIconbarHotspotObjects3Objects, runtimeScene, true, true);
 }if ( gdjs.guildCode.condition0IsTrue_0.val ) {
 {
-gdjs.guildCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 5;
-}if ( gdjs.guildCode.condition1IsTrue_0.val ) {
-{
-gdjs.guildCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 6;
-}if ( gdjs.guildCode.condition2IsTrue_0.val ) {
-{
-gdjs.guildCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
-}if ( gdjs.guildCode.condition3IsTrue_0.val ) {
-{
-{gdjs.guildCode.conditionTrue_1 = gdjs.guildCode.condition4IsTrue_0;
+{gdjs.guildCode.conditionTrue_1 = gdjs.guildCode.condition1IsTrue_0;
 gdjs.guildCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31345756);
 }
 }}
-}
-}
-}
-if (gdjs.guildCode.condition4IsTrue_0.val) {
-gdjs.copyArray(gdjs.guildCode.GDCursorObjects2, gdjs.guildCode.GDCursorObjects3);
-
-{for(var i = 0, len = gdjs.guildCode.GDCursorObjects3.length ;i < len;++i) {
-    gdjs.guildCode.GDCursorObjects3[i].setAnimation(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
+if (gdjs.guildCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }}
 
 }
@@ -5005,6 +4985,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.guildCode.GDempty_95s
     gdjs.guildCode.GDbuttonsObjects3[i].setAnimationName("items_normal");
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setString((( gdjs.guildCode.GDempty_95slotObjects3.length === 0 ) ? "" :gdjs.guildCode.GDempty_95slotObjects3[0].getAnimationName()));
 }}
 

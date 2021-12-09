@@ -4042,36 +4042,16 @@ gdjs.copyArray(runtimeScene.getObjects("IconbarHotspot"), gdjs.bees_95roomCode.G
 
 gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
 gdjs.bees_95roomCode.condition1IsTrue_0.val = false;
-gdjs.bees_95roomCode.condition2IsTrue_0.val = false;
-gdjs.bees_95roomCode.condition3IsTrue_0.val = false;
-gdjs.bees_95roomCode.condition4IsTrue_0.val = false;
 {
 gdjs.bees_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.bees_95roomCode.mapOfGDgdjs_46bees_9595roomCode_46GDIconbarHotspotObjects3Objects, runtimeScene, true, true);
 }if ( gdjs.bees_95roomCode.condition0IsTrue_0.val ) {
 {
-gdjs.bees_95roomCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 5;
-}if ( gdjs.bees_95roomCode.condition1IsTrue_0.val ) {
-{
-gdjs.bees_95roomCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 6;
-}if ( gdjs.bees_95roomCode.condition2IsTrue_0.val ) {
-{
-gdjs.bees_95roomCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
-}if ( gdjs.bees_95roomCode.condition3IsTrue_0.val ) {
-{
-{gdjs.bees_95roomCode.conditionTrue_1 = gdjs.bees_95roomCode.condition4IsTrue_0;
+{gdjs.bees_95roomCode.conditionTrue_1 = gdjs.bees_95roomCode.condition1IsTrue_0;
 gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31345756);
 }
 }}
-}
-}
-}
-if (gdjs.bees_95roomCode.condition4IsTrue_0.val) {
-gdjs.copyArray(gdjs.bees_95roomCode.GDCursorObjects2, gdjs.bees_95roomCode.GDCursorObjects3);
-
-{for(var i = 0, len = gdjs.bees_95roomCode.GDCursorObjects3.length ;i < len;++i) {
-    gdjs.bees_95roomCode.GDCursorObjects3[i].setAnimation(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
+if (gdjs.bees_95roomCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }}
 
 }
@@ -5041,6 +5021,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.bees_95roomCode.GDemp
     gdjs.bees_95roomCode.GDbuttonsObjects3[i].setAnimationName("items_normal");
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setString((( gdjs.bees_95roomCode.GDempty_95slotObjects3.length === 0 ) ? "" :gdjs.bees_95roomCode.GDempty_95slotObjects3[0].getAnimationName()));
 }}
 

@@ -4006,36 +4006,16 @@ gdjs.copyArray(runtimeScene.getObjects("IconbarHotspot"), gdjs.lumberjack_95room
 
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
 gdjs.lumberjack_95roomCode.condition1IsTrue_0.val = false;
-gdjs.lumberjack_95roomCode.condition2IsTrue_0.val = false;
-gdjs.lumberjack_95roomCode.condition3IsTrue_0.val = false;
-gdjs.lumberjack_95roomCode.condition4IsTrue_0.val = false;
 {
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.lumberjack_95roomCode.mapOfGDgdjs_46lumberjack_9595roomCode_46GDIconbarHotspotObjects3Objects, runtimeScene, true, true);
 }if ( gdjs.lumberjack_95roomCode.condition0IsTrue_0.val ) {
 {
-gdjs.lumberjack_95roomCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 5;
-}if ( gdjs.lumberjack_95roomCode.condition1IsTrue_0.val ) {
-{
-gdjs.lumberjack_95roomCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 6;
-}if ( gdjs.lumberjack_95roomCode.condition2IsTrue_0.val ) {
-{
-gdjs.lumberjack_95roomCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
-}if ( gdjs.lumberjack_95roomCode.condition3IsTrue_0.val ) {
-{
-{gdjs.lumberjack_95roomCode.conditionTrue_1 = gdjs.lumberjack_95roomCode.condition4IsTrue_0;
+{gdjs.lumberjack_95roomCode.conditionTrue_1 = gdjs.lumberjack_95roomCode.condition1IsTrue_0;
 gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31345756);
 }
 }}
-}
-}
-}
-if (gdjs.lumberjack_95roomCode.condition4IsTrue_0.val) {
-gdjs.copyArray(gdjs.lumberjack_95roomCode.GDCursorObjects2, gdjs.lumberjack_95roomCode.GDCursorObjects3);
-
-{for(var i = 0, len = gdjs.lumberjack_95roomCode.GDCursorObjects3.length ;i < len;++i) {
-    gdjs.lumberjack_95roomCode.GDCursorObjects3[i].setAnimation(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
+if (gdjs.lumberjack_95roomCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }}
 
 }
@@ -5005,6 +4985,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.lumberjack_95roomCode
     gdjs.lumberjack_95roomCode.GDbuttonsObjects3[i].setAnimationName("items_normal");
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setString((( gdjs.lumberjack_95roomCode.GDempty_95slotObjects3.length === 0 ) ? "" :gdjs.lumberjack_95roomCode.GDempty_95slotObjects3[0].getAnimationName()));
 }}
 

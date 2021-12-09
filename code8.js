@@ -4006,36 +4006,16 @@ gdjs.copyArray(runtimeScene.getObjects("IconbarHotspot"), gdjs.castle_95viewCode
 
 gdjs.castle_95viewCode.condition0IsTrue_0.val = false;
 gdjs.castle_95viewCode.condition1IsTrue_0.val = false;
-gdjs.castle_95viewCode.condition2IsTrue_0.val = false;
-gdjs.castle_95viewCode.condition3IsTrue_0.val = false;
-gdjs.castle_95viewCode.condition4IsTrue_0.val = false;
 {
 gdjs.castle_95viewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.castle_95viewCode.mapOfGDgdjs_46castle_9595viewCode_46GDIconbarHotspotObjects3Objects, runtimeScene, true, true);
 }if ( gdjs.castle_95viewCode.condition0IsTrue_0.val ) {
 {
-gdjs.castle_95viewCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 5;
-}if ( gdjs.castle_95viewCode.condition1IsTrue_0.val ) {
-{
-gdjs.castle_95viewCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) != 6;
-}if ( gdjs.castle_95viewCode.condition2IsTrue_0.val ) {
-{
-gdjs.castle_95viewCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
-}if ( gdjs.castle_95viewCode.condition3IsTrue_0.val ) {
-{
-{gdjs.castle_95viewCode.conditionTrue_1 = gdjs.castle_95viewCode.condition4IsTrue_0;
+{gdjs.castle_95viewCode.conditionTrue_1 = gdjs.castle_95viewCode.condition1IsTrue_0;
 gdjs.castle_95viewCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31345756);
 }
 }}
-}
-}
-}
-if (gdjs.castle_95viewCode.condition4IsTrue_0.val) {
-gdjs.copyArray(gdjs.castle_95viewCode.GDCursorObjects2, gdjs.castle_95viewCode.GDCursorObjects3);
-
-{for(var i = 0, len = gdjs.castle_95viewCode.GDCursorObjects3.length ;i < len;++i) {
-    gdjs.castle_95viewCode.GDCursorObjects3[i].setAnimation(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
+if (gdjs.castle_95viewCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }}
 
 }
@@ -5005,6 +4985,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.castle_95viewCode.GDe
     gdjs.castle_95viewCode.GDbuttonsObjects3[i].setAnimationName("items_normal");
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setString((( gdjs.castle_95viewCode.GDempty_95slotObjects3.length === 0 ) ? "" :gdjs.castle_95viewCode.GDempty_95slotObjects3[0].getAnimationName()));
 }}
 
