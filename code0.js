@@ -158,6 +158,7 @@ gdjs.copyArray(gdjs.Intro_32pageCode.GDbuttonsObjects2, gdjs.Intro_32pageCode.GD
 }{for(var i = 0, len = gdjs.Intro_32pageCode.GDbuttonsObjects3.length ;i < len;++i) {
     gdjs.Intro_32pageCode.GDbuttonsObjects3[i].setAnimationName("newgame_click");
 }
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3");
 }}
 
 }
@@ -702,8 +703,7 @@ gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
 gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31067236);
 }
 }if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3");
-}}
+}
 
 }
 
@@ -789,6 +789,7 @@ gdjs.Intro_32pageCode.eventsList9(runtimeScene);} //End of subevents
 gdjs.copyArray(runtimeScene.getObjects("Intro_BG"), gdjs.Intro_32pageCode.GDIntro_95BGObjects1);
 
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDIntro_95BGObjects1.length;i<l;++i) {
     if ( gdjs.Intro_32pageCode.GDIntro_95BGObjects1[i].hasAnimationEnded() ) {
@@ -797,7 +798,13 @@ for(var i = 0, k = 0, l = gdjs.Intro_32pageCode.GDIntro_95BGObjects1.length;i<l;
         ++k;
     }
 }
-gdjs.Intro_32pageCode.GDIntro_95BGObjects1.length = k;}if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
+gdjs.Intro_32pageCode.GDIntro_95BGObjects1.length = k;}if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition1IsTrue_0;
+gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30304860);
+}
+}}
+if (gdjs.Intro_32pageCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.Intro_32pageCode.GDIntro_95BGObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.Intro_32pageCode.GDbuttonsObjects1);
 {for(var i = 0, len = gdjs.Intro_32pageCode.GDbuttonsObjects1.length ;i < len;++i) {
@@ -817,7 +824,7 @@ gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.Intro_32pageCode.GDbutto
 gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
 gdjs.Intro_32pageCode.condition1IsTrue_0.val = false;
 {
-gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1.5, "play_intro_video");
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 2, "play_intro_video");
 }if ( gdjs.Intro_32pageCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition1IsTrue_0;
@@ -854,8 +861,7 @@ gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 }}
 if (gdjs.Intro_32pageCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().get("playVideoSound"), false);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3", 12, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3", 12, false, 100, 1);
 }}
 
 }
