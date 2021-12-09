@@ -696,13 +696,30 @@ gdjs.Intro_32pageCode.eventsList7(runtimeScene);
 {
 
 
+gdjs.Intro_32pageCode.condition0IsTrue_0.val = false;
+{
+{gdjs.Intro_32pageCode.conditionTrue_1 = gdjs.Intro_32pageCode.condition0IsTrue_0;
+gdjs.Intro_32pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31067236);
+}
+}if (gdjs.Intro_32pageCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3");
+}}
+
+}
+
+
+};gdjs.Intro_32pageCode.eventsList10 = function(runtimeScene) {
+
+{
+
+
 {
 }
 
 }
 
 
-};gdjs.Intro_32pageCode.eventsList10 = function(runtimeScene) {
+};gdjs.Intro_32pageCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -759,8 +776,10 @@ gdjs.copyArray(runtimeScene.getObjects("intro_video"), gdjs.Intro_32pageCode.GDi
 }{for(var i = 0, len = gdjs.Intro_32pageCode.GDintro_95videoObjects1.length ;i < len;++i) {
     gdjs.Intro_32pageCode.GDintro_95videoObjects1[i].hide();
 }
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets\\videos\\PrincesaPerdida\\PrincesaPerdida - audio.mp3");
-}}
+}
+{ //Subevents
+gdjs.Intro_32pageCode.eventsList9(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -917,7 +936,7 @@ if (gdjs.Intro_32pageCode.condition2IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "bedroom", false);
 }
 { //Subevents
-gdjs.Intro_32pageCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.Intro_32pageCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -1047,7 +1066,7 @@ gdjs.Intro_32pageCode.GDintro_95videoObjects2.length = 0;
 gdjs.Intro_32pageCode.GDintro_95videoObjects3.length = 0;
 gdjs.Intro_32pageCode.GDintro_95videoObjects4.length = 0;
 
-gdjs.Intro_32pageCode.eventsList10(runtimeScene);
+gdjs.Intro_32pageCode.eventsList11(runtimeScene);
 return;
 
 }
