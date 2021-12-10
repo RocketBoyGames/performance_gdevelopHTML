@@ -601,15 +601,20 @@ gdjs.outside_95bedroomCode.eventsList4(runtimeScene);} //End of subevents
 
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
 gdjs.outside_95bedroomCode.condition1IsTrue_0.val = false;
+gdjs.outside_95bedroomCode.condition2IsTrue_0.val = false;
 {
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if ( gdjs.outside_95bedroomCode.condition0IsTrue_0.val ) {
 {
-{gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition1IsTrue_0;
+gdjs.outside_95bedroomCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1, "skip_speech");
+}if ( gdjs.outside_95bedroomCode.condition1IsTrue_0.val ) {
+{
+{gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition2IsTrue_0;
 gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30285140);
 }
 }}
-if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
+}
+if (gdjs.outside_95bedroomCode.condition2IsTrue_0.val) {
 {runtimeScene.getVariables().get("cutsceneSequence").add(1);
 }}
 
@@ -643,6 +648,7 @@ gdjs.copyArray(runtimeScene.getObjects("player_dialogue"), gdjs.outside_95bedroo
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR1.mp3", 10, false, 100, 1);
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(0);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -678,6 +684,7 @@ gdjs.copyArray(runtimeScene.getObjects("player_dialogue"), gdjs.outside_95bedroo
     gdjs.outside_95bedroomCode.GDplayer_95dialogueObjects3[i].hide();
 }
 }{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 10);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -743,6 +750,7 @@ gdjs.copyArray(runtimeScene.getObjects("emily_help"), gdjs.outside_95bedroomCode
     gdjs.outside_95bedroomCode.GDClosupDialogueObjects3[i].setAnimation(4);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\98 PedroEnfocarCerca.mp3", 8, false, 100, 1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -803,6 +811,7 @@ gdjs.copyArray(runtimeScene.getObjects("emily_closup_dialogue"), gdjs.outside_95
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects3.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects3[i].setString("¡PEDRO, PEDRO, PEDRO!");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -863,6 +872,7 @@ gdjs.copyArray(runtimeScene.getObjects("emily_closup_dialogue"), gdjs.outside_95
     gdjs.outside_95bedroomCode.GDClosupDialogueObjects3[i].setAnimation(5);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\99 PedroBoquearCerca.mp3", 8, false, 100, 1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1220,6 +1230,26 @@ gdjs.copyArray(runtimeScene.getObjects("ClosupDialogue"), gdjs.outside_95bedroom
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
 gdjs.outside_95bedroomCode.condition1IsTrue_0.val = false;
 {
+gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("conversationPart")) == 0;
+}if ( gdjs.outside_95bedroomCode.condition0IsTrue_0.val ) {
+{
+{gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition1IsTrue_0;
+gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(31305652);
+}
+}}
+if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
+{runtimeScene.getVariables().get("conversationPart").add(1);
+}}
+
+}
+
+
+{
+
+
+gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
+gdjs.outside_95bedroomCode.condition1IsTrue_0.val = false;
+{
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("conversationPart")) == 1;
 }if ( gdjs.outside_95bedroomCode.condition0IsTrue_0.val ) {
 {
@@ -1292,6 +1322,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDClosupDialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDClosupDialogueObjects2[i].setAnimation(2);
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1333,6 +1364,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2[i].setString("¡Dios mío! ¿¡La PRINCESA está perdida!? ¿Dónde?");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1377,6 +1409,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2[i].setString("¡No sé, ella esta perdida!  Necesitas ir al CASTILLO. Habla con el REY");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1418,6 +1451,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2[i].setString("¿Al CASTILLO...?");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1459,6 +1493,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects2[i].setString("¿Hablar con el REY? ¡Andale!");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1503,6 +1538,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
 }{for(var i = 0, len = gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2[i].setString("¡Sí, adelante Pedro!");
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
@@ -1524,8 +1560,8 @@ gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().
 if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Iconbar");
 }{runtimeScene.getGame().getVariables().getFromIndex(5).setString("outside_bedroom");
-}{runtimeScene.getVariables().get("conversationPart").setNumber(0);
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().get("isConversationActive"), false);
+}{runtimeScene.getVariables().get("conversationPart").setNumber(0);
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\atmosphere\\02 PedroExterior-Bandido-Lenador-Puente_Atmo.mp3", 2, true, 5, 1);
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(14), true);
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
@@ -1540,15 +1576,20 @@ if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
 
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
 gdjs.outside_95bedroomCode.condition1IsTrue_0.val = false;
+gdjs.outside_95bedroomCode.condition2IsTrue_0.val = false;
 {
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if ( gdjs.outside_95bedroomCode.condition0IsTrue_0.val ) {
 {
-{gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition1IsTrue_0;
-gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30331228);
+gdjs.outside_95bedroomCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1, "skip_speech");
+}if ( gdjs.outside_95bedroomCode.condition1IsTrue_0.val ) {
+{
+{gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition2IsTrue_0;
+gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15324492);
 }
 }}
-if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
+}
+if (gdjs.outside_95bedroomCode.condition2IsTrue_0.val) {
 {runtimeScene.getVariables().get("conversationPart").add(1);
 }}
 
