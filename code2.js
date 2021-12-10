@@ -1281,6 +1281,7 @@ gdjs.copyArray(gdjs.outside_95bedroomCode.GDpedro_95closeup_95dialogueObjects1, 
     gdjs.outside_95bedroomCode.GDBGCloseUpDialogueObjects2[i].setAnimation(0);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR2.mp3", 6, false, 100, 1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "skip_speech");
 }}
 
 }
