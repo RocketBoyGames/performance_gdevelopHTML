@@ -9706,16 +9706,6 @@ gdjs.bees_95roomCode.eventsList91(runtimeScene);} //End of subevents
 {
 
 
-gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
-{
-{gdjs.bees_95roomCode.conditionTrue_1 = gdjs.bees_95roomCode.condition0IsTrue_0;
-gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(35878124);
-}
-}if (gdjs.bees_95roomCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(11).getChild("item_name").setString("rock");
-}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(11).getChild("addItem?"), true);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).getChild("quantity").setNumber(1);
-}}
 
 }
 
