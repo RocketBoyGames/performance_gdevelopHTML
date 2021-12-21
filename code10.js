@@ -185,6 +185,12 @@ gdjs.room_95baseCode.GDexternal_95popupsObjects3= [];
 gdjs.room_95baseCode.GDexternal_95popupsObjects4= [];
 gdjs.room_95baseCode.GDexternal_95popupsObjects5= [];
 gdjs.room_95baseCode.GDexternal_95popupsObjects6= [];
+gdjs.room_95baseCode.GDmissions_95textObjects1= [];
+gdjs.room_95baseCode.GDmissions_95textObjects2= [];
+gdjs.room_95baseCode.GDmissions_95textObjects3= [];
+gdjs.room_95baseCode.GDmissions_95textObjects4= [];
+gdjs.room_95baseCode.GDmissions_95textObjects5= [];
+gdjs.room_95baseCode.GDmissions_95textObjects6= [];
 
 gdjs.room_95baseCode.conditionTrue_0 = {val:false};
 gdjs.room_95baseCode.condition0IsTrue_0 = {val:false};
@@ -776,6 +782,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }}
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString("bedroom");
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
 }}
 
 }
@@ -797,6 +804,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString("lumberjack_room");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Iconbar");
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
 }}
 
 }
@@ -818,6 +826,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString("town");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Iconbar");
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
 }}
 
 }
@@ -840,6 +849,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString("guild");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Iconbar");
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("return_book"), true);
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), false);
 }}
 
 }
@@ -4123,7 +4133,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(12)) == "soup_ingredients";
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects4);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString("soup_list");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("popups");
 }{runtimeScene.getGame().getVariables().get("roomBeforePopup").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)));
 }{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDexternal_95popupsObjects4[i].setAnimationName("soup_list");
@@ -5341,9 +5351,15 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects3 */
+gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects3);
 {for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects3.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects3[i].setAnimationName("missions_normal");
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setString("popups");
+}{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects3.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDexternal_95popupsObjects3[i].setAnimationName("missions");
+}
+}{runtimeScene.getGame().getVariables().get("roomBeforePopup").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)));
 }}
 
 }
@@ -6478,6 +6494,22 @@ gdjs.copyArray(runtimeScene.getObjects("Cursor"), gdjs.room_95baseCode.GDCursorO
 {
 
 
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects2);
+{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDexternal_95popupsObjects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
 
 }
 
@@ -6939,26 +6971,6 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.room_95baseCode.GDPlayerO
 {
 
 
-gdjs.room_95baseCode.condition0IsTrue_0.val = false;
-{
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)) == "soup_list";
-}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects2);
-{gdjs.evtTools.camera.showLayer(runtimeScene, "ExitPopup");
-}{runtimeScene.getGame().getVariables().getFromIndex(5).setString("popups");
-}{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), -(528), 0.2), "", 0);
-}{gdjs.evtTools.camera.hideLayer(runtimeScene, "Iconbar");
-}{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
-    gdjs.room_95baseCode.GDexternal_95popupsObjects2[i].hide(false);
-}
-}}
-
-}
-
-
-{
-
-
 
 }
 
@@ -7309,6 +7321,15 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.room_95baseCode.GDemp
     gdjs.room_95baseCode.GDempty_95slotObjects2[i].setAnimationName(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(12)));
 }
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -11363,7 +11384,6 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("collisions"), gdjs.room_95baseCode.GDcollisionsObjects1);
-gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects1);
 gdjs.copyArray(runtimeScene.getObjects("followPlayer"), gdjs.room_95baseCode.GDfollowPlayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("regions"), gdjs.room_95baseCode.GDregionsObjects1);
 {for(var i = 0, len = gdjs.room_95baseCode.GDcollisionsObjects1.length ;i < len;++i) {
@@ -11381,9 +11401,6 @@ gdjs.copyArray(runtimeScene.getObjects("regions"), gdjs.room_95baseCode.GDregion
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setString("iconbar");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Hotspots");
-}{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects1.length ;i < len;++i) {
-    gdjs.room_95baseCode.GDexternal_95popupsObjects1[i].hide();
-}
 }
 { //Subevents
 gdjs.room_95baseCode.eventsList0(runtimeScene);} //End of subevents
@@ -11607,10 +11624,49 @@ gdjs.room_95baseCode.eventsList94(runtimeScene);} //End of subevents
 
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 {
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)) == "popups";
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.GDexternal_95popupsObjects1);
+{gdjs.evtTools.camera.showLayer(runtimeScene, "ExitPopup");
+}{runtimeScene.getGame().getVariables().getFromIndex(5).setString("popups");
+}{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), -(528), 0.2), "", 0);
+}{gdjs.evtTools.camera.hideLayer(runtimeScene, "Iconbar");
+}{for(var i = 0, len = gdjs.room_95baseCode.GDexternal_95popupsObjects1.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDexternal_95popupsObjects1[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
 gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("player_dialogue"), gdjs.room_95baseCode.GDplayer_95dialogueObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString("town2");
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\atmosphere\\24_Lenador_Musica_Atmo.mp3", 2, true, 5, 1);
+}{for(var i = 0, len = gdjs.room_95baseCode.GDplayer_95dialogueObjects1.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDplayer_95dialogueObjects1[i].setTextAlignment("center");
+}
+}{for(var i = 0, len = gdjs.room_95baseCode.GDplayer_95dialogueObjects1.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDplayer_95dialogueObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.room_95baseCode.GDplayer_95dialogueObjects1.length ;i < len;++i) {
+    gdjs.room_95baseCode.GDplayer_95dialogueObjects1[i].setOutline("0;0;0", 6);
+}
 }
 { //Subevents
 gdjs.room_95baseCode.eventsList95(runtimeScene);} //End of subevents
@@ -11794,6 +11850,12 @@ gdjs.room_95baseCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.room_95baseCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.room_95baseCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.room_95baseCode.GDexternal_95popupsObjects6.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects1.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects2.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects3.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects4.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects5.length = 0;
+gdjs.room_95baseCode.GDmissions_95textObjects6.length = 0;
 
 gdjs.room_95baseCode.eventsList106(runtimeScene);
 return;
