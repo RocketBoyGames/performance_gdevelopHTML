@@ -185,12 +185,18 @@ gdjs.bees_95roomCode.GDexternal_95popupsObjects3= [];
 gdjs.bees_95roomCode.GDexternal_95popupsObjects4= [];
 gdjs.bees_95roomCode.GDexternal_95popupsObjects5= [];
 gdjs.bees_95roomCode.GDexternal_95popupsObjects6= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects1= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects2= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects3= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects4= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects5= [];
-gdjs.bees_95roomCode.GDmissions_95textObjects6= [];
+gdjs.bees_95roomCode.GDmission2Objects1= [];
+gdjs.bees_95roomCode.GDmission2Objects2= [];
+gdjs.bees_95roomCode.GDmission2Objects3= [];
+gdjs.bees_95roomCode.GDmission2Objects4= [];
+gdjs.bees_95roomCode.GDmission2Objects5= [];
+gdjs.bees_95roomCode.GDmission2Objects6= [];
+gdjs.bees_95roomCode.GDmission1Objects1= [];
+gdjs.bees_95roomCode.GDmission1Objects2= [];
+gdjs.bees_95roomCode.GDmission1Objects3= [];
+gdjs.bees_95roomCode.GDmission1Objects4= [];
+gdjs.bees_95roomCode.GDmission1Objects5= [];
+gdjs.bees_95roomCode.GDmission1Objects6= [];
 gdjs.bees_95roomCode.GDbeehiveObjects1= [];
 gdjs.bees_95roomCode.GDbeehiveObjects2= [];
 gdjs.bees_95roomCode.GDbeehiveObjects3= [];
@@ -6547,8 +6553,16 @@ gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
 gdjs.bees_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.bees_95roomCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.bees_95roomCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.bees_95roomCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.bees_95roomCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.bees_95roomCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.bees_95roomCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.bees_95roomCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.bees_95roomCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.bees_95roomCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.bees_95roomCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -13875,12 +13889,18 @@ gdjs.bees_95roomCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.bees_95roomCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.bees_95roomCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.bees_95roomCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects1.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects2.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects3.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects4.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects5.length = 0;
-gdjs.bees_95roomCode.GDmissions_95textObjects6.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects1.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects2.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects3.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects4.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects5.length = 0;
+gdjs.bees_95roomCode.GDmission2Objects6.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects1.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects2.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects3.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects4.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects5.length = 0;
+gdjs.bees_95roomCode.GDmission1Objects6.length = 0;
 gdjs.bees_95roomCode.GDbeehiveObjects1.length = 0;
 gdjs.bees_95roomCode.GDbeehiveObjects2.length = 0;
 gdjs.bees_95roomCode.GDbeehiveObjects3.length = 0;

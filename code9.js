@@ -193,12 +193,18 @@ gdjs.cliffCode.GDexternal_95popupsObjects3= [];
 gdjs.cliffCode.GDexternal_95popupsObjects4= [];
 gdjs.cliffCode.GDexternal_95popupsObjects5= [];
 gdjs.cliffCode.GDexternal_95popupsObjects6= [];
-gdjs.cliffCode.GDmissions_95textObjects1= [];
-gdjs.cliffCode.GDmissions_95textObjects2= [];
-gdjs.cliffCode.GDmissions_95textObjects3= [];
-gdjs.cliffCode.GDmissions_95textObjects4= [];
-gdjs.cliffCode.GDmissions_95textObjects5= [];
-gdjs.cliffCode.GDmissions_95textObjects6= [];
+gdjs.cliffCode.GDmission2Objects1= [];
+gdjs.cliffCode.GDmission2Objects2= [];
+gdjs.cliffCode.GDmission2Objects3= [];
+gdjs.cliffCode.GDmission2Objects4= [];
+gdjs.cliffCode.GDmission2Objects5= [];
+gdjs.cliffCode.GDmission2Objects6= [];
+gdjs.cliffCode.GDmission1Objects1= [];
+gdjs.cliffCode.GDmission1Objects2= [];
+gdjs.cliffCode.GDmission1Objects3= [];
+gdjs.cliffCode.GDmission1Objects4= [];
+gdjs.cliffCode.GDmission1Objects5= [];
+gdjs.cliffCode.GDmission1Objects6= [];
 gdjs.cliffCode.GDvidObjects1= [];
 gdjs.cliffCode.GDvidObjects2= [];
 gdjs.cliffCode.GDvidObjects3= [];
@@ -6513,8 +6519,16 @@ gdjs.cliffCode.condition0IsTrue_0.val = false;
 gdjs.cliffCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.cliffCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.cliffCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.cliffCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.cliffCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.cliffCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.cliffCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.cliffCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.cliffCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.cliffCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.cliffCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -12597,12 +12611,18 @@ gdjs.cliffCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.cliffCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.cliffCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.cliffCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects1.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects2.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects3.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects4.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects5.length = 0;
-gdjs.cliffCode.GDmissions_95textObjects6.length = 0;
+gdjs.cliffCode.GDmission2Objects1.length = 0;
+gdjs.cliffCode.GDmission2Objects2.length = 0;
+gdjs.cliffCode.GDmission2Objects3.length = 0;
+gdjs.cliffCode.GDmission2Objects4.length = 0;
+gdjs.cliffCode.GDmission2Objects5.length = 0;
+gdjs.cliffCode.GDmission2Objects6.length = 0;
+gdjs.cliffCode.GDmission1Objects1.length = 0;
+gdjs.cliffCode.GDmission1Objects2.length = 0;
+gdjs.cliffCode.GDmission1Objects3.length = 0;
+gdjs.cliffCode.GDmission1Objects4.length = 0;
+gdjs.cliffCode.GDmission1Objects5.length = 0;
+gdjs.cliffCode.GDmission1Objects6.length = 0;
 gdjs.cliffCode.GDvidObjects1.length = 0;
 gdjs.cliffCode.GDvidObjects2.length = 0;
 gdjs.cliffCode.GDvidObjects3.length = 0;

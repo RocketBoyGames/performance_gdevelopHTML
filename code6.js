@@ -185,12 +185,18 @@ gdjs.town_95storeCode.GDexternal_95popupsObjects3= [];
 gdjs.town_95storeCode.GDexternal_95popupsObjects4= [];
 gdjs.town_95storeCode.GDexternal_95popupsObjects5= [];
 gdjs.town_95storeCode.GDexternal_95popupsObjects6= [];
-gdjs.town_95storeCode.GDmissions_95textObjects1= [];
-gdjs.town_95storeCode.GDmissions_95textObjects2= [];
-gdjs.town_95storeCode.GDmissions_95textObjects3= [];
-gdjs.town_95storeCode.GDmissions_95textObjects4= [];
-gdjs.town_95storeCode.GDmissions_95textObjects5= [];
-gdjs.town_95storeCode.GDmissions_95textObjects6= [];
+gdjs.town_95storeCode.GDmission2Objects1= [];
+gdjs.town_95storeCode.GDmission2Objects2= [];
+gdjs.town_95storeCode.GDmission2Objects3= [];
+gdjs.town_95storeCode.GDmission2Objects4= [];
+gdjs.town_95storeCode.GDmission2Objects5= [];
+gdjs.town_95storeCode.GDmission2Objects6= [];
+gdjs.town_95storeCode.GDmission1Objects1= [];
+gdjs.town_95storeCode.GDmission1Objects2= [];
+gdjs.town_95storeCode.GDmission1Objects3= [];
+gdjs.town_95storeCode.GDmission1Objects4= [];
+gdjs.town_95storeCode.GDmission1Objects5= [];
+gdjs.town_95storeCode.GDmission1Objects6= [];
 gdjs.town_95storeCode.GDclaraObjects1= [];
 gdjs.town_95storeCode.GDclaraObjects2= [];
 gdjs.town_95storeCode.GDclaraObjects3= [];
@@ -6511,8 +6517,16 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.town_95storeCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.town_95storeCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.town_95storeCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.town_95storeCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.town_95storeCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -11886,12 +11900,18 @@ gdjs.town_95storeCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.town_95storeCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.town_95storeCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.town_95storeCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects1.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects2.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects3.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects4.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects5.length = 0;
-gdjs.town_95storeCode.GDmissions_95textObjects6.length = 0;
+gdjs.town_95storeCode.GDmission2Objects1.length = 0;
+gdjs.town_95storeCode.GDmission2Objects2.length = 0;
+gdjs.town_95storeCode.GDmission2Objects3.length = 0;
+gdjs.town_95storeCode.GDmission2Objects4.length = 0;
+gdjs.town_95storeCode.GDmission2Objects5.length = 0;
+gdjs.town_95storeCode.GDmission2Objects6.length = 0;
+gdjs.town_95storeCode.GDmission1Objects1.length = 0;
+gdjs.town_95storeCode.GDmission1Objects2.length = 0;
+gdjs.town_95storeCode.GDmission1Objects3.length = 0;
+gdjs.town_95storeCode.GDmission1Objects4.length = 0;
+gdjs.town_95storeCode.GDmission1Objects5.length = 0;
+gdjs.town_95storeCode.GDmission1Objects6.length = 0;
 gdjs.town_95storeCode.GDclaraObjects1.length = 0;
 gdjs.town_95storeCode.GDclaraObjects2.length = 0;
 gdjs.town_95storeCode.GDclaraObjects3.length = 0;

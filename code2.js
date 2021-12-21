@@ -185,12 +185,18 @@ gdjs.outside_95bedroomCode.GDexternal_95popupsObjects3= [];
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects4= [];
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects5= [];
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects6= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects1= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects2= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects3= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects4= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects5= [];
-gdjs.outside_95bedroomCode.GDmissions_95textObjects6= [];
+gdjs.outside_95bedroomCode.GDmission2Objects1= [];
+gdjs.outside_95bedroomCode.GDmission2Objects2= [];
+gdjs.outside_95bedroomCode.GDmission2Objects3= [];
+gdjs.outside_95bedroomCode.GDmission2Objects4= [];
+gdjs.outside_95bedroomCode.GDmission2Objects5= [];
+gdjs.outside_95bedroomCode.GDmission2Objects6= [];
+gdjs.outside_95bedroomCode.GDmission1Objects1= [];
+gdjs.outside_95bedroomCode.GDmission1Objects2= [];
+gdjs.outside_95bedroomCode.GDmission1Objects3= [];
+gdjs.outside_95bedroomCode.GDmission1Objects4= [];
+gdjs.outside_95bedroomCode.GDmission1Objects5= [];
+gdjs.outside_95bedroomCode.GDmission1Objects6= [];
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects1= [];
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2= [];
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects3= [];
@@ -8671,8 +8677,16 @@ gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.outside_95bedroomCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.outside_95bedroomCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.outside_95bedroomCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.outside_95bedroomCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.outside_95bedroomCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.outside_95bedroomCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.outside_95bedroomCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.outside_95bedroomCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.outside_95bedroomCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.outside_95bedroomCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -14361,12 +14375,18 @@ gdjs.outside_95bedroomCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.outside_95bedroomCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects1.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects2.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects3.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects4.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects5.length = 0;
-gdjs.outside_95bedroomCode.GDmissions_95textObjects6.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects1.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects2.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects3.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects4.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects5.length = 0;
+gdjs.outside_95bedroomCode.GDmission2Objects6.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects1.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects2.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects3.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects4.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects5.length = 0;
+gdjs.outside_95bedroomCode.GDmission1Objects6.length = 0;
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects1.length = 0;
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects2.length = 0;
 gdjs.outside_95bedroomCode.GDemily_95closup_95dialogueObjects3.length = 0;

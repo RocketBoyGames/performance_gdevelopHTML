@@ -185,12 +185,18 @@ gdjs.guildCode.GDexternal_95popupsObjects3= [];
 gdjs.guildCode.GDexternal_95popupsObjects4= [];
 gdjs.guildCode.GDexternal_95popupsObjects5= [];
 gdjs.guildCode.GDexternal_95popupsObjects6= [];
-gdjs.guildCode.GDmissions_95textObjects1= [];
-gdjs.guildCode.GDmissions_95textObjects2= [];
-gdjs.guildCode.GDmissions_95textObjects3= [];
-gdjs.guildCode.GDmissions_95textObjects4= [];
-gdjs.guildCode.GDmissions_95textObjects5= [];
-gdjs.guildCode.GDmissions_95textObjects6= [];
+gdjs.guildCode.GDmission2Objects1= [];
+gdjs.guildCode.GDmission2Objects2= [];
+gdjs.guildCode.GDmission2Objects3= [];
+gdjs.guildCode.GDmission2Objects4= [];
+gdjs.guildCode.GDmission2Objects5= [];
+gdjs.guildCode.GDmission2Objects6= [];
+gdjs.guildCode.GDmission1Objects1= [];
+gdjs.guildCode.GDmission1Objects2= [];
+gdjs.guildCode.GDmission1Objects3= [];
+gdjs.guildCode.GDmission1Objects4= [];
+gdjs.guildCode.GDmission1Objects5= [];
+gdjs.guildCode.GDmission1Objects6= [];
 gdjs.guildCode.GDceliaObjects1= [];
 gdjs.guildCode.GDceliaObjects2= [];
 gdjs.guildCode.GDceliaObjects3= [];
@@ -6523,8 +6529,16 @@ gdjs.guildCode.condition0IsTrue_0.val = false;
 gdjs.guildCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.guildCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.guildCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.guildCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.guildCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.guildCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.guildCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.guildCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.guildCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.guildCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.guildCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -13788,12 +13802,18 @@ gdjs.guildCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.guildCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.guildCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.guildCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.guildCode.GDmissions_95textObjects1.length = 0;
-gdjs.guildCode.GDmissions_95textObjects2.length = 0;
-gdjs.guildCode.GDmissions_95textObjects3.length = 0;
-gdjs.guildCode.GDmissions_95textObjects4.length = 0;
-gdjs.guildCode.GDmissions_95textObjects5.length = 0;
-gdjs.guildCode.GDmissions_95textObjects6.length = 0;
+gdjs.guildCode.GDmission2Objects1.length = 0;
+gdjs.guildCode.GDmission2Objects2.length = 0;
+gdjs.guildCode.GDmission2Objects3.length = 0;
+gdjs.guildCode.GDmission2Objects4.length = 0;
+gdjs.guildCode.GDmission2Objects5.length = 0;
+gdjs.guildCode.GDmission2Objects6.length = 0;
+gdjs.guildCode.GDmission1Objects1.length = 0;
+gdjs.guildCode.GDmission1Objects2.length = 0;
+gdjs.guildCode.GDmission1Objects3.length = 0;
+gdjs.guildCode.GDmission1Objects4.length = 0;
+gdjs.guildCode.GDmission1Objects5.length = 0;
+gdjs.guildCode.GDmission1Objects6.length = 0;
 gdjs.guildCode.GDceliaObjects1.length = 0;
 gdjs.guildCode.GDceliaObjects2.length = 0;
 gdjs.guildCode.GDceliaObjects3.length = 0;

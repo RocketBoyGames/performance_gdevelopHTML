@@ -185,12 +185,18 @@ gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects3= [];
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects4= [];
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects5= [];
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects6= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects1= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects2= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects3= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects4= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects5= [];
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects6= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects1= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects2= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects3= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects4= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects5= [];
+gdjs.lumberjack_95roomCode.GDmission2Objects6= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects1= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects2= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects3= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects4= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects5= [];
+gdjs.lumberjack_95roomCode.GDmission1Objects6= [];
 gdjs.lumberjack_95roomCode.GDLumberjackObjects1= [];
 gdjs.lumberjack_95roomCode.GDLumberjackObjects2= [];
 gdjs.lumberjack_95roomCode.GDLumberjackObjects3= [];
@@ -6529,8 +6535,16 @@ gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.lumberjack_95roomCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("mission1"), gdjs.lumberjack_95roomCode.GDmission1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("mission2"), gdjs.lumberjack_95roomCode.GDmission2Objects2);
 {for(var i = 0, len = gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects2.length ;i < len;++i) {
     gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.lumberjack_95roomCode.GDmission1Objects2.length ;i < len;++i) {
+    gdjs.lumberjack_95roomCode.GDmission1Objects2[i].setOutline("58;55;43", 0.5);
+}
+}{for(var i = 0, len = gdjs.lumberjack_95roomCode.GDmission2Objects2.length ;i < len;++i) {
+    gdjs.lumberjack_95roomCode.GDmission2Objects2[i].setOutline("58;55;43", 0.5);
 }
 }}
 
@@ -12995,12 +13009,18 @@ gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects3.length = 0;
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects4.length = 0;
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects5.length = 0;
 gdjs.lumberjack_95roomCode.GDexternal_95popupsObjects6.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects1.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects2.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects3.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects4.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects5.length = 0;
-gdjs.lumberjack_95roomCode.GDmissions_95textObjects6.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects1.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects2.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects3.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects4.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects5.length = 0;
+gdjs.lumberjack_95roomCode.GDmission2Objects6.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects1.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects2.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects3.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects4.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects5.length = 0;
+gdjs.lumberjack_95roomCode.GDmission1Objects6.length = 0;
 gdjs.lumberjack_95roomCode.GDLumberjackObjects1.length = 0;
 gdjs.lumberjack_95roomCode.GDLumberjackObjects2.length = 0;
 gdjs.lumberjack_95roomCode.GDLumberjackObjects3.length = 0;
