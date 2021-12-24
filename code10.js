@@ -4919,7 +4919,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\27 MAPA.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\27 MAPA.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("map_click");
 }
@@ -5006,7 +5006,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.copyArray(gdjs.room_95baseCode.GDbuttonsObjects3, gdjs.room_95baseCode.GDbuttonsObjects4);
 
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\09 SALIR.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\09 SALIR.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("exit_click");
 }
@@ -5207,7 +5207,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\08 OPCIONES.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\08 OPCIONES.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("options_click");
 }
@@ -5367,7 +5367,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\29_MISIONES.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\29_MISIONES.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("missions_click");
 }
@@ -5466,7 +5466,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.copyArray(gdjs.room_95baseCode.GDbuttonsObjects3, gdjs.room_95baseCode.GDbuttonsObjects4);
 
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\05 OBJETOS.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\05 OBJETOS.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("objects_click");
 }
@@ -5668,7 +5668,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\160_simple_click.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\160_simple_click.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("items_click");
 }
@@ -5826,7 +5826,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\04 HABLAR.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\04 HABLAR.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("talk_click");
 }
@@ -5982,7 +5982,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.room_95baseCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\03 USAR.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\03 USAR.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("use_click");
 }
@@ -6071,7 +6071,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.copyArray(gdjs.room_95baseCode.GDbuttonsObjects3, gdjs.room_95baseCode.GDbuttonsObjects4);
 
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\02 MIRAR.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\02 MIRAR.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects4.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects4[i].setAnimationName("look_click");
 }
@@ -6207,7 +6207,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.copyArray(gdjs.room_95baseCode.GDbuttonsObjects2, gdjs.room_95baseCode.GDbuttonsObjects3);
 
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\01 CAMINAR.mp3", 5, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\01 CAMINAR.mp3", 17, false, 100, 1);
 }{for(var i = 0, len = gdjs.room_95baseCode.GDbuttonsObjects3.length ;i < len;++i) {
     gdjs.room_95baseCode.GDbuttonsObjects3[i].setAnimationName("walk_click");
 }
