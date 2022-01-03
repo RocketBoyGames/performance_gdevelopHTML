@@ -5267,7 +5267,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.lumberjack_95roomCod
 }
 
 
-};gdjs.lumberjack_95roomCode.eventsList79 = function(runtimeScene) {
+};gdjs.lumberjack_95roomCode.mapOfGDgdjs_46lumberjack_9595roomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.lumberjack_95roomCode.GDOptionsObjects3});gdjs.lumberjack_95roomCode.eventsList79 = function(runtimeScene) {
 
 {
 
@@ -5446,7 +5446,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.lumberjack_95roomCode.GD
 }
 
 
-};gdjs.lumberjack_95roomCode.mapOfGDgdjs_46lumberjack_9595roomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.lumberjack_95roomCode.GDOptionsObjects3});gdjs.lumberjack_95roomCode.eventsList80 = function(runtimeScene) {
+};gdjs.lumberjack_95roomCode.eventsList80 = function(runtimeScene) {
 
 {
 
@@ -5599,28 +5599,6 @@ gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().
 
 {
 
-
-gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
-gdjs.lumberjack_95roomCode.condition1IsTrue_0.val = false;
-{
-gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.lumberjack_95roomCode.condition0IsTrue_0.val ) {
-{
-{gdjs.lumberjack_95roomCode.conditionTrue_1 = gdjs.lumberjack_95roomCode.condition1IsTrue_0;
-gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.lumberjack_95roomCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.lumberjack_95roomCode.eventsList79(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.lumberjack_95roomCode.GDOptionsObjects3);
 
 gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
@@ -5670,6 +5648,28 @@ gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().
 if (gdjs.lumberjack_95roomCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = false;
+gdjs.lumberjack_95roomCode.condition1IsTrue_0.val = false;
+{
+gdjs.lumberjack_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.lumberjack_95roomCode.condition0IsTrue_0.val ) {
+{
+{gdjs.lumberjack_95roomCode.conditionTrue_1 = gdjs.lumberjack_95roomCode.condition1IsTrue_0;
+gdjs.lumberjack_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.lumberjack_95roomCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.lumberjack_95roomCode.eventsList79(runtimeScene);} //End of subevents
+}
 
 }
 

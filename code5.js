@@ -5742,7 +5742,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.townCode.GDsliderMus
 }
 
 
-};gdjs.townCode.eventsList83 = function(runtimeScene) {
+};gdjs.townCode.mapOfGDgdjs_46townCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.townCode.GDOptionsObjects3});gdjs.townCode.eventsList83 = function(runtimeScene) {
 
 {
 
@@ -5921,7 +5921,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.townCode.GDOptionsObject
 }
 
 
-};gdjs.townCode.mapOfGDgdjs_46townCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.townCode.GDOptionsObjects3});gdjs.townCode.eventsList84 = function(runtimeScene) {
+};gdjs.townCode.eventsList84 = function(runtimeScene) {
 
 {
 
@@ -6074,28 +6074,6 @@ gdjs.townCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(4
 
 {
 
-
-gdjs.townCode.condition0IsTrue_0.val = false;
-gdjs.townCode.condition1IsTrue_0.val = false;
-{
-gdjs.townCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.townCode.condition0IsTrue_0.val ) {
-{
-{gdjs.townCode.conditionTrue_1 = gdjs.townCode.condition1IsTrue_0;
-gdjs.townCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.townCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.townCode.eventsList83(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.townCode.GDOptionsObjects3);
 
 gdjs.townCode.condition0IsTrue_0.val = false;
@@ -6145,6 +6123,28 @@ gdjs.townCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(4
 if (gdjs.townCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.townCode.condition0IsTrue_0.val = false;
+gdjs.townCode.condition1IsTrue_0.val = false;
+{
+gdjs.townCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.townCode.condition0IsTrue_0.val ) {
+{
+{gdjs.townCode.conditionTrue_1 = gdjs.townCode.condition1IsTrue_0;
+gdjs.townCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.townCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.townCode.eventsList83(runtimeScene);} //End of subevents
+}
 
 }
 

@@ -5310,7 +5310,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.guildCode.GDsliderMu
 }
 
 
-};gdjs.guildCode.eventsList80 = function(runtimeScene) {
+};gdjs.guildCode.mapOfGDgdjs_46guildCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.guildCode.GDOptionsObjects3});gdjs.guildCode.eventsList80 = function(runtimeScene) {
 
 {
 
@@ -5489,7 +5489,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.guildCode.GDOptionsObjec
 }
 
 
-};gdjs.guildCode.mapOfGDgdjs_46guildCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.guildCode.GDOptionsObjects3});gdjs.guildCode.eventsList81 = function(runtimeScene) {
+};gdjs.guildCode.eventsList81 = function(runtimeScene) {
 
 {
 
@@ -5642,28 +5642,6 @@ gdjs.guildCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(
 
 {
 
-
-gdjs.guildCode.condition0IsTrue_0.val = false;
-gdjs.guildCode.condition1IsTrue_0.val = false;
-{
-gdjs.guildCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.guildCode.condition0IsTrue_0.val ) {
-{
-{gdjs.guildCode.conditionTrue_1 = gdjs.guildCode.condition1IsTrue_0;
-gdjs.guildCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.guildCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.guildCode.eventsList80(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.guildCode.GDOptionsObjects3);
 
 gdjs.guildCode.condition0IsTrue_0.val = false;
@@ -5713,6 +5691,28 @@ gdjs.guildCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(
 if (gdjs.guildCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.guildCode.condition0IsTrue_0.val = false;
+gdjs.guildCode.condition1IsTrue_0.val = false;
+{
+gdjs.guildCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.guildCode.condition0IsTrue_0.val ) {
+{
+{gdjs.guildCode.conditionTrue_1 = gdjs.guildCode.condition1IsTrue_0;
+gdjs.guildCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.guildCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.guildCode.eventsList80(runtimeScene);} //End of subevents
+}
 
 }
 

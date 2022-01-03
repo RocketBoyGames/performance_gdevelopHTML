@@ -5276,7 +5276,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.room_95baseCode.GDsl
 }
 
 
-};gdjs.room_95baseCode.eventsList80 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.room_95baseCode.GDOptionsObjects3});gdjs.room_95baseCode.eventsList80 = function(runtimeScene) {
 
 {
 
@@ -5455,7 +5455,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.room_95baseCode.GDOption
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.room_95baseCode.GDOptionsObjects3});gdjs.room_95baseCode.eventsList81 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList81 = function(runtimeScene) {
 
 {
 
@@ -5608,28 +5608,6 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 
 {
 
-
-gdjs.room_95baseCode.condition0IsTrue_0.val = false;
-gdjs.room_95baseCode.condition1IsTrue_0.val = false;
-{
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
-{
-{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.room_95baseCode.eventsList80(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.room_95baseCode.GDOptionsObjects3);
 
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
@@ -5679,6 +5657,28 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.room_95baseCode.eventsList80(runtimeScene);} //End of subevents
+}
 
 }
 

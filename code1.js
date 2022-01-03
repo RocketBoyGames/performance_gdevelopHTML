@@ -5316,7 +5316,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.bedroomCode.GDslider
 }
 
 
-};gdjs.bedroomCode.eventsList79 = function(runtimeScene) {
+};gdjs.bedroomCode.mapOfGDgdjs_46bedroomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.bedroomCode.GDOptionsObjects3});gdjs.bedroomCode.eventsList79 = function(runtimeScene) {
 
 {
 
@@ -5495,7 +5495,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.bedroomCode.GDOptionsObj
 }
 
 
-};gdjs.bedroomCode.mapOfGDgdjs_46bedroomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.bedroomCode.GDOptionsObjects3});gdjs.bedroomCode.eventsList80 = function(runtimeScene) {
+};gdjs.bedroomCode.eventsList80 = function(runtimeScene) {
 
 {
 
@@ -5648,28 +5648,6 @@ gdjs.bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnc
 
 {
 
-
-gdjs.bedroomCode.condition0IsTrue_0.val = false;
-gdjs.bedroomCode.condition1IsTrue_0.val = false;
-{
-gdjs.bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.bedroomCode.condition0IsTrue_0.val ) {
-{
-{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition1IsTrue_0;
-gdjs.bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.bedroomCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.bedroomCode.eventsList79(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.bedroomCode.GDOptionsObjects3);
 
 gdjs.bedroomCode.condition0IsTrue_0.val = false;
@@ -5719,6 +5697,28 @@ gdjs.bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnc
 if (gdjs.bedroomCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.bedroomCode.condition0IsTrue_0.val = false;
+gdjs.bedroomCode.condition1IsTrue_0.val = false;
+{
+gdjs.bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.bedroomCode.condition0IsTrue_0.val ) {
+{
+{gdjs.bedroomCode.conditionTrue_1 = gdjs.bedroomCode.condition1IsTrue_0;
+gdjs.bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.bedroomCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.bedroomCode.eventsList79(runtimeScene);} //End of subevents
+}
 
 }
 

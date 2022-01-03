@@ -5311,7 +5311,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDs
 }
 
 
-};gdjs.town_95storeCode.eventsList80 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.town_95storeCode.GDOptionsObjects3});gdjs.town_95storeCode.eventsList80 = function(runtimeScene) {
 
 {
 
@@ -5490,7 +5490,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptio
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.town_95storeCode.GDOptionsObjects3});gdjs.town_95storeCode.eventsList81 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList81 = function(runtimeScene) {
 
 {
 
@@ -5643,28 +5643,6 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 
 {
 
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.town_95storeCode.eventsList80(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects3);
 
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
@@ -5714,6 +5692,28 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList80(runtimeScene);} //End of subevents
+}
 
 }
 

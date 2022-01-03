@@ -5657,7 +5657,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.bees_95roomCode.GDsl
 }
 
 
-};gdjs.bees_95roomCode.eventsList85 = function(runtimeScene) {
+};gdjs.bees_95roomCode.mapOfGDgdjs_46bees_9595roomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.bees_95roomCode.GDOptionsObjects3});gdjs.bees_95roomCode.eventsList85 = function(runtimeScene) {
 
 {
 
@@ -5836,7 +5836,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.bees_95roomCode.GDOption
 }
 
 
-};gdjs.bees_95roomCode.mapOfGDgdjs_46bees_9595roomCode_46GDOptionsObjects3Objects = Hashtable.newFrom({"Options": gdjs.bees_95roomCode.GDOptionsObjects3});gdjs.bees_95roomCode.eventsList86 = function(runtimeScene) {
+};gdjs.bees_95roomCode.eventsList86 = function(runtimeScene) {
 
 {
 
@@ -5989,28 +5989,6 @@ gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 
 {
 
-
-gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
-gdjs.bees_95roomCode.condition1IsTrue_0.val = false;
-{
-gdjs.bees_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.bees_95roomCode.condition0IsTrue_0.val ) {
-{
-{gdjs.bees_95roomCode.conditionTrue_1 = gdjs.bees_95roomCode.condition1IsTrue_0;
-gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.bees_95roomCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.bees_95roomCode.eventsList85(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.bees_95roomCode.GDOptionsObjects3);
 
 gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
@@ -6060,6 +6038,28 @@ gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.bees_95roomCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.bees_95roomCode.condition0IsTrue_0.val = false;
+gdjs.bees_95roomCode.condition1IsTrue_0.val = false;
+{
+gdjs.bees_95roomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.bees_95roomCode.condition0IsTrue_0.val ) {
+{
+{gdjs.bees_95roomCode.conditionTrue_1 = gdjs.bees_95roomCode.condition1IsTrue_0;
+gdjs.bees_95roomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.bees_95roomCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.bees_95roomCode.eventsList85(runtimeScene);} //End of subevents
+}
 
 }
 

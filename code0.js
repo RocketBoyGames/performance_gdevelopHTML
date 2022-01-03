@@ -432,7 +432,7 @@ gdjs.intro_95pageCode.condition0IsTrue_0.val = false;
 gdjs.intro_95pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9168196);
 }
 }if (gdjs.intro_95pageCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(5).setString("none");
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("intro_page");
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString("none");
 }{runtimeScene.getGame().getVariables().get("Xpos").setNumber(0);
 }{runtimeScene.getGame().getVariables().get("Ypos").setNumber(0);
@@ -752,7 +752,7 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.intro_95pageCode.GDs
 }
 
 
-};gdjs.intro_95pageCode.eventsList9 = function(runtimeScene) {
+};gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDOptionsObjects2Objects = Hashtable.newFrom({"Options": gdjs.intro_95pageCode.GDOptionsObjects2});gdjs.intro_95pageCode.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -931,7 +931,7 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.intro_95pageCode.GDOptio
 }
 
 
-};gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDOptionsObjects2Objects = Hashtable.newFrom({"Options": gdjs.intro_95pageCode.GDOptionsObjects2});gdjs.intro_95pageCode.eventsList10 = function(runtimeScene) {
+};gdjs.intro_95pageCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -1084,28 +1084,6 @@ gdjs.intro_95pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 
 {
 
-
-gdjs.intro_95pageCode.condition0IsTrue_0.val = false;
-gdjs.intro_95pageCode.condition1IsTrue_0.val = false;
-{
-gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
-}if ( gdjs.intro_95pageCode.condition0IsTrue_0.val ) {
-{
-{gdjs.intro_95pageCode.conditionTrue_1 = gdjs.intro_95pageCode.condition1IsTrue_0;
-gdjs.intro_95pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
-}
-}}
-if (gdjs.intro_95pageCode.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.intro_95pageCode.eventsList9(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.intro_95pageCode.GDOptionsObjects2);
 
 gdjs.intro_95pageCode.condition0IsTrue_0.val = false;
@@ -1155,6 +1133,28 @@ gdjs.intro_95pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 if (gdjs.intro_95pageCode.condition3IsTrue_0.val) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), false);
 }}
+
+}
+
+
+{
+
+
+gdjs.intro_95pageCode.condition0IsTrue_0.val = false;
+gdjs.intro_95pageCode.condition1IsTrue_0.val = false;
+{
+gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("showOptions"), true);
+}if ( gdjs.intro_95pageCode.condition0IsTrue_0.val ) {
+{
+{gdjs.intro_95pageCode.conditionTrue_1 = gdjs.intro_95pageCode.condition1IsTrue_0;
+gdjs.intro_95pageCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43652260);
+}
+}}
+if (gdjs.intro_95pageCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.intro_95pageCode.eventsList9(runtimeScene);} //End of subevents
+}
 
 }
 
