@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Lumberjack",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |op1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |op2]]\n[[[outline] Dime algo sobre el Sr Juliano👨[/outline] |op3]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |op4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |op5]]",
+		"position": {
+			"x": -465,
+			"y": 314
+		},
+		"colorID": 5
+	},
+	{
+		"title": "op1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $LumberjackSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $LumberjackSpeech to 1>><<set $PlayerSpeech to 0>>Soy el leñador, estoy haciendo un nuevo camino.🛣 [[Answer:Lumberjack|Lumberjack]]",
+		"position": {
+			"x": -167,
+			"y": 64
+		},
+		"colorID": 5
+	},
+	{
+		"title": "op2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 13>><<set $LumberjackSpeech to 0>>¿De dónde eres?🏠\n<< wait 50>>\n<<set $LumberjackSpeech to 2>><<set $PlayerSpeech to 0>>Vivo en el pueblo con mi familia.👨‍👩‍👧‍👦 [[Answer:Lumberjack|Lumberjack]]",
+		"position": {
+			"x": -168,
+			"y": 356
+		},
+		"colorID": 5
+	},
+	{
+		"title": "op3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 21>><<set $LumberjackSpeech to 0>>Dime algo sobre el Sr Juliano👨\n<< wait 50>>\n<<set $LumberjackSpeech to 3>><<set $PlayerSpeech to 0>>JA JA JA el Sr. Juliano siempre pierde sus gafas.👓 [[Answer:Lumberjack|Lumberjack]]",
+		"position": {
+			"x": -168,
+			"y": 603
+		},
+		"colorID": 5
+	},
+	{
+		"title": "op4",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 22>><<set $LumberjackSpeech to 0>> Dime algo sobre la princesa. Ella está perdida.👸\n<< wait 50>>\n<<set $LumberjackSpeech to 4>><<set $PlayerSpeech to 0>>¡Ay no! Ella es tan hermosa y amable. Debes encontrarla.😟 [[Answer:Lumberjack|Lumberjack]]",
+		"position": {
+			"x": -419,
+			"y": 609
+		},
+		"colorID": 5
+	},
+	{
+		"title": "op5",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": -652,
+			"y": 613
+		},
+		"colorID": 5
+	}
+]
