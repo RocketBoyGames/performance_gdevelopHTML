@@ -2,61 +2,411 @@
 	{
 		"title": "Lumberjack",
 		"tags": "",
-		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |op1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |op2]]\n[[[outline] Dime algo sobre el Sr Juliano👨[/outline] |op3]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |op4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |op5]]",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |Lumberjack1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |Lumberjack2]]\n[[[outline] Dime algo sobre el Sr Juliano👨[/outline] |Lumberjack3]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |Lumberjack4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |Lumberjack5]]",
 		"position": {
-			"x": -465,
-			"y": 314
+			"x": -362,
+			"y": 1628
 		},
-		"colorID": 5
+		"colorID": 8
 	},
 	{
-		"title": "op1",
+		"title": "Lumberjack1",
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $LumberjackSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $LumberjackSpeech to 1>><<set $PlayerSpeech to 0>>Soy el leñador, estoy haciendo un nuevo camino.🛣 [[Answer:Lumberjack|Lumberjack]]",
 		"position": {
-			"x": -167,
-			"y": 64
+			"x": -132,
+			"y": 1628
 		},
 		"colorID": 5
 	},
 	{
-		"title": "op2",
+		"title": "Lumberjack2",
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 13>><<set $LumberjackSpeech to 0>>¿De dónde eres?🏠\n<< wait 50>>\n<<set $LumberjackSpeech to 2>><<set $PlayerSpeech to 0>>Vivo en el pueblo con mi familia.👨‍👩‍👧‍👦 [[Answer:Lumberjack|Lumberjack]]",
 		"position": {
-			"x": -168,
-			"y": 356
+			"x": 98,
+			"y": 1628
 		},
 		"colorID": 5
 	},
 	{
-		"title": "op3",
+		"title": "Lumberjack3",
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 21>><<set $LumberjackSpeech to 0>>Dime algo sobre el Sr Juliano👨\n<< wait 50>>\n<<set $LumberjackSpeech to 3>><<set $PlayerSpeech to 0>>JA JA JA el Sr. Juliano siempre pierde sus gafas.👓 [[Answer:Lumberjack|Lumberjack]]",
 		"position": {
-			"x": -168,
-			"y": 603
+			"x": 328,
+			"y": 1628
 		},
 		"colorID": 5
 	},
 	{
-		"title": "op4",
+		"title": "Lumberjack4",
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 22>><<set $LumberjackSpeech to 0>> Dime algo sobre la princesa. Ella está perdida.👸\n<< wait 50>>\n<<set $LumberjackSpeech to 4>><<set $PlayerSpeech to 0>>¡Ay no! Ella es tan hermosa y amable. Debes encontrarla.😟 [[Answer:Lumberjack|Lumberjack]]",
 		"position": {
-			"x": -419,
-			"y": 609
+			"x": 577,
+			"y": 1633
 		},
 		"colorID": 5
 	},
 	{
-		"title": "op5",
+		"title": "Lumberjack5",
 		"tags": "",
 		"body": "<< wait 50>>",
 		"position": {
-			"x": -652,
-			"y": 613
+			"x": 807,
+			"y": 1633
 		},
 		"colorID": 5
+	},
+	{
+		"title": "Emily3",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 336,
+			"y": 1147
+		},
+		"colorID": 3
+	},
+	{
+		"title": "Emily2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $isConversationActive to true>><<set $PlayerSpeech to 10>><<set $EmilySpeech to 0>>Repite por favor🔂",
+		"position": {
+			"x": 106,
+			"y": 1147
+		},
+		"colorID": 3
+	},
+	{
+		"title": "Emily",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |Emily1]]\n[[[outline] Repite por favor🔂[/outline] |Emily2]]\n[[[outline] ¡Adiós!️❎👋 [/outline |Emily3]]",
+		"position": {
+			"x": -354,
+			"y": 1147
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Emily1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $EmilySpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $EmilySpeech to 4>><<set $PlayerSpeech to 0>>¡¿Qué?! Soy Emilia, tu mejor amiga.👧\n[[Answer:Emily|Emily]]",
+		"position": {
+			"x": -124,
+			"y": 1147
+		},
+		"colorID": 3
+	},
+	{
+		"title": "bandit",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |bandit1]]\n[[[outline] Necesito ir al castillo, déjame pasar!🏰[/outline] |bandit2]]\n[[[outline] Recibe mi dinero, es todo lo que tengo💰[/outline] |bandit3]]\n[[[outline] Voy a usa mi roca🗿[/outline] |bandit4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |bandit5]]",
+		"position": {
+			"x": -360,
+			"y": 1375
+		},
+		"colorID": 8
+	},
+	{
+		"title": "bandit1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $banditSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $banditSpeech to 3>><<set $PlayerSpeech to 0>>Soy Víctor, ¡el bandido más peligroso del mundo!☠🌎\n[[Answer:bandit|bandit]]",
+		"position": {
+			"x": -130,
+			"y": 1375
+		},
+		"colorID": 1
+	},
+	{
+		"title": "bandit2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 7>><<set $banditSpeech to 0>>Necesito ir al castillo, déjame pasar!🏰\n<< wait 50>>\n<<set $banditSpeech to 2>><<set $PlayerSpeech to 0>>¡No! ¡Dame todo tu dinero!👤💰💸\n[[Answer:bandit|bandit]]",
+		"position": {
+			"x": 100,
+			"y": 1375
+		},
+		"colorID": 1
+	},
+	{
+		"title": "bandit3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 8>><<set $banditSpeech to 0>>Recibe mi dinero, es todo lo que tengo💰\n<< wait 50>>\n<<set $banditSpeech to 4>><<set $PlayerSpeech to 0>>¡No! No puedes pasar, dame todo tu dinero o muere!🔪🔴💀\n[[Answer:bandit|bandit]]",
+		"position": {
+			"x": 330,
+			"y": 1375
+		},
+		"colorID": 1
+	},
+	{
+		"title": "bandit4",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 9>><<set $banditSpeech to 0>>Voy a usa mi roca🗿\n<< wait 50>>\n<<set $banditSpeech to 5>><<set $PlayerSpeech to 0>>¡JA JA JA! Eres patético ¡Yo soy invencible!💪\n[[Answer:bandit|bandit]]",
+		"position": {
+			"x": 560,
+			"y": 1375
+		},
+		"colorID": 1
+	},
+	{
+		"title": "bandit5",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 790,
+			"y": 1375
+		},
+		"colorID": 1
+	},
+	{
+		"title": "drifter",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |drifter1]]\n[[[outline]  ¿De dónde eres?🏠[/outline] |drifter2]]\n[[[outline] Dime algo sobre la sopa🍲[/outline] |drifter3]]\n[[[outline] Dime algo sobre el cuchillo🔪[/outline] |drifter4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |drifter5]]",
+		"position": {
+			"x": -383,
+			"y": 1878
+		},
+		"colorID": 8
+	},
+	{
+		"title": "drifter1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $drifterSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $drifterSpeech to 1>><<set $PlayerSpeech to 0>>Yo soy un viajero, me gusta caminar.🚶👣\n[[Answer:drifter|drifter]]",
+		"position": {
+			"x": -150,
+			"y": 1878
+		},
+		"colorID": 7
+	},
+	{
+		"title": "drifter2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 13>><<set $drifterSpeech to 0>>¿De dónde eres?🏠\n<< wait 50>>\n<<set $drifterSpeech to 2>><<set $PlayerSpeech to 0>>Vivo en todas partes.🏠❓ \n<< wait 50>>\n<<set $drifterSpeech to 3>>Yo siempre tengo un lugar para dormir.🏠😴\n<< wait 50>>\n<<set $drifterSpeech to 4>>Pero NO siempre tengo comida.🥣😢\n<< wait 50>>\n<<set $drifterSpeech to 5>>Quiero tomar sopa caliente.🍲 [[Answer:drifter|drifter]]",
+		"position": {
+			"x": 80,
+			"y": 1879
+		},
+		"colorID": 7
+	},
+	{
+		"title": "drifter3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 14>><<set $drifterSpeech to 0>>Dime algo sobre la sopa🍲\n<< wait 50>>\n<<set $drifterSpeech to 6>><<set $PlayerSpeech to 0>>La sopa es mi plato favorito.🍲❤️ \n<< wait 50>>\n<<set $drifterSpeech to 7>>Puedes encontrar sopa en el PUEBLO.👈🏡 [[Answer:drifter|drifter]]",
+		"position": {
+			"x": -383,
+			"y": 2103
+		},
+		"colorID": 7
+	},
+	{
+		"title": "drifter4",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 15>><<set $drifterSpeech to 0>>Dime algo sobre el cuchillo🔪\n<< wait 50>>\n<<set $drifterSpeech to 8>><<set $PlayerSpeech to 0>>Puedes ir al PUEBLO y preguntar.👈🏡  [[Answer:drifter|drifter]]",
+		"position": {
+			"x": -151,
+			"y": 2108
+		},
+		"colorID": 7
+	},
+	{
+		"title": "drifter5",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 83,
+			"y": 2110
+		},
+		"colorID": 7
+	},
+	{
+		"title": "old_woman",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |old_woman1]]\n[[[outline] Dime algo sobre el maíz🌽[/outline] |old_woman2]]\n[[[outline] Dime algo sobre el tomate🍅[/outline] |old_woman3]]\n[[[outline] Dime algo sobre la zanahoria🥕[/outline] |old_woman4]]\n[[[outline] Dime algo sobre el  hongo🍄[/outline] |old_woman5]]\n[[[outline] ¡Adiós!️❎👋 [/outline |old_woman6]]",
+		"position": {
+			"x": -365,
+			"y": 695
+		},
+		"colorID": 8
+	},
+	{
+		"title": "old_woman1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $OldwomanSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $OldwomanSpeech to 1>><<set $PlayerSpeech to 0>>Soy una anciana y estoy preparando sopa.👵🍲\n[[Answer:old_woman|old_woman]]",
+		"position": {
+			"x": -136,
+			"y": 696
+		},
+		"colorID": 4
+	},
+	{
+		"title": "old_woman2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 23>><<set $OldwomanSpeech to 0>>Dime algo sobre el maíz🌽\n<< wait 50>>\n<<set $OldwomanSpeech to 3>><<set $PlayerSpeech to 0>>Puedes buscar cerca de tu casa🏡🌽\n[[Answer:old_woman|old_woman]]",
+		"position": {
+			"x": 94,
+			"y": 696
+		},
+		"colorID": 4
+	},
+	{
+		"title": "old_woman3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 24>><<set $OldwomanSpeech to 0>>Dime algo sobre el tomate🍅\n<< wait 50>>\n<<set $OldwomanSpeech to 4>><<set $PlayerSpeech to 0>>En la granja hay tomates muy deliciosos🚜🐴🐄 \n[[Answer:old_woman|old_woman]]",
+		"position": {
+			"x": 324,
+			"y": 696
+		},
+		"colorID": 4
+	},
+	{
+		"title": "old_woman4",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 25>><<set $OldwomanSpeech to 0>>Dime algo sobre la zanahoria🥕\n<< wait 50>>\n<<set $OldwomanSpeech to 5>><<set $PlayerSpeech to 0>>Hay un vendedor de zanahorias en los alrededores\n[[Answer:old_woman|old_woman]]",
+		"position": {
+			"x": -366,
+			"y": 926
+		},
+		"colorID": 4
+	},
+	{
+		"title": "old_woman5",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 26>><<set $OldwomanSpeech to 0>>Dime algo sobre el hongo🍄\n<< wait 50>>\n<<set $OldwomanSpeech to 6>><<set $PlayerSpeech to 0>>Hay hongos en la base de los árboles🌳⬇️\n[[Answer:old_woman|old_woman]]",
+		"position": {
+			"x": -136,
+			"y": 925
+		},
+		"colorID": 4
+	},
+	{
+		"title": "old_woman6",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 94,
+			"y": 926
+		},
+		"colorID": 4
+	},
+	{
+		"title": "fisherman",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |fisherman1]]\n[[[outline] ¿Atrapaste algo?🎣[/outline] |fisherman2]]\n[[[outline] Dime algo sobre el borracho🍻[/outline] |fisherman3]]\n[[[outline] ¡Adiós!️❎👋 [/outline |ofisherman4]]",
+		"position": {
+			"x": -374,
+			"y": 453
+		},
+		"colorID": 8
+	},
+	{
+		"title": "fisherman1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $fishermanSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $fishermanSpeech to 1>><<set $PlayerSpeech to 0>>Soy un pescador.🎣👨\n[[Answer:fisherman|fisherman]]",
+		"position": {
+			"x": -132,
+			"y": 457
+		},
+		"colorID": 2
+	},
+	{
+		"title": "fisherman2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 38>><<set $fishermanSpeech to 0>>¿Atrapaste algo?🎣\n<< wait 50>>\n<<set $fishermanSpeech to 2>><<set $PlayerSpeech to 0>>Jajaja todavía no, pero es un buen día y estoy feliz.🎣0️⃣😅\n[[Answer:fisherman|fisherman]]",
+		"position": {
+			"x": 87,
+			"y": 457
+		},
+		"colorID": 2
+	},
+	{
+		"title": "fisherman3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 39>><<set $fishermanSpeech to 0>>Dime algo sobre el borracho🍻\n<< wait 50>>\n<<set $fishermanSpeech to 3>><<set $PlayerSpeech to 0>>El borracho no es razonable. Necesitas usar tus manos.🤜😵\n[[Answer:fisherman|fisherman]]",
+		"position": {
+			"x": 307,
+			"y": 458
+		},
+		"colorID": 2
+	},
+	{
+		"title": "ofisherman4",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 528,
+			"y": 458
+		},
+		"colorID": 2
+	},
+	{
+		"title": "celia",
+		"tags": "",
+		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |celia1]]\n[[[outline] Puedes enseñarme a usar mis armas?🔪⚔️[/outline] |celia2]]\n[[[outline] Dime algo sobre la sed 🥵[/outline] |celia3]]\n[[[outline] Dime algo sobre el hambre🤤[/outline] |celia4]]\n[[[outline] Dime algo sobre los objetos[/outline] |celia5]]\n[[[outline] ¡Adiós!️❎👋 [/outline |celia6]]",
+		"position": {
+			"x": -383,
+			"y": 224
+		},
+		"colorID": 8
+	},
+	{
+		"title": "celia1",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $celiaSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $celiaSpeech to 1>><<set $PlayerSpeech to 0>>Sabes quién soy. Soy la jefa del gremio de aventureros.\n[[Answer:celia|celia]]",
+		"position": {
+			"x": -136,
+			"y": 220
+		},
+		"colorID": 6
+	},
+	{
+		"title": "celia2",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 29>><<set $celiaSpeech to 0>>Puedes enseñarme a usar mis armas?🔪⚔️\n<< wait 50>>\n<<set $celiaSpeech to 2>><<set $PlayerSpeech to 0>>Por supuesto, cuando quieras puedes usar el muñeco de práctica.\n[[Answer:celia|celia]]",
+		"position": {
+			"x": 83,
+			"y": 218
+		},
+		"colorID": 6
+	},
+	{
+		"title": "celia3",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 30>><<set $celiaSpeech to 0>>Dime algo sobre la sed 🥵\n<< wait 50>>\n<<set $celiaSpeech to 3>><<set $PlayerSpeech to 0>>Necesitas beber agua frecuentemente.💧\n[[Answer:celia|celia]]",
+		"position": {
+			"x": 303,
+			"y": 219
+		},
+		"colorID": 6
+	},
+	{
+		"title": "celia4",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 31>><<set $celiaSpeech to 0>>Dime algo sobre el hambre🤤\n<< wait 50>>\n<<set $celiaSpeech to 4>><<set $PlayerSpeech to 0>>Necesitas comer con frecuencia. Es buena idea tener comida todo el tiempo.🍎🌽\n[[Answer:celia|celia]]",
+		"position": {
+			"x": 521,
+			"y": 221
+		},
+		"colorID": 6
+	},
+	{
+		"title": "celia5",
+		"tags": "",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 32>><<set $celiaSpeech to 0>>Dime algo sobre los objetos\n<< wait 50>>\n<<set $celiaSpeech to 5>><<set $PlayerSpeech to 0>>Debes buscar objetos en todos los lugares que visites.🔎👀\n<< wait 50>>\n<<set $celiaSpeech to 6>>Puedes mirar los objetos en tu inventario para saber más.👁\n[[Answer:celia|celia]]",
+		"position": {
+			"x": 743,
+			"y": 216
+		},
+		"colorID": 6
+	},
+	{
+		"title": "celia6",
+		"tags": "",
+		"body": "<< wait 50>>",
+		"position": {
+			"x": 964,
+			"y": 221
+		},
+		"colorID": 6
 	}
 ]

@@ -8302,7 +8302,31 @@ gdjs.room_95baseCode.eventsList113(runtimeScene);
 }
 
 
-};gdjs.room_95baseCode.eventsList115 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595hudObjects2Objects = Hashtable.newFrom({"dialogue_hud": gdjs.room_95baseCode.GDdialogue_95hudObjects2});gdjs.room_95baseCode.eventsList115 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition0IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45054884);
+}
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{gdjs.dialogueTree.setVariable("PlayerSpeech", 0);
+}{gdjs.dialogueTree.setVariable("OldwomanSpeech", 0);
+}{gdjs.dialogueTree.setVariable("fishermanSpeech", 0);
+}{gdjs.dialogueTree.setVariable("LumberjackSpeech", 0);
+}{gdjs.dialogueTree.setVariable("EmilySpeech", 0);
+}{gdjs.dialogueTree.setVariable("banditSpeech", 0);
+}{gdjs.dialogueTree.setVariable("drifterSpeech", 0);
+}{gdjs.dialogueTree.setVariable("celiaSpeech", 0);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList116 = function(runtimeScene) {
 
 {
 
@@ -8380,9 +8404,162 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable(
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595hudObjects3Objects = Hashtable.newFrom({"dialogue_hud": gdjs.room_95baseCode.GDdialogue_95hudObjects3});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects4Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects4});gdjs.room_95baseCode.eventsList116 = function(runtimeScene) {
+{
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects3Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects3});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects2Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects2});gdjs.room_95baseCode.eventsList117 = function(runtimeScene) {
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("EmilySpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("EmilySpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("banditSpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("drifterSpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("OldwomanSpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("fishermanSpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("fishermanSpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.compareVariable("celiaSpeech", 0));
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}{}{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 0);
+}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
+{/* Unknown object - skipped. */}}
+
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects4Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects4});gdjs.room_95baseCode.eventsList117 = function(runtimeScene) {
+
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects3Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects3});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595optionssObjects2Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.room_95baseCode.GDdialogue_95optionssObjects2});gdjs.room_95baseCode.eventsList118 = function(runtimeScene) {
 
 {
 
@@ -8435,33 +8612,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }
 
 
-};gdjs.room_95baseCode.eventsList118 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("dialogue_hud"), gdjs.room_95baseCode.GDdialogue_95hudObjects3);
-
-gdjs.room_95baseCode.condition0IsTrue_0.val = false;
-gdjs.room_95baseCode.condition1IsTrue_0.val = false;
-gdjs.room_95baseCode.condition2IsTrue_0.val = false;
-{
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
-{
-gdjs.room_95baseCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595hudObjects3Objects, runtimeScene, true, true);
-}if ( gdjs.room_95baseCode.condition1IsTrue_0.val ) {
-{
-{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition2IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43277668);
-}
-}}
-}
-if (gdjs.room_95baseCode.condition2IsTrue_0.val) {
-{gdjs.dialogueTree.stopRunningDialogue();
-}}
-
-}
-
+};gdjs.room_95baseCode.eventsList119 = function(runtimeScene) {
 
 {
 
@@ -8514,7 +8665,7 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.room_95baseCode.eventsList116(runtimeScene);} //Subevents end.
+gdjs.room_95baseCode.eventsList117(runtimeScene);} //Subevents end.
 }
 } else gdjs.room_95baseCode.stopDoWhile4 = true; 
 } while ( !gdjs.room_95baseCode.stopDoWhile4 );
@@ -8590,13 +8741,415 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject
 }
 }
 { //Subevents
-gdjs.room_95baseCode.eventsList117(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList118(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.room_95baseCode.eventsList119 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList120 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 3);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42487860);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR3.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 7);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43264892);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR7.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 8);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44622412);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR8.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 9);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42616220);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR9.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 10);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44584372);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR10.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 13);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44937732);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR13.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 14);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42388900);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR14.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 15);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44570564);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR15.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 21);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44703828);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR21.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 22);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42248444);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR22.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 23);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45079796);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR23.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 24);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45038748);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR24.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 25);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42179404);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR25.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 26);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44128340);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR26.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 29);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45165860);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR29.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 30);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45127708);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR30.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 31);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43974532);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR31.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 32);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42991732);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR32.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 38);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42229540);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR38.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 39);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44584652);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR39.mp3", 10, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList121 = function(runtimeScene) {
 
 {
 
@@ -8678,7 +9231,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.eventsList120 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList122 = function(runtimeScene) {
 
 {
 
@@ -8686,19 +9239,21 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition1IsTrue_0.val = false;
 {
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 3);
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("EmilySpeech", 4);
 }if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
 {
 {gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44584372);
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43277668);
 }
 }}
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR3.mp3", 10, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Emily\\EMIL4.mp3", 11, false, 100, 1);
 }}
 
 }
 
+
+};gdjs.room_95baseCode.eventsList123 = function(runtimeScene) {
 
 {
 
@@ -8706,35 +9261,15 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition1IsTrue_0.val = false;
 {
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 13);
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 2);
 }if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
 {
 {gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44570564);
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44568676);
 }
 }}
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR13.mp3", 10, false, 100, 1);
-}}
-
-}
-
-
-{
-
-
-gdjs.room_95baseCode.condition0IsTrue_0.val = false;
-gdjs.room_95baseCode.condition1IsTrue_0.val = false;
-{
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 21);
-}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
-{
-{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44703828);
-}
-}}
-if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR21.mp3", 10, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Victor\\VICT2.mp3", 11, false, 100, 1);
 }}
 
 }
@@ -8746,21 +9281,509 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition1IsTrue_0.val = false;
 {
-gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("PlayerSpeech", 22);
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 3);
 }if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
 {
 {gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
-gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44584652);
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44737644);
 }
 }}
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Player\\PEDR22.mp3", 10, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Victor\\VICT3.mp3", 11, false, 100, 1);
 }}
 
 }
 
 
-};gdjs.room_95baseCode.eventsList121 = function(runtimeScene) {
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 4);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44752924);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Victor\\VICT4.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 5);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45027796);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Victor\\VICT5.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList124 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 1);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44911732);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ1.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 2);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44897492);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ2.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 3);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44832852);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ3.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 4);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44987900);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ4.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 5);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45000524);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ5.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 6);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45023916);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ6.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 7);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45081796);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ7.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("drifterSpeech", 8);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44740060);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\drifter\\VIAJ8.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList125 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 1);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42236236);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\oldwoman\\ANCA1.mp3", 14, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 3);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42987780);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\oldwoman\\ANCA3.mp3", 14, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 4);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43098908);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\oldwoman\\ANCA4.mp3", 14, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 5);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42153156);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\oldwoman\\ANCA5.mp3", 14, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("OldwomanSpeech", 6);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13031932);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\oldwoman\\ANCA6.mp3", 14, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList126 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("fishermanSpeech", 1);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43859108);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\fisherman\\PESC1.mp3", 16, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("fishermanSpeech", 2);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43841116);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\fisherman\\PESC2.mp3", 16, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("fishermanSpeech", 3);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43867900);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\fisherman\\PESC3.mp3", 16, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList127 = function(runtimeScene) {
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 1);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45171468);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI1.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 2);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42180220);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI2.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 3);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45139452);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI3.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 4);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45132900);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI4.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 5);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45182620);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI5.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+{
+
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("celiaSpeech", 6);
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition1IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42316300);
+}
+}}
+if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Celia\\CELI6.mp3", 11, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.room_95baseCode.eventsList128 = function(runtimeScene) {
 
 {
 
@@ -13003,6 +14026,37 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("dialogue_hud"), gdjs.room_95baseCode.GDdialogue_95hudObjects2);
+
+gdjs.room_95baseCode.condition0IsTrue_0.val = false;
+gdjs.room_95baseCode.condition1IsTrue_0.val = false;
+gdjs.room_95baseCode.condition2IsTrue_0.val = false;
+gdjs.room_95baseCode.condition3IsTrue_0.val = false;
+{
+gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if ( gdjs.room_95baseCode.condition0IsTrue_0.val ) {
+{
+gdjs.room_95baseCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDdialogue_9595hudObjects2Objects, runtimeScene, true, true);
+}if ( gdjs.room_95baseCode.condition1IsTrue_0.val ) {
+{
+gdjs.room_95baseCode.condition2IsTrue_0.val = gdjs.dialogueTree.isDialogueLineType("options");
+}if ( gdjs.room_95baseCode.condition2IsTrue_0.val ) {
+{
+{gdjs.room_95baseCode.conditionTrue_1 = gdjs.room_95baseCode.condition3IsTrue_0;
+gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44770628);
+}
+}}
+}
+}
+if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
+{gdjs.dialogueTree.stopRunningDialogue();
+}}
+
+}
+
+
+{
+
 
 gdjs.room_95baseCode.condition0IsTrue_0.val = false;
 gdjs.room_95baseCode.condition1IsTrue_0.val = false;
@@ -13046,7 +14100,10 @@ gdjs.copyArray(runtimeScene.getObjects("dialogue_optionss"), gdjs.room_95baseCod
     gdjs.room_95baseCode.GDdialogue_95hudObjects2[i].hide();
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(28).setString("none");
-}}
+}
+{ //Subevents
+gdjs.room_95baseCode.eventsList115(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -13060,7 +14117,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.isDialogueLineTy
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList115(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList116(runtimeScene);} //End of subevents
 }
 
 }
@@ -13095,16 +14152,9 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.dialogueTree.isDialogueLineTy
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList118(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList119(runtimeScene);} //End of subevents
 }
 
-}
-
-
-{
-
-
-gdjs.room_95baseCode.eventsList119(runtimeScene);
 }
 
 
@@ -13118,20 +14168,64 @@ gdjs.room_95baseCode.eventsList120(runtimeScene);
 {
 
 
-
+gdjs.room_95baseCode.eventsList121(runtimeScene);
 }
 
 
 {
 
 
+gdjs.room_95baseCode.eventsList122(runtimeScene);
+}
+
+
+{
+
+
+gdjs.room_95baseCode.eventsList123(runtimeScene);
+}
+
+
+{
+
+
+gdjs.room_95baseCode.eventsList124(runtimeScene);
+}
+
+
+{
+
+
+gdjs.room_95baseCode.eventsList125(runtimeScene);
+}
+
+
+{
+
+
+gdjs.room_95baseCode.eventsList126(runtimeScene);
+}
+
+
+{
+
+
+gdjs.room_95baseCode.eventsList127(runtimeScene);
+}
+
+
+{
+
+
+{
+}
 
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspots2Objects2Objects = Hashtable.newFrom({"hotspots2": gdjs.room_95baseCode.GDhotspots2Objects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspots2Objects2Objects = Hashtable.newFrom({"hotspots2": gdjs.room_95baseCode.GDhotspots2Objects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects4Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects4});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspot_9595name_9595cursorObjects4Objects = Hashtable.newFrom({"hotspot_name_cursor": gdjs.room_95baseCode.GDhotspot_95name_95cursorObjects4});gdjs.room_95baseCode.eventsList122 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspots2Objects2Objects = Hashtable.newFrom({"hotspots2": gdjs.room_95baseCode.GDhotspots2Objects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspots2Objects2Objects = Hashtable.newFrom({"hotspots2": gdjs.room_95baseCode.GDhotspots2Objects2});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects4Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects4});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspot_9595name_9595cursorObjects4Objects = Hashtable.newFrom({"hotspot_name_cursor": gdjs.room_95baseCode.GDhotspot_95name_95cursorObjects4});gdjs.room_95baseCode.eventsList129 = function(runtimeScene) {
 
-};gdjs.room_95baseCode.eventsList123 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList130 = function(runtimeScene) {
 
 {
 
@@ -13208,7 +14302,7 @@ if (gdjs.room_95baseCode.condition5IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.eventsList124 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList131 = function(runtimeScene) {
 
 {
 
@@ -13324,7 +14418,7 @@ gdjs.room_95baseCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList123(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList130(runtimeScene);} //End of subevents
 }
 
 }
@@ -13346,7 +14440,7 @@ gdjs.copyArray(runtimeScene.getObjects("hotspot_name_cursor"), gdjs.room_95baseC
 }
 
 
-};gdjs.room_95baseCode.eventsList125 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList132 = function(runtimeScene) {
 
 {
 
@@ -13369,13 +14463,13 @@ gdjs.room_95baseCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariable
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList124(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList131(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects1});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList126 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects1});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList133 = function(runtimeScene) {
 
 {
 
@@ -13402,7 +14496,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList127 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList134 = function(runtimeScene) {
 
 {
 
@@ -13429,7 +14523,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList128 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.room_95baseCode.GDbuttonsObjects1});gdjs.room_95baseCode.eventsList135 = function(runtimeScene) {
 
 {
 
@@ -13456,7 +14550,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.eventsList129 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList136 = function(runtimeScene) {
 
 {
 
@@ -13740,7 +14834,7 @@ gdjs.copyArray(runtimeScene.getObjects("mission5"), gdjs.room_95baseCode.GDmissi
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDsave_9595noticeObjects1Objects = Hashtable.newFrom({"save_notice": gdjs.room_95baseCode.GDsave_95noticeObjects1});gdjs.room_95baseCode.eventsList130 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDsave_9595noticeObjects1Objects = Hashtable.newFrom({"save_notice": gdjs.room_95baseCode.GDsave_95noticeObjects1});gdjs.room_95baseCode.eventsList137 = function(runtimeScene) {
 
 {
 
@@ -14039,7 +15133,7 @@ gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.room_95baseCode.GDscoreObj
 }
 
 
-};gdjs.room_95baseCode.eventsList131 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList138 = function(runtimeScene) {
 
 {
 
@@ -14151,7 +15245,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects3});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList132 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects3});gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList139 = function(runtimeScene) {
 
 {
 
@@ -14202,7 +15296,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList133 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList140 = function(runtimeScene) {
 
 {
 
@@ -14249,7 +15343,7 @@ gdjs.room_95baseCode.GDCursorObjects2.length = k;}}
 if (gdjs.room_95baseCode.condition3IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList132(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList139(runtimeScene);} //End of subevents
 }
 
 }
@@ -14347,7 +15441,7 @@ if (gdjs.room_95baseCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList134 = function(runtimeScene) {
+};gdjs.room_95baseCode.mapOfGDgdjs_46room_9595baseCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.room_95baseCode.GDhotspotsObjects2});gdjs.room_95baseCode.eventsList141 = function(runtimeScene) {
 
 {
 
@@ -14463,7 +15557,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.room_95baseCode.GDPlayerO
 }
 
 
-};gdjs.room_95baseCode.eventsList135 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList142 = function(runtimeScene) {
 
 {
 
@@ -14510,7 +15604,7 @@ if (gdjs.room_95baseCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.eventsList136 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList143 = function(runtimeScene) {
 
 {
 
@@ -14554,7 +15648,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.room_95baseCode.GD
 }
 
 
-};gdjs.room_95baseCode.eventsList137 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList144 = function(runtimeScene) {
 
 {
 
@@ -14612,7 +15706,7 @@ for(var i = 0, k = 0, l = gdjs.room_95baseCode.GDhotspotsObjects3.length;i<l;++i
 gdjs.room_95baseCode.GDhotspotsObjects3.length = k;}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList134(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList141(runtimeScene);} //End of subevents
 }
 
 }
@@ -14653,7 +15747,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.room_95baseCode.GDPlayerO
 }
 }
 { //Subevents
-gdjs.room_95baseCode.eventsList135(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList142(runtimeScene);} //End of subevents
 }
 
 }
@@ -14682,13 +15776,13 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList136(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList143(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.room_95baseCode.eventsList138 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList145 = function(runtimeScene) {
 
 {
 
@@ -14720,7 +15814,7 @@ if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.room_95baseCode.eventsList139 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList146 = function(runtimeScene) {
 
 {
 
@@ -14777,7 +15871,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.room_95baseCode.GD
 }
 
 
-};gdjs.room_95baseCode.eventsList140 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList147 = function(runtimeScene) {
 
 {
 
@@ -14813,7 +15907,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.room_95baseCode.GD
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
 }
 { //Subevents
-gdjs.room_95baseCode.eventsList138(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList145(runtimeScene);} //End of subevents
 }
 
 }
@@ -14937,13 +16031,13 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList139(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList146(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.room_95baseCode.eventsList141 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList148 = function(runtimeScene) {
 
 {
 
@@ -14982,7 +16076,7 @@ gdjs.room_95baseCode.condition4IsTrue_0.val = gdjs.evtTools.variable.getVariable
 if (gdjs.room_95baseCode.condition4IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList137(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList144(runtimeScene);} //End of subevents
 }
 
 }
@@ -15004,13 +16098,13 @@ for(var i = 0, k = 0, l = gdjs.room_95baseCode.GDPlayerObjects1.length;i<l;++i) 
 gdjs.room_95baseCode.GDPlayerObjects1.length = k;}if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList140(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList147(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.room_95baseCode.eventsList142 = function(runtimeScene) {
+};gdjs.room_95baseCode.eventsList149 = function(runtimeScene) {
 
 {
 
@@ -15165,14 +16259,14 @@ gdjs.room_95baseCode.eventsList15(runtimeScene);
 {
 
 
-gdjs.room_95baseCode.eventsList121(runtimeScene);
+gdjs.room_95baseCode.eventsList128(runtimeScene);
 }
 
 
 {
 
 
-gdjs.room_95baseCode.eventsList125(runtimeScene);
+gdjs.room_95baseCode.eventsList132(runtimeScene);
 }
 
 
@@ -15278,7 +16372,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisibl
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList126(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList133(runtimeScene);} //End of subevents
 }
 
 }
@@ -15293,7 +16387,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisibl
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList127(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList134(runtimeScene);} //End of subevents
 }
 
 }
@@ -15308,7 +16402,7 @@ gdjs.room_95baseCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisibl
 }if (gdjs.room_95baseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.room_95baseCode.eventsList128(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList135(runtimeScene);} //End of subevents
 }
 
 }
@@ -15348,7 +16442,7 @@ gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.room_95baseCode.
 {
 
 
-gdjs.room_95baseCode.eventsList129(runtimeScene);
+gdjs.room_95baseCode.eventsList136(runtimeScene);
 }
 
 
@@ -15373,7 +16467,7 @@ gdjs.room_95baseCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigge
 }
 }}
 if (gdjs.room_95baseCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\149 Punto 1 v2.mp3", 17, false, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\149 Punto 1 v2.mp3", 17, false, 50, 1);
 }{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("total_score").add(1);
 }}
 
@@ -15421,7 +16515,7 @@ gdjs.room_95baseCode.GDsave_95noticeObjects1.length = 0;
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "save_game");
 }
 { //Subevents
-gdjs.room_95baseCode.eventsList130(runtimeScene);} //End of subevents
+gdjs.room_95baseCode.eventsList137(runtimeScene);} //End of subevents
 }
 
 }
@@ -15437,21 +16531,21 @@ gdjs.room_95baseCode.eventsList130(runtimeScene);} //End of subevents
 {
 
 
-gdjs.room_95baseCode.eventsList131(runtimeScene);
+gdjs.room_95baseCode.eventsList138(runtimeScene);
 }
 
 
 {
 
 
-gdjs.room_95baseCode.eventsList133(runtimeScene);
+gdjs.room_95baseCode.eventsList140(runtimeScene);
 }
 
 
 {
 
 
-gdjs.room_95baseCode.eventsList141(runtimeScene);
+gdjs.room_95baseCode.eventsList148(runtimeScene);
 }
 
 
@@ -15713,7 +16807,7 @@ gdjs.room_95baseCode.GDdialogue_95optionssObjects4.length = 0;
 gdjs.room_95baseCode.GDdialogue_95optionssObjects5.length = 0;
 gdjs.room_95baseCode.GDdialogue_95optionssObjects6.length = 0;
 
-gdjs.room_95baseCode.eventsList142(runtimeScene);
+gdjs.room_95baseCode.eventsList149(runtimeScene);
 return;
 
 }
