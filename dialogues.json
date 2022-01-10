@@ -2,10 +2,10 @@
 	{
 		"title": "Lumberjack",
 		"tags": "",
-		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |Lumberjack1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |Lumberjack2]]\n[[[outline] Dime algo sobre el Sr Juliano👨[/outline] |Lumberjack3]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |Lumberjack4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |Lumberjack5]]",
+		"body": "<< wait 50>>\n<<if $isLumberjackLeftFree > 0>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |Lumberjack1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |Lumberjack2]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |Lumberjack4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |Lumberjack5]]\n<<else>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |Lumberjack1]]\n[[[outline] ¿De dónde eres?🏠[/outline] |Lumberjack2]]\n[[[outline] Dime algo sobre el Sr Juliano👨[/outline] |Lumberjack3]]\n[[[outline] Dime algo sobre la princesa. Ella está perdida.👸[/outline] |Lumberjack4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |Lumberjack5]]\n<<endif>>",
 		"position": {
-			"x": -362,
-			"y": 1628
+			"x": -366,
+			"y": 1626
 		},
 		"colorID": 8
 	},
@@ -162,10 +162,10 @@
 	{
 		"title": "drifter",
 		"tags": "",
-		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |drifter1]]\n[[[outline]  ¿De dónde eres?🏠[/outline] |drifter2]]\n[[[outline] Dime algo sobre la sopa🍲[/outline] |drifter3]]\n[[[outline] Dime algo sobre el cuchillo🔪[/outline] |drifter4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |drifter5]]",
+		"body": "<< wait 50>>\n<<if $isKnifeTrained > 0>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |drifter1]]\n[[[outline]  ¿De dónde eres?🏠[/outline] |drifter2]]\n[[[outline] Dime algo sobre la sopa🍲[/outline] |drifter3]]\n[[[outline] ¡Adiós!️❎👋 [/outline |drifter5]]\n<<elseif $isKnifeAdded > 0>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |drifter1]]\n[[[outline]  ¿De dónde eres?🏠[/outline] |drifter2]]\n[[[outline] Dime algo sobre la sopa🍲[/outline] |drifter3]]\n[[[outline] Dime algo sobre el cuchillo🔪[/outline] |drifter4]]\n[[[outline] ¡Adiós!️❎👋 [/outline |drifter5]]\n<<else>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |drifter1]]\n[[[outline]  ¿De dónde eres?🏠[/outline] |drifter2]]\n[[[outline] Dime algo sobre la sopa🍲[/outline] |drifter3]]\n[[[outline] ¡Adiós!️❎👋 [/outline |drifter5]]\n<<endif>>",
 		"position": {
-			"x": -383,
-			"y": 1878
+			"x": -381,
+			"y": 1870
 		},
 		"colorID": 8
 	},
@@ -174,18 +174,18 @@
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $drifterSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $drifterSpeech to 1>><<set $PlayerSpeech to 0>>Yo soy un viajero, me gusta caminar.🚶👣\n[[Answer:drifter|drifter]]",
 		"position": {
-			"x": -150,
-			"y": 1878
+			"x": -146,
+			"y": 1874
 		},
 		"colorID": 7
 	},
 	{
 		"title": "drifter2",
 		"tags": "",
-		"body": "<< wait 50>>\n<<set $PlayerSpeech to 13>><<set $drifterSpeech to 0>>¿De dónde eres?🏠\n<< wait 50>>\n<<set $drifterSpeech to 2>><<set $PlayerSpeech to 0>>Vivo en todas partes.🏠❓ \n<< wait 50>>\n<<set $drifterSpeech to 3>>Yo siempre tengo un lugar para dormir.🏠😴\n<< wait 50>>\n<<set $drifterSpeech to 4>>Pero NO siempre tengo comida.🥣😢\n<< wait 50>>\n<<set $drifterSpeech to 5>>Quiero tomar sopa caliente.🍲 [[Answer:drifter|drifter]]",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 13>><<set $drifterSpeech to 0>>¿De dónde eres?🏠\n<< wait 50>>\n<<set $drifterSpeech to 2>><<set $PlayerSpeech to 0>>Vivo en todas partes.🏠❓ \n<< wait 50>>\n<<set $drifterSpeech to 3>>Yo siempre tengo un lugar para dormir.🏠😴\n<< wait 50>>\n<<set $drifterSpeech to 4>>Pero NO siempre tengo comida.🥣😢\n<< wait 50>>\n<<set $drifterSpeech to 5>><<set $assignMission3 to true>>Quiero tomar sopa caliente.🍲 [[Answer:drifter|drifter]]",
 		"position": {
-			"x": 80,
-			"y": 1879
+			"x": 84,
+			"y": 1874
 		},
 		"colorID": 7
 	},
@@ -194,18 +194,18 @@
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 14>><<set $drifterSpeech to 0>>Dime algo sobre la sopa🍲\n<< wait 50>>\n<<set $drifterSpeech to 6>><<set $PlayerSpeech to 0>>La sopa es mi plato favorito.🍲❤️ \n<< wait 50>>\n<<set $drifterSpeech to 7>>Puedes encontrar sopa en el PUEBLO.👈🏡 [[Answer:drifter|drifter]]",
 		"position": {
-			"x": -383,
-			"y": 2103
+			"x": -376,
+			"y": 2104
 		},
 		"colorID": 7
 	},
 	{
 		"title": "drifter4",
 		"tags": "",
-		"body": "<< wait 50>>\n<<set $PlayerSpeech to 15>><<set $drifterSpeech to 0>>Dime algo sobre el cuchillo🔪\n<< wait 50>>\n<<set $drifterSpeech to 8>><<set $PlayerSpeech to 0>>Puedes ir al PUEBLO y preguntar.👈🏡  [[Answer:drifter|drifter]]",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 15>><<set $drifterSpeech to 0>>Dime algo sobre el cuchillo🔪\n<< wait 50>>\n<<set $drifterSpeech to 8>><<set $PlayerSpeech to 0>><<set $assignMission4 to true>>Puedes ir al PUEBLO y preguntar.👈🏡  [[Answer:drifter|drifter]]",
 		"position": {
-			"x": -151,
-			"y": 2108
+			"x": -146,
+			"y": 2104
 		},
 		"colorID": 7
 	},
@@ -214,8 +214,8 @@
 		"tags": "",
 		"body": "<< wait 50>>",
 		"position": {
-			"x": 83,
-			"y": 2110
+			"x": 84,
+			"y": 2104
 		},
 		"colorID": 7
 	},
@@ -292,10 +292,10 @@
 	{
 		"title": "fisherman",
 		"tags": "",
-		"body": "<< wait 50>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |fisherman1]]\n[[[outline] ¿Atrapaste algo?🎣[/outline] |fisherman2]]\n[[[outline] Dime algo sobre el borracho🍻[/outline] |fisherman3]]\n[[[outline] ¡Adiós!️❎👋 [/outline |ofisherman4]]",
+		"body": "<< wait 50>>\n<<if $isDrunkDefeated > 0>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |fisherman1]]\n[[[outline] ¿Atrapaste algo?🎣[/outline] |fisherman2]]\n[[[outline] ¡Adiós!️❎👋 [/outline |ofisherman4]]\n<<else>>\n[[ [outline] Hola soy Pedro, ¿quién eres?👋[/outline] |fisherman1]]\n[[[outline] ¿Atrapaste algo?🎣[/outline] |fisherman2]]\n[[[outline] Dime algo sobre el borracho🍻[/outline] |fisherman3]]\n[[[outline] ¡Adiós!️❎👋 [/outline |ofisherman4]]\n<<endif>>",
 		"position": {
-			"x": -374,
-			"y": 453
+			"x": -380,
+			"y": 450
 		},
 		"colorID": 8
 	},
@@ -304,8 +304,8 @@
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 3>><<set $fishermanSpeech to 0>>Hola soy Pedro, ¿quién eres?👋\n<< wait 50>>\n<<set $fishermanSpeech to 1>><<set $PlayerSpeech to 0>>Soy un pescador.🎣👨\n[[Answer:fisherman|fisherman]]",
 		"position": {
-			"x": -132,
-			"y": 457
+			"x": -142,
+			"y": 453
 		},
 		"colorID": 2
 	},
@@ -314,7 +314,7 @@
 		"tags": "",
 		"body": "<< wait 50>>\n<<set $PlayerSpeech to 38>><<set $fishermanSpeech to 0>>¿Atrapaste algo?🎣\n<< wait 50>>\n<<set $fishermanSpeech to 2>><<set $PlayerSpeech to 0>>Jajaja todavía no, pero es un buen día y estoy feliz.🎣0️⃣😅\n[[Answer:fisherman|fisherman]]",
 		"position": {
-			"x": 87,
+			"x": 86,
 			"y": 457
 		},
 		"colorID": 2
@@ -334,7 +334,7 @@
 		"tags": "",
 		"body": "<< wait 50>>",
 		"position": {
-			"x": 528,
+			"x": 527,
 			"y": 458
 		},
 		"colorID": 2
@@ -392,10 +392,10 @@
 	{
 		"title": "celia5",
 		"tags": "",
-		"body": "<< wait 50>>\n<<set $PlayerSpeech to 32>><<set $celiaSpeech to 0>>Dime algo sobre los objetos\n<< wait 50>>\n<<set $celiaSpeech to 5>><<set $PlayerSpeech to 0>>Debes buscar objetos en todos los lugares que visites.🔎👀\n<< wait 50>>\n<<set $celiaSpeech to 6>>Puedes mirar los objetos en tu inventario para saber más.👁\n[[Answer:celia|celia]]",
+		"body": "<< wait 50>>\n<<set $PlayerSpeech to 32>><<set $celiaSpeech to 0>>Dime algo sobre los objetos\n<< wait 50>>\n<<set $celiaSpeech to 5>><<set $PlayerSpeech to 0>>Debes buscar objetos en todos los lugares que visites.🔎🧐\n<< wait 50>>\n<<set $celiaSpeech to 6>>Puedes mirar los objetos en tu inventario para saber más.👀\n[[Answer:celia|celia]]",
 		"position": {
 			"x": 743,
-			"y": 216
+			"y": 215
 		},
 		"colorID": 6
 	},
