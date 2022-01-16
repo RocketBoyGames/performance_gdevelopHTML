@@ -83,6 +83,8 @@ gdjs.New_32sceneCode.GDdialogue_95hudObjects1= [];
 gdjs.New_32sceneCode.GDdialogue_95hudObjects2= [];
 gdjs.New_32sceneCode.GDdialogue_95optionssObjects1= [];
 gdjs.New_32sceneCode.GDdialogue_95optionssObjects2= [];
+gdjs.New_32sceneCode.GDline_95list1Objects1= [];
+gdjs.New_32sceneCode.GDline_95list1Objects2= [];
 
 gdjs.New_32sceneCode.conditionTrue_0 = {val:false};
 gdjs.New_32sceneCode.condition0IsTrue_0 = {val:false};
@@ -188,6 +190,8 @@ gdjs.New_32sceneCode.GDdialogue_95hudObjects1.length = 0;
 gdjs.New_32sceneCode.GDdialogue_95hudObjects2.length = 0;
 gdjs.New_32sceneCode.GDdialogue_95optionssObjects1.length = 0;
 gdjs.New_32sceneCode.GDdialogue_95optionssObjects2.length = 0;
+gdjs.New_32sceneCode.GDline_95list1Objects1.length = 0;
+gdjs.New_32sceneCode.GDline_95list1Objects2.length = 0;
 
 gdjs.New_32sceneCode.eventsList0(runtimeScene);
 return;
