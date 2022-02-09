@@ -153,7 +153,66 @@ gdjs.EULACode.condition2IsTrue_1 = {val:false};
 gdjs.EULACode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDagreeObjects1Objects = Hashtable.newFrom({"agree": gdjs.EULACode.GDagreeObjects1});gdjs.EULACode.eventsList0 = function(runtimeScene) {
+gdjs.EULACode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+gdjs.EULACode.condition0IsTrue_0.val = false;
+gdjs.EULACode.condition1IsTrue_0.val = false;
+{
+gdjs.EULACode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("hasOpenedGame"), true);
+}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
+{
+{gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38736572);
+}
+}}
+if (gdjs.EULACode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "intro_page", false);
+}}
+
+}
+
+
+{
+
+
+gdjs.EULACode.condition0IsTrue_0.val = false;
+gdjs.EULACode.condition1IsTrue_0.val = false;
+{
+gdjs.EULACode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("hasOpenedGame"), false);
+}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
+{
+{gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38737764);
+}
+}}
+if (gdjs.EULACode.condition1IsTrue_0.val) {
+/* Reuse gdjs.EULACode.GDEULAtextObjects1 */
+/* Reuse gdjs.EULACode.GDagreeObjects1 */
+/* Reuse gdjs.EULACode.GDcheckboxAgreeObjects1 */
+/* Reuse gdjs.EULACode.GDgoToGameObjects1 */
+{for(var i = 0, len = gdjs.EULACode.GDagreeObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDagreeObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.EULACode.GDcheckboxAgreeObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDcheckboxAgreeObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.EULACode.GDgoToGameObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDgoToGameObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.EULACode.GDEULAtextObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDEULAtextObjects1[i].hide(false);
+}
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("hasOpenedGame"), true);
+}{gdjs.evtTools.storage.writeStringInJSONFile("saved_games", "settings", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(27)));
+}}
+
+}
+
+
+};gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDagreeObjects1Objects = Hashtable.newFrom({"agree": gdjs.EULACode.GDagreeObjects1});gdjs.EULACode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -161,7 +220,7 @@ gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDagreeObjects1Objects = Hashtable.newFro
 gdjs.EULACode.condition0IsTrue_0.val = false;
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition0IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42923172);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38741612);
 }
 }if (gdjs.EULACode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("checkboxAgree"), gdjs.EULACode.GDcheckboxAgreeObjects2);
@@ -173,7 +232,7 @@ gdjs.copyArray(runtimeScene.getObjects("checkboxAgree"), gdjs.EULACode.GDcheckbo
 }
 
 
-};gdjs.EULACode.eventsList1 = function(runtimeScene) {
+};gdjs.EULACode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -189,7 +248,7 @@ gdjs.copyArray(gdjs.EULACode.GDagreeObjects1, gdjs.EULACode.GDagreeObjects2);
 }
 }
 { //Subevents
-gdjs.EULACode.eventsList0(runtimeScene);} //End of subevents
+gdjs.EULACode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -211,7 +270,38 @@ gdjs.EULACode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 }
 
 
-};gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDgoToGameObjects1Objects = Hashtable.newFrom({"goToGame": gdjs.EULACode.GDgoToGameObjects1});gdjs.EULACode.eventsList2 = function(runtimeScene) {
+};gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDgoToGameObjects1Objects = Hashtable.newFrom({"goToGame": gdjs.EULACode.GDgoToGameObjects1});gdjs.EULACode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+gdjs.EULACode.condition0IsTrue_0.val = false;
+{
+gdjs.EULACode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.EULACode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("EULAtext"), gdjs.EULACode.GDEULAtextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("agree"), gdjs.EULACode.GDagreeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("checkboxAgree"), gdjs.EULACode.GDcheckboxAgreeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("goToGame"), gdjs.EULACode.GDgoToGameObjects1);
+{for(var i = 0, len = gdjs.EULACode.GDagreeObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDagreeObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.EULACode.GDcheckboxAgreeObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDcheckboxAgreeObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.EULACode.GDEULAtextObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDEULAtextObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.EULACode.GDgoToGameObjects1.length ;i < len;++i) {
+    gdjs.EULACode.GDgoToGameObjects1[i].hide();
+}
+}
+{ //Subevents
+gdjs.EULACode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
 
 {
 
@@ -223,7 +313,7 @@ gdjs.EULACode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.E
 }if (gdjs.EULACode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.EULACode.eventsList1(runtimeScene);} //End of subevents
+gdjs.EULACode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -246,7 +336,7 @@ for(var i = 0, k = 0, l = gdjs.EULACode.GDcheckboxAgreeObjects1.length;i<l;++i) 
 gdjs.EULACode.GDcheckboxAgreeObjects1.length = k;}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42924940);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38743548);
 }
 }}
 if (gdjs.EULACode.condition1IsTrue_0.val) {
@@ -276,7 +366,7 @@ for(var i = 0, k = 0, l = gdjs.EULACode.GDcheckboxAgreeObjects1.length;i<l;++i) 
 gdjs.EULACode.GDcheckboxAgreeObjects1.length = k;}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42925748);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38744420);
 }
 }}
 if (gdjs.EULACode.condition1IsTrue_0.val) {
@@ -304,7 +394,7 @@ gdjs.EULACode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if ( gdjs.EULACode.condition1IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition2IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42926876);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(38745596);
 }
 }}
 }
@@ -487,7 +577,7 @@ gdjs.EULACode.GDgoToGameObjects1.length = 0;
 gdjs.EULACode.GDgoToGameObjects2.length = 0;
 gdjs.EULACode.GDgoToGameObjects3.length = 0;
 
-gdjs.EULACode.eventsList2(runtimeScene);
+gdjs.EULACode.eventsList3(runtimeScene);
 return;
 
 }
