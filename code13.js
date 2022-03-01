@@ -85,6 +85,12 @@ gdjs.thanks_95splashCode.GDdialogue_95optionssObjects1= [];
 gdjs.thanks_95splashCode.GDdialogue_95optionssObjects2= [];
 gdjs.thanks_95splashCode.GDline_95list1Objects1= [];
 gdjs.thanks_95splashCode.GDline_95list1Objects2= [];
+gdjs.thanks_95splashCode.GDin_95game_95textObjects1= [];
+gdjs.thanks_95splashCode.GDin_95game_95textObjects2= [];
+gdjs.thanks_95splashCode.GDtutorialsObjects1= [];
+gdjs.thanks_95splashCode.GDtutorialsObjects2= [];
+gdjs.thanks_95splashCode.GDtutorials2Objects1= [];
+gdjs.thanks_95splashCode.GDtutorials2Objects2= [];
 gdjs.thanks_95splashCode.GDThanks_95for_95playing2Objects1= [];
 gdjs.thanks_95splashCode.GDThanks_95for_95playing2Objects2= [];
 gdjs.thanks_95splashCode.GDThanks_95for_95playingObjects1= [];
@@ -185,7 +191,7 @@ if( gdjs.thanks_95splashCode.condition2IsTrue_1.val ) {
 }if ( gdjs.thanks_95splashCode.condition0IsTrue_0.val ) {
 {
 {gdjs.thanks_95splashCode.conditionTrue_1 = gdjs.thanks_95splashCode.condition1IsTrue_0;
-gdjs.thanks_95splashCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45613372);
+gdjs.thanks_95splashCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46974500);
 }
 }}
 if (gdjs.thanks_95splashCode.condition1IsTrue_0.val) {
@@ -286,6 +292,12 @@ gdjs.thanks_95splashCode.GDdialogue_95optionssObjects1.length = 0;
 gdjs.thanks_95splashCode.GDdialogue_95optionssObjects2.length = 0;
 gdjs.thanks_95splashCode.GDline_95list1Objects1.length = 0;
 gdjs.thanks_95splashCode.GDline_95list1Objects2.length = 0;
+gdjs.thanks_95splashCode.GDin_95game_95textObjects1.length = 0;
+gdjs.thanks_95splashCode.GDin_95game_95textObjects2.length = 0;
+gdjs.thanks_95splashCode.GDtutorialsObjects1.length = 0;
+gdjs.thanks_95splashCode.GDtutorialsObjects2.length = 0;
+gdjs.thanks_95splashCode.GDtutorials2Objects1.length = 0;
+gdjs.thanks_95splashCode.GDtutorials2Objects2.length = 0;
 gdjs.thanks_95splashCode.GDThanks_95for_95playing2Objects1.length = 0;
 gdjs.thanks_95splashCode.GDThanks_95for_95playing2Objects2.length = 0;
 gdjs.thanks_95splashCode.GDThanks_95for_95playingObjects1.length = 0;

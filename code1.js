@@ -128,6 +128,15 @@ gdjs.EULACode.GDdialogue_95optionssObjects3= [];
 gdjs.EULACode.GDline_95list1Objects1= [];
 gdjs.EULACode.GDline_95list1Objects2= [];
 gdjs.EULACode.GDline_95list1Objects3= [];
+gdjs.EULACode.GDin_95game_95textObjects1= [];
+gdjs.EULACode.GDin_95game_95textObjects2= [];
+gdjs.EULACode.GDin_95game_95textObjects3= [];
+gdjs.EULACode.GDtutorialsObjects1= [];
+gdjs.EULACode.GDtutorialsObjects2= [];
+gdjs.EULACode.GDtutorialsObjects3= [];
+gdjs.EULACode.GDtutorials2Objects1= [];
+gdjs.EULACode.GDtutorials2Objects2= [];
+gdjs.EULACode.GDtutorials2Objects3= [];
 gdjs.EULACode.GDagreeObjects1= [];
 gdjs.EULACode.GDagreeObjects2= [];
 gdjs.EULACode.GDagreeObjects3= [];
@@ -161,7 +170,7 @@ gdjs.EULACode.mapOfGDgdjs_46EULACode_46GDagreeObjects1Objects = Hashtable.newFro
 gdjs.EULACode.condition0IsTrue_0.val = false;
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition0IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43317140);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44654404);
 }
 }if (gdjs.EULACode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("checkboxAgree"), gdjs.EULACode.GDcheckboxAgreeObjects2);
@@ -253,7 +262,7 @@ for(var i = 0, k = 0, l = gdjs.EULACode.GDcheckboxAgreeObjects1.length;i<l;++i) 
 gdjs.EULACode.GDcheckboxAgreeObjects1.length = k;}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43319076);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44578284);
 }
 }}
 if (gdjs.EULACode.condition1IsTrue_0.val) {
@@ -283,7 +292,7 @@ for(var i = 0, k = 0, l = gdjs.EULACode.GDcheckboxAgreeObjects1.length;i<l;++i) 
 gdjs.EULACode.GDcheckboxAgreeObjects1.length = k;}if ( gdjs.EULACode.condition0IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition1IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43319948);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44644988);
 }
 }}
 if (gdjs.EULACode.condition1IsTrue_0.val) {
@@ -311,7 +320,7 @@ gdjs.EULACode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if ( gdjs.EULACode.condition1IsTrue_0.val ) {
 {
 {gdjs.EULACode.conditionTrue_1 = gdjs.EULACode.condition2IsTrue_0;
-gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43321124);
+gdjs.EULACode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44501972);
 }
 }}
 }
@@ -481,6 +490,15 @@ gdjs.EULACode.GDdialogue_95optionssObjects3.length = 0;
 gdjs.EULACode.GDline_95list1Objects1.length = 0;
 gdjs.EULACode.GDline_95list1Objects2.length = 0;
 gdjs.EULACode.GDline_95list1Objects3.length = 0;
+gdjs.EULACode.GDin_95game_95textObjects1.length = 0;
+gdjs.EULACode.GDin_95game_95textObjects2.length = 0;
+gdjs.EULACode.GDin_95game_95textObjects3.length = 0;
+gdjs.EULACode.GDtutorialsObjects1.length = 0;
+gdjs.EULACode.GDtutorialsObjects2.length = 0;
+gdjs.EULACode.GDtutorialsObjects3.length = 0;
+gdjs.EULACode.GDtutorials2Objects1.length = 0;
+gdjs.EULACode.GDtutorials2Objects2.length = 0;
+gdjs.EULACode.GDtutorials2Objects3.length = 0;
 gdjs.EULACode.GDagreeObjects1.length = 0;
 gdjs.EULACode.GDagreeObjects2.length = 0;
 gdjs.EULACode.GDagreeObjects3.length = 0;

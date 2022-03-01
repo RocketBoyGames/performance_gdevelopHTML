@@ -383,6 +383,30 @@ gdjs.town_95storeCode.GDline_95list1Objects5= [];
 gdjs.town_95storeCode.GDline_95list1Objects6= [];
 gdjs.town_95storeCode.GDline_95list1Objects7= [];
 gdjs.town_95storeCode.GDline_95list1Objects8= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects1= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects2= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects3= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects4= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects5= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects6= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects7= [];
+gdjs.town_95storeCode.GDin_95game_95textObjects8= [];
+gdjs.town_95storeCode.GDtutorialsObjects1= [];
+gdjs.town_95storeCode.GDtutorialsObjects2= [];
+gdjs.town_95storeCode.GDtutorialsObjects3= [];
+gdjs.town_95storeCode.GDtutorialsObjects4= [];
+gdjs.town_95storeCode.GDtutorialsObjects5= [];
+gdjs.town_95storeCode.GDtutorialsObjects6= [];
+gdjs.town_95storeCode.GDtutorialsObjects7= [];
+gdjs.town_95storeCode.GDtutorialsObjects8= [];
+gdjs.town_95storeCode.GDtutorials2Objects1= [];
+gdjs.town_95storeCode.GDtutorials2Objects2= [];
+gdjs.town_95storeCode.GDtutorials2Objects3= [];
+gdjs.town_95storeCode.GDtutorials2Objects4= [];
+gdjs.town_95storeCode.GDtutorials2Objects5= [];
+gdjs.town_95storeCode.GDtutorials2Objects6= [];
+gdjs.town_95storeCode.GDtutorials2Objects7= [];
+gdjs.town_95storeCode.GDtutorials2Objects8= [];
 gdjs.town_95storeCode.GDclaraObjects1= [];
 gdjs.town_95storeCode.GDclaraObjects2= [];
 gdjs.town_95storeCode.GDclaraObjects3= [];
@@ -466,7 +490,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45040804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46400764);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -503,7 +527,7 @@ gdjs.town_95storeCode.GDhotspotsObjects2.push(gdjs.town_95storeCode.forEachTempo
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45926596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47287676);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().get("hotspotsOverlapping").add(1);
@@ -529,7 +553,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45930532);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47291612);
 }
 }}
 }
@@ -550,7 +574,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayer
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45929820);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47290900);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "top_iconbar", 0, 0);
@@ -596,7 +620,7 @@ gdjs.town_95storeCode.GDsave_95noticeObjects2.length = 0;
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46177684);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47538964);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayerObjects2);
@@ -628,7 +652,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayer
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46181804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47543084);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isBedroomChestUnlocked", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isBedroomChestUnlocked")));
@@ -638,6 +662,8 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.bread", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("bread")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.trophy", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("trophy")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.empty_bottle", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("empty_bottle")));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLookDrawerPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(30)));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isUseDrawerPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isUseDrawerPlayed")));
 }}
 
 }
@@ -656,12 +682,13 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46185132);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47546412);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "hasBeenOutsideBedRoom", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(14)));
 }{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isOutsideCornPlant", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isOutsideCornPlant")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.rock", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("rock")));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLookRockPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isLookRockPlayed")));
 }}
 
 }
@@ -680,7 +707,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46186836);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47548116);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isBanditDefeated", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(18)));
@@ -705,7 +732,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46189068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47550348);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLumberjackLeftFree", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isLumberjackLeftFree")));
@@ -727,7 +754,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46190020);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47551300);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isDrunkDefeated", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(21)));
@@ -752,7 +779,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46192156);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47553436);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isKnifeTrained", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(22)));
@@ -774,7 +801,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46193148);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47554428);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.glasses", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("glasses")));
@@ -796,7 +823,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46194284);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47555564);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isVineCut", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(23)));
@@ -818,7 +845,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46194700);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47555980);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "total_score", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("total_score")));
@@ -855,6 +882,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_carrot", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_carrot")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_mushroom", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_mushroom")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_tomato", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_tomato")));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_tomato", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_tomato")));
 }}
 
 }
@@ -866,7 +894,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46208836);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47570116);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "Inventory", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(28).getChild("INVENTORY")));
@@ -973,7 +1001,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVis
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45939180);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47300260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -997,7 +1025,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVis
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45941004);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47302084);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1029,7 +1057,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45938372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47299452);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1055,7 +1083,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45940460);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47301540);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1085,7 +1113,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVis
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45942596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47303676);
 }
 }}
 }
@@ -1268,7 +1296,7 @@ if( gdjs.town_95storeCode.condition1IsTrue_1.val ) {
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45958428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47319508);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1289,7 +1317,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45959380);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47320460);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1312,7 +1340,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45961164);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47322244);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1335,7 +1363,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45963012);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47324092);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1359,7 +1387,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45964516);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47325596);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1390,7 +1418,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45966740);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47327820);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1415,14 +1443,14 @@ gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.town_95storeCode
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45954220);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47315300);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects1, gdjs.town_95storeCode.GDbuttonsObjects2);
 
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\137 Barra Highlight.mp3", 5, false, 20, 1);
 }{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects2.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("return_hover");
+    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("accept_hover");
 }
 }}
 
@@ -1439,7 +1467,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45955396);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47316476);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1447,7 +1475,7 @@ gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects1, gdjs.town_95storeCode.GD
 
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\09 SALIR.mp3", 5, false, 100, 1);
 }{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects2.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("return_click");
+    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("accept_click");
 }
 }}
 
@@ -1464,13 +1492,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45956612);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47317692);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.town_95storeCode.GDbuttonsObjects1 */
 {for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects1.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects1[i].setAnimationName("return_hover");
+    gdjs.town_95storeCode.GDbuttonsObjects1[i].setAnimationName("accept_hover");
 }
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "ExitPopup");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).setString("none");
@@ -1505,14 +1533,14 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45952204);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47313284);
 }
 }}
 }
 if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
 {for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects2.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("return_normal");
+    gdjs.town_95storeCode.GDbuttonsObjects2[i].setAnimationName("accept_normal");
 }
 }}
 
@@ -1575,7 +1603,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45802492);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47163572);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1595,7 +1623,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45803636);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47164716);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1615,7 +1643,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45803444);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47164524);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1635,7 +1663,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45805508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47166588);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1655,7 +1683,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45806452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47167532);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1675,7 +1703,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45807332);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47168412);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1695,7 +1723,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45808252);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47169332);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1715,7 +1743,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45809244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47170324);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1735,7 +1763,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45810164);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47171244);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1755,7 +1783,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45810964);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47172044);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1775,7 +1803,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45812084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47173164);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1795,7 +1823,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45813004);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47174084);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1815,7 +1843,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45813796);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47174876);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1835,7 +1863,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45814404);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47175484);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -1855,7 +1883,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45815764);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47176844);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2034,7 +2062,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45832436);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47193516);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2056,7 +2084,7 @@ gdjs.copyArray(runtimeScene.getObjects("inventory_slot"), gdjs.town_95storeCode.
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45829436);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47190516);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects4, gdjs.town_95storeCode.GDbuttonsObjects5);
@@ -2080,7 +2108,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45830628);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47191708);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2105,7 +2133,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45831612);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47192692);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2133,7 +2161,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45839092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47200172);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2155,7 +2183,7 @@ gdjs.copyArray(runtimeScene.getObjects("inventory_slot"), gdjs.town_95storeCode.
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45835916);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47196996);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects4, gdjs.town_95storeCode.GDbuttonsObjects5);
@@ -2179,7 +2207,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45837108);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47198188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2204,7 +2232,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45838092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47199172);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2228,7 +2256,7 @@ gdjs.town_95storeCode.eventsList24(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45845796);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47206876);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects4, gdjs.town_95storeCode.GDbuttonsObjects5);
@@ -2252,7 +2280,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45847012);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47208092);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2277,7 +2305,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45848212);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47209292);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2299,7 +2327,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45851276);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47212356);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects4, gdjs.town_95storeCode.GDbuttonsObjects5);
@@ -2323,7 +2351,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45852196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47213276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2348,7 +2376,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45853484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47214564);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2371,7 +2399,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45857292);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47218372);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects3, gdjs.town_95storeCode.GDbuttonsObjects4);
@@ -2395,7 +2423,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45858428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47219508);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2420,7 +2448,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45859412);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47220492);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2464,7 +2492,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45827340);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47188420);
 }
 }}
 }
@@ -2533,7 +2561,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45833892);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47194972);
 }
 }}
 }
@@ -2595,7 +2623,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45840596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47201676);
 }
 }}
 }
@@ -2625,7 +2653,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45842076);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47203156);
 }
 }}
 }
@@ -2669,7 +2697,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45843772);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47204852);
 }
 }}
 }
@@ -2738,7 +2766,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45849300);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47210380);
 }
 }}
 }
@@ -2807,7 +2835,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45855052);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47216132);
 }
 }}
 }
@@ -2868,7 +2896,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45869932);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47231012);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2902,7 +2930,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects2.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45871884);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47232964);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2947,7 +2975,7 @@ if( gdjs.town_95storeCode.condition1IsTrue_1.val ) {
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45863356);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47224436);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -2985,7 +3013,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45869132);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47230212);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3568,7 +3596,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45897004);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47258084);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3601,7 +3629,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45898756);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47259836);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3634,7 +3662,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45900172);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47261252);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3667,7 +3695,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45901508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47262588);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3700,7 +3728,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45902516);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47263596);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3733,7 +3761,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45904084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47265164);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3766,7 +3794,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45905164);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47266244);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3799,7 +3827,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45906524);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47267604);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3832,7 +3860,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45907884);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47268964);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3865,7 +3893,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45909452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47270532);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3898,7 +3926,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45910564);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47271644);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3931,7 +3959,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45912132);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47273212);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3964,7 +3992,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects3.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45913196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47274276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -3997,7 +4025,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDinventory_95slotObjects2.lengt
 gdjs.town_95storeCode.GDinventory_95slotObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45914468);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47275548);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4055,7 +4083,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45636716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46997796);
 }
 }}
 }
@@ -4080,7 +4108,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45637756);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46998836);
 }
 }}
 }
@@ -4105,7 +4133,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45638820);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46999900);
 }
 }}
 }
@@ -4130,7 +4158,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45639964);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47001044);
 }
 }}
 }
@@ -4151,7 +4179,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45640860);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47001940);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4283,7 +4311,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects3.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45643196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47004276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4320,7 +4348,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects3.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45645044);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47006124);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4359,7 +4387,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = (gdjs.evtTools.variable.getVariableN
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45646444);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47007524);
 }
 }}
 }
@@ -4396,7 +4424,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = (gdjs.evtTools.variable.getVariableN
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45649084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47010164);
 }
 }}
 }
@@ -4431,7 +4459,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects3.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45650436);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47011516);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4458,7 +4486,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects2.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45651372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47012452);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4546,7 +4574,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45669956);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47031036);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4566,7 +4594,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45670852);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47031932);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4591,7 +4619,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45672364);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47033444);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4616,7 +4644,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45673884);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47034964);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4643,7 +4671,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45682092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47043172);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4666,7 +4694,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45689476);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47050556);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4695,7 +4723,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45691972);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47053052);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4722,7 +4750,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45696196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47057276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4745,7 +4773,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45699484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47060564);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4768,7 +4796,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45677292);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47038372);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4793,7 +4821,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45678876);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47039956);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4830,7 +4858,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45682980);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47044060);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4864,7 +4892,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45685860);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47046940);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4907,7 +4935,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45688908);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47049988);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4929,7 +4957,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45693580);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47054660);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4961,7 +4989,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45696940);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47058020);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -4995,7 +5023,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45667316);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47028396);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5020,7 +5048,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45668724);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47029804);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5043,7 +5071,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45675236);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47036316);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5203,7 +5231,7 @@ gdjs.town_95storeCode.eventsList58(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45784428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47145508);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.town_95storeCode.GDempty_95slotObjects2);
@@ -5223,7 +5251,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.town_95storeCode.GDem
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45782580);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47143660);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.town_95storeCode.GDempty_95slotObjects3);
@@ -5271,7 +5299,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45795348);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47156428);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5294,7 +5322,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45796940);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47158020);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5349,7 +5377,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45799788);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47160868);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5370,7 +5398,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45800820);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47161900);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5426,7 +5454,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45790268);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47151348);
 }
 }}
 }
@@ -5454,7 +5482,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45791196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47152276);
 }
 }}
 }
@@ -5503,7 +5531,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45793660);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47154740);
 }
 }}
 }
@@ -5532,7 +5560,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45798244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47159324);
 }
 }}
 }
@@ -5561,7 +5589,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46283100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47644380);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5585,7 +5613,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46284924);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47646204);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5607,7 +5635,7 @@ gdjs.copyArray(runtimeScene.getObjects("checkboxFullscreen"), gdjs.town_95storeC
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46282196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47643476);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("sliderGlobal"), gdjs.town_95storeCode.GDsliderGlobalObjects2);
@@ -5632,22 +5660,13 @@ gdjs.town_95storeCode.eventsList69(runtimeScene);} //End of subevents
 
 
 {
-gdjs.copyArray(runtimeScene.getObjects("sliderGlobal"), gdjs.town_95storeCode.GDsliderGlobalObjects3);
-gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDsliderMusicObjects3);
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, (( gdjs.town_95storeCode.GDsliderGlobalObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderGlobalObjects3[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("volumeGlobal").setNumber((( gdjs.town_95storeCode.GDsliderGlobalObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderGlobalObjects3[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 4, (( gdjs.town_95storeCode.GDsliderMusicObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderMusicObjects3[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("volumeMusic").setNumber((( gdjs.town_95storeCode.GDsliderMusicObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderMusicObjects3[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+gdjs.copyArray(runtimeScene.getObjects("sliderGlobal"), gdjs.town_95storeCode.GDsliderGlobalObjects2);
+gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDsliderMusicObjects2);
+{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, (( gdjs.town_95storeCode.GDsliderGlobalObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderGlobalObjects2[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("volumeGlobal").setNumber((( gdjs.town_95storeCode.GDsliderGlobalObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderGlobalObjects2[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 4, (( gdjs.town_95storeCode.GDsliderMusicObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderMusicObjects2[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("volumeMusic").setNumber((( gdjs.town_95storeCode.GDsliderMusicObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDsliderMusicObjects2[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }}
-
-}
-
-
-{
-
-
-{
-}
 
 }
 
@@ -5664,7 +5683,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46291036);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47652036);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5688,7 +5707,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46292052);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47653052);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5708,21 +5727,17 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptio
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46293196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47654196);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
 gdjs.copyArray(runtimeScene.getObjects("checkboxFullscreen"), gdjs.town_95storeCode.GDcheckboxFullscreenObjects4);
-gdjs.copyArray(runtimeScene.getObjects("checkboxFullscreenn"), gdjs.town_95storeCode.GDcheckboxFullscreennObjects4);
 gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.town_95storeCode.GDscoreObjects4);
 gdjs.copyArray(runtimeScene.getObjects("sliderGlobal"), gdjs.town_95storeCode.GDsliderGlobalObjects4);
 gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDsliderMusicObjects4);
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(17), true);
 }{for(var i = 0, len = gdjs.town_95storeCode.GDcheckboxFullscreenObjects4.length ;i < len;++i) {
     gdjs.town_95storeCode.GDcheckboxFullscreenObjects4[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointX("")) - 50,(( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 110);
-}
-}{for(var i = 0, len = gdjs.town_95storeCode.GDcheckboxFullscreennObjects4.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDcheckboxFullscreennObjects4[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointX("")) - 228,(( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 108);
 }
 }{for(var i = 0, len = gdjs.town_95storeCode.GDsliderMusicObjects4.length ;i < len;++i) {
     gdjs.town_95storeCode.GDsliderMusicObjects4[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointX("")) + 19,(( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 63);
@@ -5734,6 +5749,13 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDs
     gdjs.town_95storeCode.GDscoreObjects4[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointX("")) - 34,(( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 173);
 }
 }}
+
+}
+
+
+{
+
+
 
 }
 
@@ -5755,7 +5777,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46295396);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47656924);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5786,7 +5808,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46296548);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47657652);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5802,29 +5824,277 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptio
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects3);
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects4);
 
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 gdjs.town_95storeCode.condition1IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i) {
-    if ( gdjs.town_95storeCode.GDbuttonsObjects3[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects3[i].getVariables().getFromIndex(0)) == "accept_options" ) {
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariables().getFromIndex(0)) == "accept_options" ) {
         gdjs.town_95storeCode.condition0IsTrue_0.val = true;
-        gdjs.town_95storeCode.GDbuttonsObjects3[k] = gdjs.town_95storeCode.GDbuttonsObjects3[i];
+        gdjs.town_95storeCode.GDbuttonsObjects4[k] = gdjs.town_95storeCode.GDbuttonsObjects4[i];
         ++k;
     }
 }
-gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46296244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47658924);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDbuttonsObjects4[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointX("")) - 228,(( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 65);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "options_title" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47659572);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 200);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsFullscreenn" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47660908);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 108);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsDefault" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47661420);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 42);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsInfo" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47662516);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 18);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsAccept" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47663796);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 78);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsPoints" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47664732);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) + 174);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects4.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects4[i].getVariables().getFromIndex(0)) == "optionsGlobalVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects4[k] = gdjs.town_95storeCode.GDin_95game_95textObjects4[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47665340);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects4);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects4 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setY((( gdjs.town_95storeCode.GDOptionsObjects4.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects4[0].getPointY("")) - 96);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsMusicVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47666676);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects3);
-/* Reuse gdjs.town_95storeCode.GDbuttonsObjects3 */
-{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects3.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects3[i].setPosition((( gdjs.town_95storeCode.GDOptionsObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects3[0].getPointX("")) - 228,(( gdjs.town_95storeCode.GDOptionsObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects3[0].getPointY("")) + 65);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY((( gdjs.town_95storeCode.GDOptionsObjects3.length === 0 ) ? 0 :gdjs.town_95storeCode.GDOptionsObjects3[0].getPointY("")) + 23);
 }
 }}
 
@@ -5832,6 +6102,13 @@ gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptio
 
 
 };gdjs.town_95storeCode.eventsList73 = function(runtimeScene) {
+
+{
+
+
+
+}
+
 
 {
 
@@ -5850,7 +6127,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46300652);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47670116);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5880,7 +6157,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46301108);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47670852);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5910,7 +6187,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46302492);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47671772);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5933,7 +6210,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46303684);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47672676);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5953,7 +6230,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46304532);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47673852);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -5965,7 +6242,240 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
 
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsMusicVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47674356);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsGlobalVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47675332);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsPoints" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47676156);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsDefault" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47677244);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "options_title" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47678068);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsAccept" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47679420);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsFullscreenn" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47680012);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsInfo" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47680836);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setY(2300);
+}
+}}
 
 }
 
@@ -5976,7 +6486,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46306620);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47681900);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("saved_games", "settings", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(27)));
@@ -6030,7 +6540,7 @@ if( gdjs.town_95storeCode.condition2IsTrue_1.val ) {
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46288956);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47649956);
 }
 }}
 }
@@ -6052,7 +6562,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46290508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47651508);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6074,13 +6584,12 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46298508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47667452);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Options"), gdjs.town_95storeCode.GDOptionsObjects2);
 gdjs.copyArray(runtimeScene.getObjects("checkboxFullscreen"), gdjs.town_95storeCode.GDcheckboxFullscreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("checkboxFullscreenn"), gdjs.town_95storeCode.GDcheckboxFullscreennObjects2);
 gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.town_95storeCode.GDscoreObjects2);
 gdjs.copyArray(runtimeScene.getObjects("sliderGlobal"), gdjs.town_95storeCode.GDsliderGlobalObjects2);
 gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDsliderMusicObjects2);
@@ -6095,9 +6604,6 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDs
 }
 }{for(var i = 0, len = gdjs.town_95storeCode.GDcheckboxFullscreenObjects2.length ;i < len;++i) {
     gdjs.town_95storeCode.GDcheckboxFullscreenObjects2[i].setPosition(2300,2300);
-}
-}{for(var i = 0, len = gdjs.town_95storeCode.GDcheckboxFullscreennObjects2.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDcheckboxFullscreennObjects2[i].setPosition(2300,2300);
 }
 }{for(var i = 0, len = gdjs.town_95storeCode.GDscoreObjects2.length ;i < len;++i) {
     gdjs.town_95storeCode.GDscoreObjects2[i].setPosition(2300,2300);
@@ -6130,7 +6636,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDcheckboxFullscreenObjects3.len
 gdjs.town_95storeCode.GDcheckboxFullscreenObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46307844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47683124);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6158,7 +6664,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDcheckboxFullscreenObjects2.len
 gdjs.town_95storeCode.GDcheckboxFullscreenObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46308692);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47683972);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6177,7 +6683,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46312292);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47687572);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects2, gdjs.town_95storeCode.GDbuttonsObjects3);
@@ -6201,7 +6707,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46313468);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47688748);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6226,7 +6732,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46314684);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47689964);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6263,7 +6769,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46310100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47685380);
 }
 }}
 }
@@ -6324,7 +6830,7 @@ gdjs.town_95storeCode.eventsList76(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46317948);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47693228);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects2, gdjs.town_95storeCode.GDbuttonsObjects3);
@@ -6348,7 +6854,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46319124);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47694404);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6373,7 +6879,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46320324);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47695604);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6421,7 +6927,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46315796);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47691076);
 }
 }}
 }
@@ -6482,7 +6988,7 @@ gdjs.town_95storeCode.eventsList78(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46325484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47700764);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects2, gdjs.town_95storeCode.GDbuttonsObjects3);
@@ -6506,7 +7012,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46326660);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47701940);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6531,7 +7037,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46327876);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47703156);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -6574,7 +7080,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46322548);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47697828);
 }
 }}
 }
@@ -6612,7 +7118,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46323844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47699124);
 }
 }}
 }
@@ -6665,178 +7171,16 @@ gdjs.town_95storeCode.eventsList80(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList82 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects4);
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-gdjs.town_95storeCode.condition2IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects, runtimeScene, true, true);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i) {
-    if ( gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariables().getFromIndex(0)) == "map" ) {
-        gdjs.town_95storeCode.condition1IsTrue_0.val = true;
-        gdjs.town_95storeCode.GDbuttonsObjects4[k] = gdjs.town_95storeCode.GDbuttonsObjects4[i];
-        ++k;
-    }
-}
-gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45707860);
-}
-}}
-}
-if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.town_95storeCode.GDbuttonsObjects4 */
-{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects4.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects4[i].setAnimationName("map_normal");
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects4);
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-gdjs.town_95storeCode.condition2IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects, runtimeScene, true, false);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i) {
-    if ( gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariables().getFromIndex(0)) == "map" ) {
-        gdjs.town_95storeCode.condition1IsTrue_0.val = true;
-        gdjs.town_95storeCode.GDbuttonsObjects4[k] = gdjs.town_95storeCode.GDbuttonsObjects4[i];
-        ++k;
-    }
-}
-gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45709524);
-}
-}}
-}
-if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.town_95storeCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\137 Barra Highlight.mp3", 5, false, 20, 1);
-}{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects4.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects4[i].setAnimationName("map_hover");
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects4);
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-gdjs.town_95storeCode.condition2IsTrue_0.val = false;
-gdjs.town_95storeCode.condition3IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects, runtimeScene, true, false);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i) {
-    if ( gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects4[i].getVariables().getFromIndex(0)) == "map" ) {
-        gdjs.town_95storeCode.condition1IsTrue_0.val = true;
-        gdjs.town_95storeCode.GDbuttonsObjects4[k] = gdjs.town_95storeCode.GDbuttonsObjects4[i];
-        ++k;
-    }
-}
-gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
-{
-gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45711300);
-}
-}}
-}
-}
-if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
-/* Reuse gdjs.town_95storeCode.GDbuttonsObjects4 */
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\buttons\\27 MAPA.mp3", 17, false, 100, 1);
-}{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects4.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects4[i].setAnimationName("map_click");
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects3);
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-gdjs.town_95storeCode.condition2IsTrue_0.val = false;
-gdjs.town_95storeCode.condition3IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects, runtimeScene, true, false);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i) {
-    if ( gdjs.town_95storeCode.GDbuttonsObjects3[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects3[i].getVariables().getFromIndex(0)) == "map" ) {
-        gdjs.town_95storeCode.condition1IsTrue_0.val = true;
-        gdjs.town_95storeCode.GDbuttonsObjects3[k] = gdjs.town_95storeCode.GDbuttonsObjects3[i];
-        ++k;
-    }
-}
-gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
-{
-gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45712932);
-}
-}}
-}
-}
-if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
-/* Reuse gdjs.town_95storeCode.GDbuttonsObjects3 */
-{for(var i = 0, len = gdjs.town_95storeCode.GDbuttonsObjects3.length ;i < len;++i) {
-    gdjs.town_95storeCode.GDbuttonsObjects3[i].setAnimationName("map_normal");
-}
-}}
-
-}
-
-
-};gdjs.town_95storeCode.eventsList83 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList82 = function(runtimeScene) {
 
 {
 
 
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("blockIconBar"), false);
-}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.town_95storeCode.eventsList82(runtimeScene);} //End of subevents
-}
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDsave_9595noticeObjects4Objects = Hashtable.newFrom({"save_notice": gdjs.town_95storeCode.GDsave_95noticeObjects4});gdjs.town_95storeCode.eventsList84 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDsave_9595noticeObjects4Objects = Hashtable.newFrom({"save_notice": gdjs.town_95storeCode.GDsave_95noticeObjects4});gdjs.town_95storeCode.eventsList83 = function(runtimeScene) {
 
 {
 
@@ -6873,7 +7217,7 @@ gdjs.town_95storeCode.GDsave_95noticeObjects4.length = 0;
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46177685);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47538965);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayerObjects4);
@@ -6905,7 +7249,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayer
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46181805);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47543085);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isBedroomChestUnlocked", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isBedroomChestUnlocked")));
@@ -6915,6 +7259,8 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.bread", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("bread")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.trophy", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("trophy")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.empty_bottle", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("empty_bottle")));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLookDrawerPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(30)));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isUseDrawerPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isUseDrawerPlayed")));
 }}
 
 }
@@ -6933,12 +7279,13 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46185133);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47546413);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "hasBeenOutsideBedRoom", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(14)));
 }{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isOutsideCornPlant", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isOutsideCornPlant")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.rock", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("rock")));
+}{gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLookRockPlayed", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isLookRockPlayed")));
 }}
 
 }
@@ -6957,7 +7304,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46186837);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47548117);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isBanditDefeated", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(18)));
@@ -6982,7 +7329,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46189069);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47550349);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isLumberjackLeftFree", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("isLumberjackLeftFree")));
@@ -7004,7 +7351,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46190021);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47551301);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isDrunkDefeated", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(21)));
@@ -7029,7 +7376,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46192157);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47553437);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isKnifeTrained", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(22)));
@@ -7051,7 +7398,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46193149);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47554429);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isItemAdded.glasses", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("glasses")));
@@ -7073,7 +7420,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46194285);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47555565);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "isVineCut", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(23)));
@@ -7095,7 +7442,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46194701);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47555981);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "total_score", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("total_score")));
@@ -7132,6 +7479,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_carrot", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_carrot")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_mushroom", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_mushroom")));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_tomato", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_tomato")));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "score_give_tomato", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("give_tomato")));
 }}
 
 }
@@ -7143,7 +7491,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46208837);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47570117);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.storage.writeStringInJSONFile("save_game" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("save_slot")), "Inventory", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(28).getChild("INVENTORY")));
@@ -7161,7 +7509,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 
 
-};gdjs.town_95storeCode.eventsList85 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList84 = function(runtimeScene) {
 
 {
 
@@ -7169,7 +7517,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45716212);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47077292);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects3, gdjs.town_95storeCode.GDbuttonsObjects4);
@@ -7193,7 +7541,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45717388);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47078468);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7218,7 +7566,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45718604);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47079684);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7231,13 +7579,13 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(6);
 }
 { //Subevents
-gdjs.town_95storeCode.eventsList84(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList83(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList86 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList85 = function(runtimeScene) {
 
 {
 
@@ -7260,7 +7608,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45714236);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47075316);
 }
 }}
 }
@@ -7295,13 +7643,13 @@ gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList85(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList84(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList87 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList86 = function(runtimeScene) {
 
 {
 
@@ -7312,13 +7660,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList86(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList85(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList88 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList87 = function(runtimeScene) {
 
 {
 
@@ -7326,7 +7674,7 @@ gdjs.town_95storeCode.eventsList86(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45723036);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47084116);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects3, gdjs.town_95storeCode.GDbuttonsObjects4);
@@ -7350,7 +7698,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45724252);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47085332);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7375,7 +7723,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45725452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47086532);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7389,7 +7737,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList89 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList88 = function(runtimeScene) {
 
 {
 
@@ -7412,7 +7760,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45721060);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47082140);
 }
 }}
 }
@@ -7447,13 +7795,13 @@ gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList88(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList87(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList90 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList89 = function(runtimeScene) {
 
 {
 
@@ -7464,13 +7812,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList89(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList88(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList91 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList90 = function(runtimeScene) {
 
 {
 
@@ -7493,7 +7841,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45727124);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47088204);
 }
 }}
 }
@@ -7531,7 +7879,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45729180);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47090260);
 }
 }}
 }
@@ -7574,7 +7922,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45731220);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47092300);
 }
 }}
 }
@@ -7618,7 +7966,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45733300);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47094380);
 }
 }}
 }
@@ -7642,7 +7990,7 @@ gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.town_95storeCode
 }
 
 
-};gdjs.town_95storeCode.eventsList92 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList91 = function(runtimeScene) {
 
 {
 
@@ -7653,13 +8001,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList91(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList90(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList93 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList92 = function(runtimeScene) {
 
 {
 
@@ -7667,7 +8015,7 @@ gdjs.town_95storeCode.eventsList91(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45737804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47098884);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects3, gdjs.town_95storeCode.GDbuttonsObjects4);
@@ -7691,7 +8039,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45739020);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47100100);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7716,7 +8064,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45740220);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47101300);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -7730,7 +8078,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList94 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList93 = function(runtimeScene) {
 
 {
 
@@ -7753,7 +8101,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45735828);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47096908);
 }
 }}
 }
@@ -7788,13 +8136,13 @@ gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList93(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList92(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList95 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList94 = function(runtimeScene) {
 
 {
 
@@ -7805,13 +8153,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList94(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList93(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList96 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList95 = function(runtimeScene) {
 
 {
 
@@ -7834,7 +8182,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45741892);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47102972);
 }
 }}
 }
@@ -7869,7 +8217,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45743556);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47104636);
 }
 }}
 }
@@ -7909,7 +8257,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45745332);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47106412);
 }
 }}
 }
@@ -7950,7 +8298,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45746964);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47108044);
 }
 }}
 }
@@ -7969,7 +8317,7 @@ gdjs.copyArray(runtimeScene.getObjects("empty_slot"), gdjs.town_95storeCode.GDem
 }
 
 
-};gdjs.town_95storeCode.eventsList97 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList96 = function(runtimeScene) {
 
 {
 
@@ -7980,13 +8328,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList96(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList95(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList98 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList97 = function(runtimeScene) {
 
 {
 
@@ -8009,7 +8357,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45749588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47110668);
 }
 }}
 }
@@ -8044,7 +8392,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45750220);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47111300);
 }
 }}
 }
@@ -8084,7 +8432,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45751644);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47112724);
 }
 }}
 }
@@ -8125,7 +8473,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45754196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47115276);
 }
 }}
 }
@@ -8142,7 +8490,7 @@ if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList99 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList98 = function(runtimeScene) {
 
 {
 
@@ -8153,13 +8501,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList98(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList97(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList100 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList99 = function(runtimeScene) {
 
 {
 
@@ -8182,7 +8530,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45755404);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47116484);
 }
 }}
 }
@@ -8217,7 +8565,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45757068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47118148);
 }
 }}
 }
@@ -8257,7 +8605,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45758844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47119924);
 }
 }}
 }
@@ -8298,7 +8646,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45760476);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47121556);
 }
 }}
 }
@@ -8315,7 +8663,7 @@ if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList101 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects4Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects4});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.eventsList100 = function(runtimeScene) {
 
 {
 
@@ -8323,7 +8671,7 @@ if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45763764);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47124844);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects3, gdjs.town_95storeCode.GDbuttonsObjects4);
@@ -8347,7 +8695,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45764940);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47126020);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -8372,7 +8720,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45766156);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47127236);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -8387,7 +8735,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList102 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList101 = function(runtimeScene) {
 
 {
 
@@ -8410,7 +8758,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects4.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects4.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45761788);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47122868);
 }
 }}
 }
@@ -8445,13 +8793,13 @@ gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList101(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList100(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects2Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects2});gdjs.town_95storeCode.eventsList103 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects3Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects2Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects2});gdjs.town_95storeCode.eventsList102 = function(runtimeScene) {
 
 {
 
@@ -8459,7 +8807,7 @@ gdjs.town_95storeCode.eventsList101(runtimeScene);} //End of subevents
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45770076);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47131156);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDbuttonsObjects2, gdjs.town_95storeCode.GDbuttonsObjects3);
@@ -8483,7 +8831,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45771276);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47132356);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -8508,7 +8856,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45772492);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47133572);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -8523,7 +8871,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList104 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList103 = function(runtimeScene) {
 
 {
 
@@ -8546,7 +8894,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects3.length;i<l;++i
 gdjs.town_95storeCode.GDbuttonsObjects3.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45768100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47129180);
 }
 }}
 }
@@ -8581,6 +8929,23 @@ gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
+gdjs.town_95storeCode.eventsList102(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList104 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("blockIconBar"), false);
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+
+{ //Subevents
 gdjs.town_95storeCode.eventsList103(runtimeScene);} //End of subevents
 }
 
@@ -8592,59 +8957,49 @@ gdjs.town_95storeCode.eventsList103(runtimeScene);} //End of subevents
 {
 
 
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-{
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("blockIconBar"), false);
-}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.town_95storeCode.eventsList104(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.town_95storeCode.eventsList106 = function(runtimeScene) {
-
-{
-
-
-gdjs.town_95storeCode.eventsList83(runtimeScene);
+gdjs.town_95storeCode.eventsList82(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList87(runtimeScene);
+gdjs.town_95storeCode.eventsList86(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList90(runtimeScene);
+gdjs.town_95storeCode.eventsList89(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList92(runtimeScene);
+gdjs.town_95storeCode.eventsList91(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList95(runtimeScene);
+gdjs.town_95storeCode.eventsList94(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList97(runtimeScene);
+gdjs.town_95storeCode.eventsList96(runtimeScene);
+}
+
+
+{
+
+
+gdjs.town_95storeCode.eventsList98(runtimeScene);
 }
 
 
@@ -8658,25 +9013,18 @@ gdjs.town_95storeCode.eventsList99(runtimeScene);
 {
 
 
-gdjs.town_95storeCode.eventsList100(runtimeScene);
+gdjs.town_95storeCode.eventsList101(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList102(runtimeScene);
+gdjs.town_95storeCode.eventsList104(runtimeScene);
 }
 
 
-{
-
-
-gdjs.town_95storeCode.eventsList105(runtimeScene);
-}
-
-
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595hudObjects2Objects = Hashtable.newFrom({"dialogue_hud": gdjs.town_95storeCode.GDdialogue_95hudObjects2});gdjs.town_95storeCode.eventsList107 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595hudObjects2Objects = Hashtable.newFrom({"dialogue_hud": gdjs.town_95storeCode.GDdialogue_95hudObjects2});gdjs.town_95storeCode.eventsList106 = function(runtimeScene) {
 
 {
 
@@ -8684,7 +9032,7 @@ gdjs.town_95storeCode.eventsList105(runtimeScene);
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46337372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47712916);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 {gdjs.dialogueTree.setVariable("PlayerSpeech", 0);
@@ -8700,7 +9048,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 
 
-};gdjs.town_95storeCode.eventsList108 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList107 = function(runtimeScene) {
 
 {
 
@@ -8931,9 +9279,9 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects4Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects4});gdjs.town_95storeCode.eventsList109 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects4Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects4});gdjs.town_95storeCode.eventsList108 = function(runtimeScene) {
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects3Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects2Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects2});gdjs.town_95storeCode.eventsList110 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects3Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDdialogue_9595optionssObjects2Objects = Hashtable.newFrom({"dialogue_optionss": gdjs.town_95storeCode.GDdialogue_95optionssObjects2});gdjs.town_95storeCode.eventsList109 = function(runtimeScene) {
 
 {
 
@@ -8941,7 +9289,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46366732);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47742276);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.town_95storeCode.GDdialogue_95optionssObjects2, gdjs.town_95storeCode.GDdialogue_95optionssObjects3);
@@ -8986,7 +9334,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }
 
 
-};gdjs.town_95storeCode.eventsList111 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList110 = function(runtimeScene) {
 
 {
 
@@ -8994,7 +9342,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46359300);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47734844);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("dialogue_hud"), gdjs.town_95storeCode.GDdialogue_95hudObjects3);
@@ -9039,7 +9387,7 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.town_95storeCode.eventsList109(runtimeScene);} //Subevents end.
+gdjs.town_95storeCode.eventsList108(runtimeScene);} //Subevents end.
 }
 } else gdjs.town_95storeCode.stopDoWhile4 = true; 
 } while ( !gdjs.town_95storeCode.stopDoWhile4 );
@@ -9069,7 +9417,7 @@ gdjs.copyArray(runtimeScene.getObjects("dialogue_optionss"), gdjs.town_95storeCo
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46363556);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47739100);
 }
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("dialogue_hud"), gdjs.town_95storeCode.GDdialogue_95hudObjects3);
@@ -9115,13 +9463,13 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObjec
 }
 }
 { //Subevents
-gdjs.town_95storeCode.eventsList110(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList109(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList112 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList111 = function(runtimeScene) {
 
 {
 
@@ -9133,7 +9481,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46369532);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47745076);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9153,7 +9501,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46370308);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47745852);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9173,7 +9521,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46371564);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47747108);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9193,7 +9541,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46372612);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47748156);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9213,7 +9561,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46373612);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47749156);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9233,7 +9581,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46374644);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47750188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9253,7 +9601,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46375660);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47751204);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9273,7 +9621,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46376676);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47752220);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9293,7 +9641,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46377692);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47753236);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9313,7 +9661,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46378772);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47754316);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9333,7 +9681,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46379812);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47755356);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9353,7 +9701,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46380588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47756132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9373,7 +9721,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46381588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47757132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9393,7 +9741,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46382588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47758132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9413,7 +9761,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46383588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47759132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9433,7 +9781,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46384588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47760132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9453,7 +9801,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46385588);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47761132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9473,7 +9821,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46386980);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47762524);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9493,7 +9841,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46387716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47763260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9513,7 +9861,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46388716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47764260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9523,7 +9871,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList113 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList112 = function(runtimeScene) {
 
 {
 
@@ -9535,7 +9883,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46389844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47765388);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9555,7 +9903,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46391292);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47766836);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9575,7 +9923,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46392100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47767644);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9595,11 +9943,33 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46392700);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47768244);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\lumberjack\\LENA4.mp3", 6, false, 100, 1);
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList113 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("EmilySpeech", 4);
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47770140);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Emily\\EMIL4.mp3", 11, false, 100, 1);
 }}
 
 }
@@ -9613,33 +9983,11 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 gdjs.town_95storeCode.condition1IsTrue_0.val = false;
 {
-gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("EmilySpeech", 4);
-}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
-{
-{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46394596);
-}
-}}
-if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\speech\\Emily\\EMIL4.mp3", 11, false, 100, 1);
-}}
-
-}
-
-
-};gdjs.town_95storeCode.eventsList115 = function(runtimeScene) {
-
-{
-
-
-gdjs.town_95storeCode.condition0IsTrue_0.val = false;
-gdjs.town_95storeCode.condition1IsTrue_0.val = false;
-{
 gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable("banditSpeech", 2);
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46395844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47771388);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9659,7 +10007,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46396844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47772388);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9679,7 +10027,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46397876);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47773420);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9699,7 +10047,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46398924);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47774468);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9709,7 +10057,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList116 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList115 = function(runtimeScene) {
 
 {
 
@@ -9721,7 +10069,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46400172);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47775716);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9741,7 +10089,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46401172);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47776716);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9761,7 +10109,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46402204);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47777748);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9781,7 +10129,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46403252);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47778796);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9801,7 +10149,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46404252);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47779796);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9821,7 +10169,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46405284);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47780828);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9841,7 +10189,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46406300);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47781844);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9861,7 +10209,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46407316);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47782860);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9871,7 +10219,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList117 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList116 = function(runtimeScene) {
 
 {
 
@@ -9883,7 +10231,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46408620);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47784164);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9903,7 +10251,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46409660);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47785204);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9923,7 +10271,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46409996);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47785540);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9943,7 +10291,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46411068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47786612);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9963,7 +10311,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46412380);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47787924);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -9973,7 +10321,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList118 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList117 = function(runtimeScene) {
 
 {
 
@@ -9985,7 +10333,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46413644);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47789188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10005,7 +10353,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46415092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47790636);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10025,7 +10373,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46415900);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47791444);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10035,7 +10383,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList119 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList118 = function(runtimeScene) {
 
 {
 
@@ -10047,7 +10395,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46417372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47792916);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10067,7 +10415,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46418372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47793916);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10087,7 +10435,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46419404);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47794948);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10107,7 +10455,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46420452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47795996);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10127,7 +10475,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46421452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47796996);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10147,7 +10495,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.compareVariable
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46422484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47798028);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10157,7 +10505,3470 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
+};gdjs.town_95storeCode.eventsList119 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43428036);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CAMINAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14056084);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("WALK");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(43424484);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
 };gdjs.town_95storeCode.eventsList120 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47426660);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MIRAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47429772);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("LOOK");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47439212);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList121 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47431660);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("USAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47442044);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("USE");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47443932);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList122 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47440156);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("HABLAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47448652);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("TALK");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47463364);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList123 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47457148);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ÍTEM");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47478468);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ITEM");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47466196);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList124 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47473748);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OBJETOS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47476580);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OBJECTS");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47496404);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList125 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47487908);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MISIONES");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47492628);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MISSIONS");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47510564);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList126 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47515284);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OPCIONES");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47513396);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OPTIONS");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47524820);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList127 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47525764);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("SALIR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47522932);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("EXIT");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47517172);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList128 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47538516);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("SED");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47536148);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("THIRST");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47556836);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(30 + ((120 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList129 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47530484);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("HAMBRE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47563820);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("HUNGER");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47554580);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(1130 + ((120 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList130 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47575764);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("SALIR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47560444);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("RETURN");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("buttons"), gdjs.town_95storeCode.GDbuttonsObjects2);
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDbuttonsObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariableString(gdjs.town_95storeCode.GDbuttonsObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.town_95storeCode.GDin_95game_95textObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.town_95storeCode.GDin_95game_95textObjects2[0].getVariables()).getFromIndex(0))) ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDbuttonsObjects2[k] = gdjs.town_95storeCode.GDbuttonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDbuttonsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47601676);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDbuttonsObjects2 */
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getPointX("")) + (((( gdjs.town_95storeCode.GDbuttonsObjects2.length === 0 ) ? 0 :gdjs.town_95storeCode.GDbuttonsObjects2[0].getWidth()) - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList131 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47608196);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("PEDRO");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47612436);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("PIERRE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47644724);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(-(450) + ((180 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList132 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47678148);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("LIBRO DE CRIATURAS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47654100);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("BOOK OF CREATURES");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47651684);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX((640 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2);
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList133 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47664924);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ARAÑAS - Ellas tejen telarañas para atrapar comida y para moverse de arriba a abajo. Vas a necesitar algo afilado para cortar las telarañas. Las arañas son muy rápidas y no puedes atraparlas con tus manos.\n\nCARACOLES GIGANTES - Ellos tienen un fuerte cascarón que los protege. Los caracoles están expuestos sin su cascarón. Puedes usar sal para derrotarlos.\n\nDRAGONES - Son poderosas y antiguas criaturas que viven en el agua. Usualmente son invocadas con magia. Incluso los mejores guerreros no pueden derrotarlos con sus manos. Tu única esperanza es invocar a un maestro del mar que luche contra el dragón por ti.\n\nFANTASMAS - Son espíritus que pueden viajar entre nuestro reino y el más allá. Debes consultar con un mago si quieres invocar un fantasma. Pero si quieres enviarlo al mundo de los espíritus, primero debes cumplir sus deseos en el reino de los mortales.\n\nHOMBRES-LOBOS - Estas pobres criaturas son humanos malditos que se convierten en bestias violentas cuando hay luna llena. Solo se puede romper la maldición cuando bebe una pócima en su forma humana.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47680108);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("SPIDERS - They make webs to catch food and to travel up and down. You will need something sharp to cut those webs but even then spiders are too fast to catch with your hands.\n\nGIANT SNAILS - They are protected by their strong shells, but without them they are very weak against salt.\n\nDRAGONS - Powerful ancient creatures who typically live in the water. Usually summoned by magic users, even the greatest warriors can not defeat them by hand. Your only hope is if you have the ability to summon a master of the sea to fight the dragon on your behalf.\n\nGHOSTS - These are spirits who travel from the beyond into our mortal realm. You should consult with a magician if you wish to summon one. Be warned though, if you want it to return to the spirit world then you will first have to reunite it with something it desires in the mortal realm.\n\nWEREWOLVES - These poor creatures are humans who are cursed to turn into violent beasts in the light of a full moon. The curse can only be broken if they consume a potion whilst in their human form.\n");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList134 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47707228);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MURCIÉLAGOS - Pueden volar muy alto, no podrás atraparlos aunque tengas una red. Los magos pueden usar su poder para capturarlos.\n\nOGROS - Los ogros son grandes y fuertes, un enemigo difícil de derrotar, pero son débiles contra el fuego. Intenta combinar una chispa con un líquido inflamable.\n\nRANAS - Pequeños y muy resbaladizos. No se pueden atrapar con las manos. Pero son bastante fáciles de atrapar con una red.\n\nRATAS - Se mueven rápidamente y son difíciles de atrapar. Pero puedes usar queso para atraerlos fácilmente.\n\nSERPIENTES - Las serpientes son venenosas, ágiles y muy peligrosas. Intenta mantenerte alejado de ellas.\n\nVAMPIROS - Son criaturas realmente peligrosas, misteriosas e inmortales. Afortunadamente tienen muchas debilidades, como la luz del sol y el ajo. No se acercarán voluntariamente a ninguno de ellos. Si recientemente comiste algo con ajo, los vampiros se mantendrán alejados de ti.\n\nMAGOS - Engimáticos y engañosos, los magos tienen fama de ser poco confiables. Su poder para distorsionar la realidad sólo es comparable con su poder para distorsionar la verdad. Afortunadamente tienen una debilidad: si necesitas derrotar a un mago solo tienes que");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47677340);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("BATS - They can fly to great heights. You won't be able to catch one even if you have a net. Magicians are very good at using their power to capture bats.\n\nOGRES - Large and strong. Ogres are a difficult enemy to defeat but they are weak against fire. Try to combine a spark with a flammable liquid.\n\nFROGS - Small and very slippery. You can't catch them with your hands but frogs are quite easy to catch with a net.\n\nRATS - They move quickly, and are difficult to catch. But you can easily use cheese to lure them.\n\nSNAKES - Poisonous and agile. Snakes are very dangerous. Try to stay away from them.\n\nVAMPIRES - Mysterious and eternal, vampires are indeed a dangerous creature. Fortunately they have many weaknesses including sunlight and garlic. They will not voluntarily go near either of those things and if you've recently eaten something with garlic then they will keep their distance from you.\n\nWIZARDS - Secretive and deceptive, magicians have a reputation for being untrustworthy. Their power to distort reality is matched only by their power to distort the truth. Fortunately they have one weakness. If you need to defeat a wizard all you need to do is");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList135 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47719804);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OESTE:");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47724932);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("WEST:");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47700876);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(100 + ((500 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList136 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47709268);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ESTE:");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47724716);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("EAST:");
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+};gdjs.town_95storeCode.eventsList137 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47747404);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("EL PUEBLO");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47776828);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("THE TOWN");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47745188);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(90 + ((500 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList138 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47761468);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("LA MONTAÑA");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47759468);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MOUNTAIN");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47783844);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(670 + ((550 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList139 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47789708);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("NOTICIAS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47778044);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("NOTICE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47778460);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(230 + ((120 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList140 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47797108);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("GREMIO");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48157108);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("GUILD");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48224084);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(380 + ((140 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList141 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48184188);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("TIENDA");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48200236);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("STORE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48240172);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(865 + ((140 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList142 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48220204);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("NOTICIAS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48254396);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("NOTICE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48237492);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(0 + ((1280 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList143 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48237908);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("¡LA PRINCESA ESTÁ PERDIDA!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48261292);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("THE PRINCESS IS LOST!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48251172);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(12 + ((648 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList144 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48362148);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("¿Quién puede encontrarla?\nVe al castillo y habla con el rey si eres suficientemente valiente!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48382108);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("who will find her?\nGo to the castle and speak with the king if you are brave enough!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48380988);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(12 + ((648 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList145 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48482204);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("¡RECOMPENSA POR COLLAR!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48386860);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("REWARD FOR NECKLACE!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48379884);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(670 + ((600 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList146 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48504340);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("Perdí mi collar cerca de la granja.\nSi lo encuentra por favor devuélvamelo.\n-Sofía");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48510628);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("I lost my necklace near the farm. \nIf you find it please return it to me. \n-Sophie");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48513156);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(670 + ((600 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList147 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48507236);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ALERTA DE BANDIDOS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17642508);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("BEWARE OF BANDITS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48514780);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(20 + ((530 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList148 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29819036);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("Hay informes de bandidos cerca. \n¡Se recomienda estar alerta!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29819860);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("There are reports of bandits in the area. \nStay alert!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29821068);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(20 + ((530 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList149 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29823340);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("¡OGRO PELIGROSO!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29824164);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("DANGEROUS OGRES!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29825012);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(620 + ((660 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList150 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29827284);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("Se ha visto un ogro en el puente del castillo. Habla con el líder del gremio si necesita consejos sobre cómo combatirlo.");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29828108);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("An ogre has been seen on the castle bridge. Speak with the guild leader if you need advice about defeating it!");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29828956);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(600 + ((660 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList151 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29831980);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CLICK\nPARA CONTINUAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29832804);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CLICK\nTO CONTINUE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29833652);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(903 + ((377 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList152 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29836164);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MAÍZ");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29836988);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CORN");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29837836);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(1580 + ((270 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList153 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29840348);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("TOMATE");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29841172);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("TOMATO");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29842020);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(1600 + ((300 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList154 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29844532);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ZANAHORIA");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29845476);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CARROT");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29846324);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(1650 + ((400 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList155 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29848836);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("HONGO");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29849660);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MUSHROOM");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29850508);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(1680 + ((360 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList156 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29853020);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OBJETOS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29853844);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("OBJECTS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29854692);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(0 + ((1280 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList157 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29856964);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("SALIR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29857788);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("RETURN");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29858636);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setX(686 + ((164 - (gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList158 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(22893348);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ACEPTAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(22893828);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("ACCEPT");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList159 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30021212);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("CANCELAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30021796);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("CANCEL");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList160 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29861028);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects2, gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("ELIMINAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29861852);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("DELETE");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList161 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29864444);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("OPCIONES");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29865268);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("OPTIONS");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29866116);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setX(0 + ((1280 - (gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList162 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29868508);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("ACEPTAR");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29869332);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("ACCEPT");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition0IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29870180);
+}
+}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setX(412 + ((177 - (gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getWidth())) / 2));
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList163 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29872716);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("PUNTOS:");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29873540);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("POINTS:");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList164 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29875852);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("VOLUMEN GLOBAL");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29876676);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MASTER VOLUME");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList165 = function(runtimeScene) {
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "spanish";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29879132);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+gdjs.copyArray(gdjs.town_95storeCode.GDin_95game_95textObjects3, gdjs.town_95storeCode.GDin_95game_95textObjects4);
+
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects4.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects4[i].setString("VOLUMEN MÚSICA");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(29)) == "english";
+}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29879956);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("MUSIC VOLUME");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList166 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "options_title" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29863332);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList161(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsAccept" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29867516);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(20);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList162(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsPoints" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29871604);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(20);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList163(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsGlobalVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29874740);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(18);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList164(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsMusicVol" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29878020);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(18);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList165(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsFullscreenn" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29881372);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(20);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("Fullscreen?");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects3);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects3.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects3[i].getVariables().getFromIndex(0)) == "optionsDefault" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects3[k] = gdjs.town_95storeCode.GDin_95game_95textObjects3[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29883372);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects3 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setCharacterSize(20);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects3.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects3[i].setString("DEFAULT");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "optionsInfo" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29885252);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(20);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setString("INFO.");
+}
+}}
+
+}
+
+
+};gdjs.town_95storeCode.eventsList167 = function(runtimeScene) {
 
 {
 
@@ -10242,7 +14053,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45916244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47277324);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10273,7 +14084,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45919108);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47280188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10304,7 +14115,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45896572);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47257652);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10456,7 +14267,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45652924);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47014004);
 }
 }}
 }
@@ -10547,7 +14358,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects2.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects2.length = k;}if ( gdjs.town_95storeCode.condition5IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition6IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45657156);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47018236);
 }
 }}
 }
@@ -10668,7 +14479,7 @@ gdjs.copyArray(gdjs.town_95storeCode.GDPlayerObjects2_1final, gdjs.town_95storeC
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45657804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47018884);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10706,7 +14517,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects2.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects2.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45660748);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47021828);
 }
 }}
 }
@@ -10731,7 +14542,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChan
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45661804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47022884);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10766,7 +14577,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDplayer_95dialogueObjects2.leng
 gdjs.town_95storeCode.GDplayer_95dialogueObjects2.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45663100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47024180);
 }
 }}
 }
@@ -10798,7 +14609,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45701972);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47063052);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10864,7 +14675,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects2.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects2.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45704340);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47065420);
 }
 }}
 }
@@ -10921,7 +14732,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45777868);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47138948);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10944,7 +14755,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45778700);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47139780);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10967,7 +14778,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45779236);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47140316);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -10990,7 +14801,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45780388);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47141468);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11013,7 +14824,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45781180);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47142260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11055,7 +14866,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45785244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47146324);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11253,7 +15064,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDcreditsObjects2.length;i<l;++i
 gdjs.town_95storeCode.GDcreditsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46329068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47704348);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11291,7 +15102,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDcreditsObjects2.length;i<l;++i
 gdjs.town_95storeCode.GDcreditsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46330340);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47705620);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11308,6 +15119,15 @@ gdjs.copyArray(runtimeScene.getObjects("sliderMusic"), gdjs.town_95storeCode.GDs
     gdjs.town_95storeCode.GDsliderMusicObjects2[i].hide(false);
 }
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -11362,7 +15182,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList106(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList105(runtimeScene);} //End of subevents
 }
 
 }
@@ -11392,7 +15212,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerE
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45775564);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47136644);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11421,7 +15241,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46034548);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47395828);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11441,7 +15261,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46035740);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47397020);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11461,7 +15281,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46036668);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47397948);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11481,7 +15301,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46037084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47398364);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11501,7 +15321,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46038636);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47399916);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11521,7 +15341,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46039564);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47400844);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11541,7 +15361,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46040524);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47401804);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11561,7 +15381,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46041508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47402788);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11581,7 +15401,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46042412);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47403692);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11601,7 +15421,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46043420);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47404700);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11621,7 +15441,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46044364);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47405644);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11641,7 +15461,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46045308);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47406588);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11661,7 +15481,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46046252);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47407532);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11681,7 +15501,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46047196);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47408476);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11701,7 +15521,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46048140);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47409420);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11721,7 +15541,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46049084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47410364);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11741,7 +15561,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46050028);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47411308);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11761,7 +15581,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46050908);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47412188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11781,7 +15601,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46052052);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47413332);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11801,7 +15621,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46052996);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47414276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11821,7 +15641,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46053940);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47415220);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11841,7 +15661,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46054884);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47416164);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11861,7 +15681,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46055828);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47417108);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11881,7 +15701,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46056772);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47418052);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11901,7 +15721,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46057716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47418996);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11921,7 +15741,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46058660);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47419940);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11941,7 +15761,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46059604);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47420884);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11961,7 +15781,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46060548);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47421828);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -11981,7 +15801,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46061492);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47422772);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12001,7 +15821,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46062436);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47423716);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12021,7 +15841,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46063380);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47424660);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12041,7 +15861,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46064324);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47425604);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12061,7 +15881,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46065268);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47426548);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12081,7 +15901,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46066492);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47427772);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12101,7 +15921,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46067476);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47428756);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12121,7 +15941,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46068380);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47429660);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12141,7 +15961,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46069324);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47430604);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12161,7 +15981,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46070268);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47431548);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12181,7 +16001,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46071212);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47432492);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12201,7 +16021,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46072156);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47433436);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12221,7 +16041,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46073100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47434380);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12241,7 +16061,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46074044);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47435324);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12261,7 +16081,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46074988);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47436268);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12281,7 +16101,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46075932);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47437212);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12301,7 +16121,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46076876);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47438156);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12321,7 +16141,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46077820);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47439100);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12341,7 +16161,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46078764);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47440044);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12361,7 +16181,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46079708);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47440988);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12381,7 +16201,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46080652);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47441932);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12401,7 +16221,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46081596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47442876);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12421,7 +16241,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46082540);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47443820);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12441,7 +16261,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46083484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47444764);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12461,7 +16281,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46084428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47445708);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12481,7 +16301,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46085372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47446652);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12501,7 +16321,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46086316);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47447596);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12521,7 +16341,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46087260);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47448540);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12541,7 +16361,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46088204);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47449484);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12561,7 +16381,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46089148);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47450428);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12581,7 +16401,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46090092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47451372);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12601,7 +16421,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46091036);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47452316);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12621,7 +16441,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46091980);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47453260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12641,7 +16461,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46092924);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47454204);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12661,7 +16481,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46093868);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47455148);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12681,7 +16501,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46094812);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47456092);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12701,7 +16521,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46095756);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47457036);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12721,7 +16541,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46096108);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47457388);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12741,7 +16561,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46097916);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47459196);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12761,7 +16581,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46099100);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47460380);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12781,7 +16601,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46100124);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47461404);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12801,7 +16621,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46101028);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47462308);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12821,7 +16641,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46101972);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47463252);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12841,7 +16661,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46102916);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47464196);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12861,7 +16681,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46103860);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47465140);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12881,7 +16701,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46104804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47466084);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12901,7 +16721,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46105748);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47467028);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12921,7 +16741,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46106692);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47467972);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12941,7 +16761,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46107636);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47468916);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12961,7 +16781,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46108580);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47469860);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -12981,7 +16801,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46109524);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47470804);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13001,7 +16821,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46110468);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47471748);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13021,7 +16841,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46111412);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47472692);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13041,7 +16861,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46112356);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47473636);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13061,7 +16881,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46113300);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47474580);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13081,7 +16901,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46114244);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47475524);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13101,7 +16921,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46115188);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47476468);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13121,7 +16941,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46116132);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47477412);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13141,7 +16961,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46117076);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47478356);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13161,7 +16981,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46118020);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47479300);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13181,7 +17001,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46118964);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47480244);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13201,7 +17021,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46119908);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47481188);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13221,7 +17041,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46120852);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47482132);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13241,7 +17061,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46121796);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47483076);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13261,7 +17081,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46122740);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47484020);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13281,7 +17101,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46123684);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47484964);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13301,7 +17121,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46124628);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47485908);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13321,7 +17141,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46125572);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47486852);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13341,7 +17161,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46126516);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47487796);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13361,7 +17181,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46127460);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47488740);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13381,7 +17201,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46128404);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47489684);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13401,7 +17221,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46129348);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47490628);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13421,7 +17241,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46130292);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47491572);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13441,7 +17261,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46131236);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47492516);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13461,7 +17281,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46132180);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47493460);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13481,7 +17301,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46133124);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47494404);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13501,7 +17321,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46134068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47495348);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13521,7 +17341,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46135012);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47496292);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13541,7 +17361,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46135956);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47497236);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13561,7 +17381,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46136900);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47498180);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13581,7 +17401,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46137844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47499124);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13601,7 +17421,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46138788);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47500068);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13621,7 +17441,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46139732);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47501012);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13641,7 +17461,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46140676);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47501956);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13661,7 +17481,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46141620);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47502900);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13681,7 +17501,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46142564);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47503844);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13701,7 +17521,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46143508);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47504788);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13721,7 +17541,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46144452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47505732);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13741,7 +17561,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46145396);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47506676);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13761,7 +17581,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46146340);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47507620);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13781,7 +17601,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46147284);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47508564);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13801,7 +17621,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46148228);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47509508);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13821,7 +17641,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46149172);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47510452);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13841,7 +17661,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46150116);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47511396);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13861,7 +17681,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46151060);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47512340);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13881,7 +17701,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46152004);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47513284);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13901,7 +17721,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46152948);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47514228);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13921,7 +17741,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46153892);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47515172);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13941,7 +17761,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46154836);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47516116);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13961,7 +17781,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46155780);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47517060);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -13981,7 +17801,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46156724);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47518004);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14001,7 +17821,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46096820);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47458100);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14021,7 +17841,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46159484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47520764);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14041,7 +17861,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46160596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47521876);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14061,7 +17881,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46161540);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47522820);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14081,7 +17901,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46162484);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47523764);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14101,7 +17921,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46163428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47524708);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14121,7 +17941,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46164372);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47525652);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14141,7 +17961,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46165316);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47526596);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14161,7 +17981,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46166260);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47527540);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14181,7 +18001,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46167204);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47528484);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14201,7 +18021,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46168148);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47529428);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14221,7 +18041,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46169092);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47530372);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14241,7 +18061,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46170036);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47531316);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14261,7 +18081,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46170980);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47532260);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14281,7 +18101,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46171924);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47533204);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14301,7 +18121,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46172868);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47534148);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14321,7 +18141,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46173812);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47535092);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14341,7 +18161,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46174756);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47536036);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14361,7 +18181,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46175700);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47536980);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14409,7 +18229,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46332748);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47708292);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14438,7 +18258,7 @@ gdjs.town_95storeCode.condition2IsTrue_0.val = gdjs.dialogueTree.isDialogueLineT
 }if ( gdjs.town_95storeCode.condition2IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition3IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46334156);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47709700);
 }
 }}
 }
@@ -14460,7 +18280,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.isRunning();
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46334972);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47710516);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14481,7 +18301,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = !(gdjs.dialogueTree.isRunning());
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46335724);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47711268);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14497,7 +18317,7 @@ gdjs.copyArray(runtimeScene.getObjects("dialogue_optionss"), gdjs.town_95storeCo
 }{runtimeScene.getGame().getVariables().getFromIndex(26).setString("none");
 }
 { //Subevents
-gdjs.town_95storeCode.eventsList107(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList106(runtimeScene);} //End of subevents
 }
 
 }
@@ -14512,7 +18332,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.isDialogueLineT
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList108(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList107(runtimeScene);} //End of subevents
 }
 
 }
@@ -14547,9 +18367,16 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.dialogueTree.isDialogueLineT
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList111(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList110(runtimeScene);} //End of subevents
 }
 
+}
+
+
+{
+
+
+gdjs.town_95storeCode.eventsList111(runtimeScene);
 }
 
 
@@ -14605,13 +18432,6 @@ gdjs.town_95storeCode.eventsList118(runtimeScene);
 {
 
 
-gdjs.town_95storeCode.eventsList119(runtimeScene);
-}
-
-
-{
-
-
 gdjs.town_95storeCode.condition0IsTrue_0.val = false;
 gdjs.town_95storeCode.condition1IsTrue_0.val = false;
 {
@@ -14619,7 +18439,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46423412);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47798956);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14639,7 +18459,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46424532);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47800076);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14659,7 +18479,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46425444);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47800988);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14679,7 +18499,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46426404);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47801948);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14698,9 +18518,1478 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspots2Objects3Objects = Hashtable.newFrom({"hotspots2": gdjs.town_95storeCode.GDhotspots2Objects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspots2Objects3Objects = Hashtable.newFrom({"hotspots2": gdjs.town_95storeCode.GDhotspots2Objects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects5Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects5});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspot_9595name_9595cursorObjects5Objects = Hashtable.newFrom({"hotspot_name_cursor": gdjs.town_95storeCode.GDhotspot_95name_95cursorObjects5});gdjs.town_95storeCode.eventsList121 = function(runtimeScene) {
+{
 
-};gdjs.town_95storeCode.eventsList122 = function(runtimeScene) {
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "walk" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42999844);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList119(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "look" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(22482012);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList120(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "use" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47432604);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList121(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "talk" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47454316);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList122(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "item" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47465252);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList123(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "objects" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47472804);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList124(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "missions" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47484132);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList125(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "options" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47502068);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList126(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "exit" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47512452);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.town_95storeCode.eventsList127(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "thirst" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47532372);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setOutline("78;156;198", 5);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList128(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "hunger" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47550268);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setOutline("196;107;39", 5);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList129(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "exit_popup" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47544756);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList130(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "trophy" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47600316);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("137;133;73");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(25);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList131(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "creaturesBook_tittle" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47643380);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("58;55;43");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList132(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "creaturesBook_left" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47668724);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("58;55;43");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(15);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList133(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "creaturesBook_right" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47687476);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("58;55;43");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(15);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList134(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "lumberjack_sign1" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47700028);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("80;64;37");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(35);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList135(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "lumberjack_sign3" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47729716);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("80;64;37");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(35);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList136(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "lumberjack_sign2" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47749268);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("80;64;37");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(70);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList137(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "lumberjack_sign4" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47763596);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("80;64;37");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(60);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList138(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "town_notice_title" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47779908);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;58;10");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(15);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList139(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "town_guild_name" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47790988);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("90;58;10");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(25);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList140(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "town_store_name   " ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48182220);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("99;81;50");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(25);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList141(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice1" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48207340);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("104;83;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(70);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList142(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice2" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48242316);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList143(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice3" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48364660);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList144(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice4" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48386004);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList145(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice5" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48486676);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList146(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice6" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(48516356);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList147(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice7" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29818044);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList148(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice8" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29822348);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(30);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList149(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "notice9" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29826292);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("94;70;33");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(27);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList150(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "click_continue" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29830236);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setOutline("214;0;0", 5);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(25);
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setTextAlignment("center");
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList151(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "list_corn" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29835052);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("140;117;112");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList152(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "list_tomato" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29839236);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("140;117;112");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList153(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "list_carrot" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29843420);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("140;117;112");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList154(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "list_mushroom" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29847724);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("140;117;112");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList155(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "objects_title" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29851908);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("255;255;255");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(45);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList156(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "return_objects" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29855972);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(25);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList157(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "intro_accept" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(22892772);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(20);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList158(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "intro_cancel" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(30020532);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(20);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList159(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("in_game_text"), gdjs.town_95storeCode.GDin_95game_95textObjects2);
+
+gdjs.town_95storeCode.condition0IsTrue_0.val = false;
+gdjs.town_95storeCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDin_95game_95textObjects2.length;i<l;++i) {
+    if ( gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariableString(gdjs.town_95storeCode.GDin_95game_95textObjects2[i].getVariables().getFromIndex(0)) == "intro_delete" ) {
+        gdjs.town_95storeCode.condition0IsTrue_0.val = true;
+        gdjs.town_95storeCode.GDin_95game_95textObjects2[k] = gdjs.town_95storeCode.GDin_95game_95textObjects2[i];
+        ++k;
+    }
+}
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
+{
+{gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(29860036);
+}
+}}
+if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.town_95storeCode.GDin_95game_95textObjects2 */
+{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setColor("93;90;49");
+}
+}{for(var i = 0, len = gdjs.town_95storeCode.GDin_95game_95textObjects2.length ;i < len;++i) {
+    gdjs.town_95storeCode.GDin_95game_95textObjects2[i].setCharacterSize(20);
+}
+}
+{ //Subevents
+gdjs.town_95storeCode.eventsList160(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.town_95storeCode.eventsList166(runtimeScene);
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspots2Objects3Objects = Hashtable.newFrom({"hotspots2": gdjs.town_95storeCode.GDhotspots2Objects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspots2Objects3Objects = Hashtable.newFrom({"hotspots2": gdjs.town_95storeCode.GDhotspots2Objects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects5Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects5});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspot_9595name_9595cursorObjects5Objects = Hashtable.newFrom({"hotspot_name_cursor": gdjs.town_95storeCode.GDhotspot_95name_95cursorObjects5});gdjs.town_95storeCode.eventsList168 = function(runtimeScene) {
+
+};gdjs.town_95storeCode.eventsList169 = function(runtimeScene) {
 
 {
 
@@ -14777,7 +20066,7 @@ if (gdjs.town_95storeCode.condition5IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList123 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList170 = function(runtimeScene) {
 
 {
 
@@ -14866,7 +20155,7 @@ gdjs.town_95storeCode.conditionTrue_1.val = !gdjs.town_95storeCode.condition1IsT
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45975012);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47336292);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14893,7 +20182,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList122(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList169(runtimeScene);} //End of subevents
 }
 
 }
@@ -14915,7 +20204,7 @@ gdjs.copyArray(runtimeScene.getObjects("hotspot_name_cursor"), gdjs.town_95store
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects1});gdjs.town_95storeCode.eventsList124 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects1});gdjs.town_95storeCode.eventsList171 = function(runtimeScene) {
 
 {
 
@@ -14960,7 +20249,7 @@ gdjs.town_95storeCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObjec
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45984052);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47345332);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -14973,7 +20262,7 @@ gdjs.copyArray(runtimeScene.getObjects("hotspot_name"), gdjs.town_95storeCode.GD
 }
 
 
-};gdjs.town_95storeCode.eventsList125 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList172 = function(runtimeScene) {
 
 {
 
@@ -14996,7 +20285,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList123(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList170(runtimeScene);} //End of subevents
 }
 
 }
@@ -15023,13 +20312,13 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList124(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList171(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects1});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList126 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects1Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects1});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList173 = function(runtimeScene) {
 
 {
 
@@ -15056,7 +20345,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList127 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList174 = function(runtimeScene) {
 
 {
 
@@ -15083,7 +20372,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList128 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDbuttonsObjects1Objects = Hashtable.newFrom({"buttons": gdjs.town_95storeCode.GDbuttonsObjects1});gdjs.town_95storeCode.eventsList175 = function(runtimeScene) {
 
 {
 
@@ -15110,7 +20399,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList129 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList176 = function(runtimeScene) {
 
 {
 
@@ -15144,7 +20433,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45997164);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47358444);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15167,7 +20456,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45998076);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47359356);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15196,7 +20485,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45999500);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47360780);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15219,7 +20508,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46000388);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47361668);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15248,7 +20537,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46002044);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47363324);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15271,7 +20560,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46002996);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47364276);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15300,7 +20589,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46004132);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47365412);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15323,7 +20612,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46005020);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47366300);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15352,7 +20641,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46006716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47367996);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15375,7 +20664,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46007668);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47368948);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15394,7 +20683,7 @@ gdjs.copyArray(runtimeScene.getObjects("mission5"), gdjs.town_95storeCode.GDmiss
 }
 
 
-};gdjs.town_95storeCode.eventsList130 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList177 = function(runtimeScene) {
 
 {
 
@@ -15426,7 +20715,7 @@ gdjs.town_95storeCode.condition5IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition5IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition6IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46016636);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47377916);
 }
 }}
 }
@@ -15496,7 +20785,7 @@ if( gdjs.town_95storeCode.condition5IsTrue_1.val ) {
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46018212);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47379492);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15506,7 +20795,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDline_9595list1Objects1Objects = Hashtable.newFrom({"line_list1": gdjs.town_95storeCode.GDline_95list1Objects1});gdjs.town_95storeCode.eventsList131 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDline_9595list1Objects1Objects = Hashtable.newFrom({"line_list1": gdjs.town_95storeCode.GDline_95list1Objects1});gdjs.town_95storeCode.eventsList178 = function(runtimeScene) {
 
 {
 
@@ -15518,7 +20807,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46020932);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47382212);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15534,7 +20823,7 @@ gdjs.town_95storeCode.GDline_95list1Objects1.length = 0;
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList132 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects3Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects3});gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList179 = function(runtimeScene) {
 
 {
 
@@ -15548,7 +20837,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObjec
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45044068);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46404028);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15575,7 +20864,7 @@ gdjs.town_95storeCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObjec
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45045740);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46405700);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15585,7 +20874,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList133 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList180 = function(runtimeScene) {
 
 {
 
@@ -15632,7 +20921,7 @@ gdjs.town_95storeCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition3IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList132(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList179(runtimeScene);} //End of subevents
 }
 
 }
@@ -15671,7 +20960,7 @@ gdjs.town_95storeCode.condition4IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition4IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition5IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45047316);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46407276);
 }
 }}
 }
@@ -15712,7 +21001,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45049412);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46409372);
 }
 }}
 }
@@ -15725,7 +21014,7 @@ if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList134 = function(runtimeScene) {
+};gdjs.town_95storeCode.mapOfGDgdjs_46town_9595storeCode_46GDhotspotsObjects2Objects = Hashtable.newFrom({"hotspots": gdjs.town_95storeCode.GDhotspotsObjects2});gdjs.town_95storeCode.eventsList181 = function(runtimeScene) {
 
 {
 
@@ -15737,7 +21026,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45055084);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46415044);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15766,7 +21055,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45056324);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46416284);
 }
 }}
 }
@@ -15796,7 +21085,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45058500);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46418460);
 }
 }}
 }
@@ -15841,7 +21130,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayer
 }
 
 
-};gdjs.town_95storeCode.eventsList135 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList182 = function(runtimeScene) {
 
 {
 
@@ -15853,7 +21142,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45062532);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46422492);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -15877,7 +21166,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45064260);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46424220);
 }
 }}
 }
@@ -15888,7 +21177,7 @@ if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList136 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList183 = function(runtimeScene) {
 
 {
 
@@ -15932,7 +21221,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.town_95storeCode.G
 }
 
 
-};gdjs.town_95storeCode.eventsList137 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList184 = function(runtimeScene) {
 
 {
 
@@ -15956,7 +21245,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45052388);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46412348);
 }
 }}
 }
@@ -15990,7 +21279,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDhotspotsObjects3.length;i<l;++
 gdjs.town_95storeCode.GDhotspotsObjects3.length = k;}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList134(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList181(runtimeScene);} //End of subevents
 }
 
 }
@@ -16018,7 +21307,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45061916);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46421876);
 }
 }}
 }
@@ -16031,7 +21320,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.town_95storeCode.GDPlayer
 }
 }
 { //Subevents
-gdjs.town_95storeCode.eventsList135(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList182(runtimeScene);} //End of subevents
 }
 
 }
@@ -16054,19 +21343,19 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDhotspotsObjects2.length;i<l;++
 gdjs.town_95storeCode.GDhotspotsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45065444);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46425404);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList136(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList183(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList138 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList185 = function(runtimeScene) {
 
 {
 
@@ -16085,7 +21374,7 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDhotspotsObjects2.length;i<l;++
 gdjs.town_95storeCode.GDhotspotsObjects2.length = k;}if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45073148);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46433108);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16098,7 +21387,7 @@ if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.town_95storeCode.eventsList139 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList186 = function(runtimeScene) {
 
 {
 
@@ -16110,7 +21399,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.inventory.count(run
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45082948);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46442908);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16155,7 +21444,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.town_95storeCode.G
 }
 
 
-};gdjs.town_95storeCode.eventsList140 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList187 = function(runtimeScene) {
 
 {
 
@@ -16167,7 +21456,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45069596);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46429556);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16191,7 +21480,7 @@ gdjs.copyArray(runtimeScene.getObjects("narrator_text"), gdjs.town_95storeCode.G
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(5);
 }
 { //Subevents
-gdjs.town_95storeCode.eventsList138(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList185(runtimeScene);} //End of subevents
 }
 
 }
@@ -16207,7 +21496,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45073796);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46433756);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16238,7 +21527,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45075828);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46435788);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16273,7 +21562,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45078804);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46438764);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16309,19 +21598,19 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45082428);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46442388);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList139(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList186(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList141 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList188 = function(runtimeScene) {
 
 {
 
@@ -16360,7 +21649,7 @@ gdjs.town_95storeCode.condition4IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 if (gdjs.town_95storeCode.condition4IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList137(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList184(runtimeScene);} //End of subevents
 }
 
 }
@@ -16382,13 +21671,13 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDPlayerObjects1.length;i<l;++i)
 gdjs.town_95storeCode.GDPlayerObjects1.length = k;}if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList140(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList187(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.town_95storeCode.eventsList142 = function(runtimeScene) {
+};gdjs.town_95storeCode.eventsList189 = function(runtimeScene) {
 
 {
 
@@ -16440,7 +21729,7 @@ gdjs.town_95storeCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45925844);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47286924);
 }
 }}
 }
@@ -16530,14 +21819,14 @@ gdjs.town_95storeCode.eventsList15(runtimeScene);
 {
 
 
-gdjs.town_95storeCode.eventsList120(runtimeScene);
+gdjs.town_95storeCode.eventsList167(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList125(runtimeScene);
+gdjs.town_95storeCode.eventsList172(runtimeScene);
 }
 
 
@@ -16592,7 +21881,7 @@ gdjs.town_95storeCode.condition5IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition5IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition6IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(45985716);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47346996);
 }
 }}
 }
@@ -16643,7 +21932,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisib
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList126(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList173(runtimeScene);} //End of subevents
 }
 
 }
@@ -16658,7 +21947,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisib
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList127(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList174(runtimeScene);} //End of subevents
 }
 
 }
@@ -16673,7 +21962,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisib
 }if (gdjs.town_95storeCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList128(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList175(runtimeScene);} //End of subevents
 }
 
 }
@@ -16713,7 +22002,7 @@ gdjs.copyArray(runtimeScene.getObjects("external_popups"), gdjs.town_95storeCode
 {
 
 
-gdjs.town_95storeCode.eventsList129(runtimeScene);
+gdjs.town_95storeCode.eventsList176(runtimeScene);
 }
 
 
@@ -16734,7 +22023,7 @@ gdjs.town_95storeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.town_95storeCode.condition0IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition1IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46010452);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47371732);
 }
 }}
 if (gdjs.town_95storeCode.condition1IsTrue_0.val) {
@@ -16767,7 +22056,7 @@ gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.town_95storeCode.GDscoreOb
 {
 
 
-gdjs.town_95storeCode.eventsList130(runtimeScene);
+gdjs.town_95storeCode.eventsList177(runtimeScene);
 }
 
 
@@ -16792,14 +22081,14 @@ for(var i = 0, k = 0, l = gdjs.town_95storeCode.GDexternal_95popupsObjects1.leng
 gdjs.town_95storeCode.GDexternal_95popupsObjects1.length = k;}if ( gdjs.town_95storeCode.condition1IsTrue_0.val ) {
 {
 {gdjs.town_95storeCode.conditionTrue_1 = gdjs.town_95storeCode.condition2IsTrue_0;
-gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46020500);
+gdjs.town_95storeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47381780);
 }
 }}
 }
 if (gdjs.town_95storeCode.condition2IsTrue_0.val) {
 
 { //Subevents
-gdjs.town_95storeCode.eventsList131(runtimeScene);} //End of subevents
+gdjs.town_95storeCode.eventsList178(runtimeScene);} //End of subevents
 }
 
 }
@@ -16808,14 +22097,14 @@ gdjs.town_95storeCode.eventsList131(runtimeScene);} //End of subevents
 {
 
 
-gdjs.town_95storeCode.eventsList133(runtimeScene);
+gdjs.town_95storeCode.eventsList180(runtimeScene);
 }
 
 
 {
 
 
-gdjs.town_95storeCode.eventsList141(runtimeScene);
+gdjs.town_95storeCode.eventsList188(runtimeScene);
 }
 
 
@@ -17168,6 +22457,30 @@ gdjs.town_95storeCode.GDline_95list1Objects5.length = 0;
 gdjs.town_95storeCode.GDline_95list1Objects6.length = 0;
 gdjs.town_95storeCode.GDline_95list1Objects7.length = 0;
 gdjs.town_95storeCode.GDline_95list1Objects8.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects1.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects2.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects3.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects4.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects5.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects6.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects7.length = 0;
+gdjs.town_95storeCode.GDin_95game_95textObjects8.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects1.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects2.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects3.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects4.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects5.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects6.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects7.length = 0;
+gdjs.town_95storeCode.GDtutorialsObjects8.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects1.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects2.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects3.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects4.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects5.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects6.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects7.length = 0;
+gdjs.town_95storeCode.GDtutorials2Objects8.length = 0;
 gdjs.town_95storeCode.GDclaraObjects1.length = 0;
 gdjs.town_95storeCode.GDclaraObjects2.length = 0;
 gdjs.town_95storeCode.GDclaraObjects3.length = 0;
@@ -17185,7 +22498,7 @@ gdjs.town_95storeCode.GDcounterObjects6.length = 0;
 gdjs.town_95storeCode.GDcounterObjects7.length = 0;
 gdjs.town_95storeCode.GDcounterObjects8.length = 0;
 
-gdjs.town_95storeCode.eventsList142(runtimeScene);
+gdjs.town_95storeCode.eventsList189(runtimeScene);
 return;
 
 }

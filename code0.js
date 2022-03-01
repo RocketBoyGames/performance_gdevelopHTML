@@ -128,6 +128,15 @@ gdjs.black_95screenCode.GDdialogue_95optionssObjects3= [];
 gdjs.black_95screenCode.GDline_95list1Objects1= [];
 gdjs.black_95screenCode.GDline_95list1Objects2= [];
 gdjs.black_95screenCode.GDline_95list1Objects3= [];
+gdjs.black_95screenCode.GDin_95game_95textObjects1= [];
+gdjs.black_95screenCode.GDin_95game_95textObjects2= [];
+gdjs.black_95screenCode.GDin_95game_95textObjects3= [];
+gdjs.black_95screenCode.GDtutorialsObjects1= [];
+gdjs.black_95screenCode.GDtutorialsObjects2= [];
+gdjs.black_95screenCode.GDtutorialsObjects3= [];
+gdjs.black_95screenCode.GDtutorials2Objects1= [];
+gdjs.black_95screenCode.GDtutorials2Objects2= [];
+gdjs.black_95screenCode.GDtutorials2Objects3= [];
 
 gdjs.black_95screenCode.conditionTrue_0 = {val:false};
 gdjs.black_95screenCode.condition0IsTrue_0 = {val:false};
@@ -151,7 +160,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVaria
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44671212);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44648020);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
@@ -171,7 +180,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVaria
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44693324);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44649284);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
@@ -189,7 +198,7 @@ if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
 gdjs.black_95screenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition0IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(42215036);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44651124);
 }
 }if (gdjs.black_95screenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next_room");
@@ -210,7 +219,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.storage.elementEx
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11871380);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44604980);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
@@ -371,6 +380,15 @@ gdjs.black_95screenCode.GDdialogue_95optionssObjects3.length = 0;
 gdjs.black_95screenCode.GDline_95list1Objects1.length = 0;
 gdjs.black_95screenCode.GDline_95list1Objects2.length = 0;
 gdjs.black_95screenCode.GDline_95list1Objects3.length = 0;
+gdjs.black_95screenCode.GDin_95game_95textObjects1.length = 0;
+gdjs.black_95screenCode.GDin_95game_95textObjects2.length = 0;
+gdjs.black_95screenCode.GDin_95game_95textObjects3.length = 0;
+gdjs.black_95screenCode.GDtutorialsObjects1.length = 0;
+gdjs.black_95screenCode.GDtutorialsObjects2.length = 0;
+gdjs.black_95screenCode.GDtutorialsObjects3.length = 0;
+gdjs.black_95screenCode.GDtutorials2Objects1.length = 0;
+gdjs.black_95screenCode.GDtutorials2Objects2.length = 0;
+gdjs.black_95screenCode.GDtutorials2Objects3.length = 0;
 
 gdjs.black_95screenCode.eventsList1(runtimeScene);
 return;
