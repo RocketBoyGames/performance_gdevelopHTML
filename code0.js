@@ -160,7 +160,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVaria
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44648020);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44844260);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
@@ -180,7 +180,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVaria
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44649284);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44845708);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
@@ -198,7 +198,7 @@ if (gdjs.black_95screenCode.condition1IsTrue_0.val) {
 gdjs.black_95screenCode.condition0IsTrue_0.val = false;
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition0IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44651124);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44847172);
 }
 }if (gdjs.black_95screenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next_room");
@@ -219,7 +219,7 @@ gdjs.black_95screenCode.condition0IsTrue_0.val = gdjs.evtTools.storage.elementEx
 }if ( gdjs.black_95screenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.black_95screenCode.conditionTrue_1 = gdjs.black_95screenCode.condition1IsTrue_0;
-gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44604980);
+gdjs.black_95screenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(44841204);
 }
 }}
 if (gdjs.black_95screenCode.condition1IsTrue_0.val) {

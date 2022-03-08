@@ -191,7 +191,7 @@ if( gdjs.thanks_95splashCode.condition2IsTrue_1.val ) {
 }if ( gdjs.thanks_95splashCode.condition0IsTrue_0.val ) {
 {
 {gdjs.thanks_95splashCode.conditionTrue_1 = gdjs.thanks_95splashCode.condition1IsTrue_0;
-gdjs.thanks_95splashCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(46974500);
+gdjs.thanks_95splashCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(47197012);
 }
 }}
 if (gdjs.thanks_95splashCode.condition1IsTrue_0.val) {
