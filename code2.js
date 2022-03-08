@@ -271,6 +271,7 @@ gdjs.intro_95pageCode.condition2IsTrue_0 = {val:false};
 gdjs.intro_95pageCode.condition3IsTrue_0 = {val:false};
 gdjs.intro_95pageCode.condition4IsTrue_0 = {val:false};
 gdjs.intro_95pageCode.condition5IsTrue_0 = {val:false};
+gdjs.intro_95pageCode.condition6IsTrue_0 = {val:false};
 gdjs.intro_95pageCode.conditionTrue_1 = {val:false};
 gdjs.intro_95pageCode.condition0IsTrue_1 = {val:false};
 gdjs.intro_95pageCode.condition1IsTrue_1 = {val:false};
@@ -278,6 +279,7 @@ gdjs.intro_95pageCode.condition2IsTrue_1 = {val:false};
 gdjs.intro_95pageCode.condition3IsTrue_1 = {val:false};
 gdjs.intro_95pageCode.condition4IsTrue_1 = {val:false};
 gdjs.intro_95pageCode.condition5IsTrue_1 = {val:false};
+gdjs.intro_95pageCode.condition6IsTrue_1 = {val:false};
 gdjs.intro_95pageCode.conditionTrue_2 = {val:false};
 gdjs.intro_95pageCode.condition0IsTrue_2 = {val:false};
 gdjs.intro_95pageCode.condition1IsTrue_2 = {val:false};
@@ -285,6 +287,7 @@ gdjs.intro_95pageCode.condition2IsTrue_2 = {val:false};
 gdjs.intro_95pageCode.condition3IsTrue_2 = {val:false};
 gdjs.intro_95pageCode.condition4IsTrue_2 = {val:false};
 gdjs.intro_95pageCode.condition5IsTrue_2 = {val:false};
+gdjs.intro_95pageCode.condition6IsTrue_2 = {val:false};
 
 
 gdjs.intro_95pageCode.eventsList0 = function(runtimeScene) {
@@ -9267,9 +9270,19 @@ gdjs.copyArray(runtimeScene.getObjects("user_name"), gdjs.intro_95pageCode.GDuse
 gdjs.copyArray(runtimeScene.getObjects("keyboard_select"), gdjs.intro_95pageCode.GDkeyboard_95selectObjects2);
 
 gdjs.intro_95pageCode.condition0IsTrue_0.val = false;
+gdjs.intro_95pageCode.condition1IsTrue_0.val = false;
+gdjs.intro_95pageCode.condition2IsTrue_0.val = false;
 {
-gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDkeyboard_9595selectObjects2Objects, runtimeScene, true, false);
-}if (gdjs.intro_95pageCode.condition0IsTrue_0.val) {
+gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene);
+}if ( gdjs.intro_95pageCode.condition0IsTrue_0.val ) {
+{
+gdjs.intro_95pageCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDkeyboard_9595selectObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.intro_95pageCode.condition1IsTrue_0.val ) {
+{
+gdjs.intro_95pageCode.condition2IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "keyboard");
+}}
+}
+if (gdjs.intro_95pageCode.condition2IsTrue_0.val) {
 
 { //Subevents
 gdjs.intro_95pageCode.eventsList107(runtimeScene);} //End of subevents
@@ -9319,11 +9332,12 @@ gdjs.intro_95pageCode.condition1IsTrue_0.val = false;
 gdjs.intro_95pageCode.condition2IsTrue_0.val = false;
 gdjs.intro_95pageCode.condition3IsTrue_0.val = false;
 gdjs.intro_95pageCode.condition4IsTrue_0.val = false;
+gdjs.intro_95pageCode.condition5IsTrue_0.val = false;
 {
-gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDcheckSlotObjects2Objects, runtimeScene, true, false);
+gdjs.intro_95pageCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene);
 }if ( gdjs.intro_95pageCode.condition0IsTrue_0.val ) {
 {
-gdjs.intro_95pageCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+gdjs.intro_95pageCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDcheckSlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.intro_95pageCode.condition1IsTrue_0.val ) {
 {
 gdjs.intro_95pageCode.condition2IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.intro_95pageCode.mapOfGDgdjs_46intro_9595pageCode_46GDcontinueObjects2Objects) == 0;
@@ -9333,11 +9347,15 @@ gdjs.intro_95pageCode.condition3IsTrue_0.val = gdjs.evtTools.object.pickedObject
 }if ( gdjs.intro_95pageCode.condition3IsTrue_0.val ) {
 {
 gdjs.intro_95pageCode.condition4IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "keyboard"));
+}if ( gdjs.intro_95pageCode.condition4IsTrue_0.val ) {
+{
+gdjs.intro_95pageCode.condition5IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
 }
 }
 }
-if (gdjs.intro_95pageCode.condition4IsTrue_0.val) {
+}
+if (gdjs.intro_95pageCode.condition5IsTrue_0.val) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "keyboard");
 }}
 
