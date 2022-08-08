@@ -640,7 +640,7 @@ if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.outside_95bedroomCode.mapOfGDgdjs_46outside_9595bedroomCode_46GDtutorialsObjects1Objects = Hashtable.newFrom({"tutorials": gdjs.outside_95bedroomCode.GDtutorialsObjects1});gdjs.outside_95bedroomCode.eventsList4 = function(runtimeScene) {
+};gdjs.outside_95bedroomCode.mapOfGDgdjs_46outside_9595bedroomCode_46GDtutorialsObjects2Objects = Hashtable.newFrom({"tutorials": gdjs.outside_95bedroomCode.GDtutorialsObjects2});gdjs.outside_95bedroomCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -678,7 +678,7 @@ if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
 gdjs.outside_95bedroomCode.condition0IsTrue_0.val = false;
 gdjs.outside_95bedroomCode.condition1IsTrue_0.val = false;
 {
-gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().get("isLookRockPlayed"), false);
+gdjs.outside_95bedroomCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("isItemAdded").getChild("rock")) == 0;
 }if ( gdjs.outside_95bedroomCode.condition0IsTrue_0.val ) {
 {
 {gdjs.outside_95bedroomCode.conditionTrue_1 = gdjs.outside_95bedroomCode.condition1IsTrue_0;
@@ -686,13 +686,19 @@ gdjs.outside_95bedroomCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().
 }
 }}
 if (gdjs.outside_95bedroomCode.condition1IsTrue_0.val) {
-gdjs.outside_95bedroomCode.GDtutorialsObjects1.length = 0;
+gdjs.outside_95bedroomCode.GDtutorialsObjects2.length = 0;
 
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("isLookRockPlayed"), true);
-}{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "tuto_look");
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.outside_95bedroomCode.mapOfGDgdjs_46outside_9595bedroomCode_46GDtutorialsObjects1Objects, 328, 300, "");
+{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "tuto_look");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.outside_95bedroomCode.mapOfGDgdjs_46outside_9595bedroomCode_46GDtutorialsObjects2Objects, 328, 300, "");
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio\\SFX\\156 Tutorial Mirar.mp3", 7, false, 50, 1);
 }}
+
+}
+
+
+{
+
+
 
 }
 
